@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\ITISD43\\22-MVC\\Project\\MVC\\HatliFood\\HatliFood.csproj": {}
+    "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj": {}
   },
   "projects": {
-    "G:\\ITISD43\\22-MVC\\Project\\MVC\\HatliFood\\HatliFood.csproj": {
+    "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\ITISD43\\22-MVC\\Project\\MVC\\HatliFood\\HatliFood.csproj",
+        "projectUniqueName": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj",
         "projectName": "HatliFood",
-        "projectPath": "G:\\ITISD43\\22-MVC\\Project\\MVC\\HatliFood\\HatliFood.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\ITISD43\\22-MVC\\Project\\MVC\\HatliFood\\obj\\",
+        "projectPath": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj",
+        "packagesPath": "C:\\Users\\ht\\.nuget\\packages\\",
+        "outputPath": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ht\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
