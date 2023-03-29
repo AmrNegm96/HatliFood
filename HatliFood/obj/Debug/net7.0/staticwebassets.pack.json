@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\HatliFood.bundle.scp.css"
     },
     {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\Image\\KFC.png",
+      "PackagePath": "staticwebassets\\Image\\KFC.png"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\Image\\Mc.jpg",
+      "PackagePath": "staticwebassets\\Image\\Mc.jpg"
+    },
+    {
       "Id": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

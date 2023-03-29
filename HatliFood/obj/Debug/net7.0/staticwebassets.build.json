@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hojvk3kao5bF529JwGIbjLXzAuKzrqX3v3zYu2LNECc=",
+  "Hash": "YvVacorxNfih6rjmgtvKuYDjrA6SYCaqWZH3zAPR2P8=",
   "Source": "HatliFood",
   "BasePath": "_content/HatliFood",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\Image\\KFC.png",
+      "SourceId": "HatliFood",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\",
+      "BasePath": "_content/HatliFood",
+      "RelativePath": "Image/KFC.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\KFC.png"
+    },
+    {
+      "Identity": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\Image\\Mc.jpg",
+      "SourceId": "HatliFood",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\",
+      "BasePath": "_content/HatliFood",
+      "RelativePath": "Image/Mc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Mc.jpg"
     },
     {
       "Identity": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\js\\site.js",

@@ -20,7 +20,11 @@
             @Html.DisplayNameFor(model => model.ImgPath)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImgPath)
+            @*@Html.DisplayFor(model => model.ImgPath)*@
+           
+            <img src="~/Image/@Model.ImgPath" alt="image" style="width:100px ; height:100px"/> 
+            
+
         </dd>
     </dl>
 </div>
