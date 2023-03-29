@@ -12,16 +12,18 @@ namespace HatliFood.Controllers
     public class AccountController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ApplicationDbContext _Context;
 
-        public AccountController(UserManager<IdentityUser> userManager , SignInManager<IdentityUser> signInManager , ApplicationDbContext Context)
+        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext Context, RoleManager<IdentityRole> roleManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _Context = Context;
+            _roleManager = roleManager;
         }
-        
+
         public IActionResult Login()
         {
             var response = new LoginVM();
@@ -88,6 +90,14 @@ namespace HatliFood.Controllers
 
             if(newUserResponse.Succeeded)
             {
+                /////Error
+                var roleExists = await _roleManager.RoleExistsAsync(UserRoles.User);
+                if (!roleExists)
+                {
+                    var newRole = new IdentityRole(UserRoles.User);
+                    await _roleManager.CreateAsync(newRole);
+                }
+                /////
                 await _userManager.AddToRoleAsync(newUser, UserRoles.User);
 
                 var newBuyer = new Buyer()
