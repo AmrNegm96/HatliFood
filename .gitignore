@@ -1,1 +1,14 @@
 .vs/
+HatliFood/obj/*
+HatliFood/bin/*
+.vs/
+obj/*
+bin/*
+HatliFood/obj
+HatliFood/bin
+HatliFood/obj/
+HatliFood/bin/
+obj
+bin
+obj/
+bin/
