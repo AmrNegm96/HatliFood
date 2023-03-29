@@ -18,7 +18,8 @@ namespace HatliFood.Data
         public DbSet<MenuItem> MenuItems { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
-        public DbSet<Restaurant> Restaurants { get; set; }
+        public DbSet<Restaurant> Restaurant { get; set; }
         public DbSet<HatliFood.Models.Admin> Admin { get; set; } = default!;
+
     }
 }

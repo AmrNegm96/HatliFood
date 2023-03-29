@@ -15,6 +15,10 @@ namespace HatliFood.Models
         [Required]
         public string ImgPath { get; set; }
 
+        [NotMapped]
+        public IFormFile ImgFile { get; set; }
+
+
         [InverseProperty("RidNavigation")]
         public virtual ICollection<Category> Categories { get; } = new List<Category>();
 
