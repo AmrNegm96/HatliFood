@@ -13,7 +13,8 @@ namespace HatliFood.Models
         public string? LastName { get; set; }
         public Gender? Gender { get; set; }
         public DateTime? DateOfBirth { get; set; }
-        HashSet<Address> Addresses = new HashSet<Address>();
+        public virtual ICollection<Address> Addresses { get; set; } = new HashSet<Address>();
+        public virtual ICollection<Order> Orders { get; set; } = new HashSet<Order>();
     }
 
     public enum Gender

@@ -9,38 +9,31 @@ namespace HatliFood.Models
     {
         [Key]
         public int Id { get; set; }
-
         public DateTime OrderDate { get; set; }
-
-        [Column("BID")]
-        public int Bid { get; set; }
-
-        [Column("buyerUserId")]
-        public string BuyerUserId { get; set; }
-
-        [Column("RID")]
-        public int Rid { get; set; }
-
-        [Column("restaurantId")]
-        public int RestaurantId { get; set; }
-
         public int OrderState { get; set; }
 
-        [Column("DID")]
-        public int? Did { get; set; }
+
+        [Column("BID")]
+        public string BuyerId { get; set; }
+
+        [ForeignKey("BuyerId")]
+        [InverseProperty("Orders")]
+        public virtual Buyer Buyer { get; set; }
 
         [Column("deliveryGuyUserId")]
         public string DeliveryGuyUserId { get; set; }
-
         [ForeignKey("DeliveryGuyUserId")]
         [InverseProperty("Orders")]
         public virtual DeliveryGuy DeliveryGuyUser { get; set; }
+ 
 
-        [InverseProperty("Order")]
-        public virtual ICollection<OrderItem> OrderItems { get; } = new List<OrderItem>();
-
+        [Column("restaurantId")]
+        public int RestaurantId { get; set; }
         [ForeignKey("RestaurantId")]
         [InverseProperty("Orders")]
         public virtual Restaurant Restaurant { get; set; }
+
+        [InverseProperty("Order")]
+        public virtual ICollection<OrderItem> OrderItems { get; } = new List<OrderItem>();
     }
 }

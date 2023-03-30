@@ -19,8 +19,12 @@ namespace HatliFood.Models
 
         public int? ApartmentNumber { get; set; }
 
-        [Required]
+
         [Column("BID")]
-        public string Bid { get; set; }
+        public string BuyerID { get; set; }
+
+        [ForeignKey("BuyerID")]
+        [InverseProperty("Addresses")]
+        public virtual Buyer Buyer { get; set; }
     }
 }
