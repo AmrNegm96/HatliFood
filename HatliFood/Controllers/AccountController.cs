@@ -1,5 +1,4 @@
-﻿
-using HatliFood.Data;
+﻿using HatliFood.Data;
 using HatliFood.Models;
 using HatliFood.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;

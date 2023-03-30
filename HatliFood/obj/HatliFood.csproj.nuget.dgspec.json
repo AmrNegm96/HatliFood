@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\HatliFood.csproj": {}
+    "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj": {}
   },
   "projects": {
-    "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\HatliFood.csproj": {
+    "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\HatliFood.csproj",
+        "projectUniqueName": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj",
         "projectName": "HatliFood",
-        "projectPath": "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\HatliFood.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\obj\\",
+        "projectPath": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj",
+        "packagesPath": "C:\\Users\\youss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\youss\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
