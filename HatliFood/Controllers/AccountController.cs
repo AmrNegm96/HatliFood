@@ -47,7 +47,7 @@ namespace HatliFood.Controllers
                     var result = await _signInManager.PasswordSignInAsync(user, loginVM.Password, false, false);
                     if(result.Succeeded)
                     {
-                        return RedirectToAction("Index", "Buyers");
+                        return RedirectToAction("AllRestaurants", "Restaurants");
                     }
                 }
                 TempData["Error"] = "Wrong crendentials ,  try again!";

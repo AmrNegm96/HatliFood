@@ -1,0 +1,25 @@
+﻿@model IEnumerable<HatliFood.Models.Restaurant>
+
+@{
+    ViewData["Title"] = "AllRestaurants";
+}
+@*<head>
+    <link rel="stylesheet" href="~/css/BuyerRestaurantMain.css" />
+</head>*@
+
+<h1>Choose Your Craving</h1>
+
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="card col-4 m-auto" style="width: 300px; height: 400px">
+                <img class="card-img-top" style="width: 250px; height: 300px; object-fit: fill;" src="~/image/resturants/@item.ImgPath" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Name</h5>
+                    <a href="#" class="btn btn-primary">View Menu</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>

@@ -27,7 +27,7 @@ namespace HatliFood.Controllers
         {
             return _context.Restaurant != null ?
                         View(await _context.Restaurant.ToListAsync()) :
-                        Problem("Entity set 'ApplicationDbContext.Restaurant'  is null.");
+                        Problem("Error Happened while loading List of resturants");
         }
 
         // GET: Restaurants/Details/5
@@ -68,12 +68,12 @@ namespace HatliFood.Controllers
                 string wwwRootPath = _hosting.WebRootPath;
                 string fileName = Path.GetFileNameWithoutExtension(restaurant.ImgFile.FileName);
                 string extension = Path.GetExtension(restaurant.ImgFile.FileName);
-                
-                restaurant.ImgPath = fileName  + extension;
-                
+
+                restaurant.ImgPath = fileName + extension;
+
                 string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
 
-                using(var filestream = new FileStream(path, FileMode.Create))
+                using (var filestream = new FileStream(path, FileMode.Create))
                 {
                     await restaurant.ImgFile.CopyToAsync(filestream);
                 }
@@ -116,7 +116,7 @@ namespace HatliFood.Controllers
             }
             _restaurant.ImgPath = "dd";
 
-            
+
 
             if (ModelState.IsValid)
             {
@@ -229,5 +229,30 @@ namespace HatliFood.Controllers
 
             return null;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        #region Buyer Work
+        // GET: Restaurants
+        public async Task<IActionResult> AllRestaurants()
+        {
+            return _context.Restaurant != null ?
+                        View(await _context.Restaurant.ToListAsync()) :
+                        Problem("Error Happened while loading List of resturants");
+        } 
+        #endregion
     }
 }
