@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\Image\\Resturants\\Mc.jpg"
     },
     {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\burger.jpeg",
+      "PackagePath": "staticwebassets\\Image\\Resturants\\burger.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\dessert.jpeg",
+      "PackagePath": "staticwebassets\\Image\\Resturants\\dessert.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\drink.jpeg",
+      "PackagePath": "staticwebassets\\Image\\Resturants\\drink.jpeg"
+    },
+    {
       "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\css\\BuyerRestaurantMain.css",
       "PackagePath": "staticwebassets\\css\\BuyerRestaurantMain.css"
     },
@@ -23,6 +35,14 @@
     {
       "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\js\\AddItemToCart.js",
+      "PackagePath": "staticwebassets\\js\\AddItemToCart.js"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\js\\cookieLibrary.js",
+      "PackagePath": "staticwebassets\\js\\cookieLibrary.js"
     },
     {
       "Id": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\HatliFood\\HatliFood\\wwwroot\\js\\site.js",
