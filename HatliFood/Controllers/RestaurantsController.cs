@@ -216,29 +216,29 @@ namespace HatliFood.Controllers
             return (_context.Restaurant?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-        string UploadFile(string filename)
-        {
-            if (filename != null)
-            {
-                string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
-                string fullPath = Path.Combine(uploads, filename);
-                //filename.CopyTo(new FileStream(fullPath, FileMode.Create));
 
-                return fullPath;
+
+        // [Authorize('Restaurant')]
+        #region Resturant Actor [View Restaurant Details] 
+        public async Task<IActionResult> RestaurantDetails(int? id)
+        {
+            if (id == null || _context.Restaurant == null)
+            {
+                return NotFound();
             }
 
-            return null;
+            var restaurant = await _context.Restaurant
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (restaurant == null)
+            {
+                return NotFound();
+            }
+
+            return View(restaurant);
         }
 
 
-
-
-
-
-
-
-
-
+        #endregion Resturant Actor
 
 
 

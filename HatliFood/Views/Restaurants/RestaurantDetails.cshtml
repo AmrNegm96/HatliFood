@@ -1,0 +1,25 @@
+﻿@model HatliFood.Models.Restaurant
+
+@{
+    ViewData["Title"] = "RestaurantDetails";
+}
+
+
+<div class="mt-5">
+    <dl class="row">
+        <dt class = "col-sm-12">
+            <img src="~/Image/Resturants/@Model.ImgPath" alt="image" style="width:250px ; height:250px" class="rounded-circle" />
+        </dt>
+
+       
+        <dd class = "col-sm-12">
+            <h1 class="m-5 mt-3 fw-bold"> @Html.DisplayFor(model => model.Name) </h1>
+        </dd>
+        
+      
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
