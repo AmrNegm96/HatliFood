@@ -10783,19 +10783,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ht\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj",
+      "projectUniqueName": "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\HatliFood.csproj",
       "projectName": "HatliFood",
-      "projectPath": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\HatliFood.csproj",
-      "packagesPath": "C:\\Users\\ht\\.nuget\\packages\\",
-      "outputPath": "H:\\ITI\\GitHup\\ITI_Projects\\HatliFood\\HatliFood\\HatliFood\\obj\\",
+      "projectPath": "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\HatliFood.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "I:\\.ITI\\17.NET\\.mvcProject\\HatliFood\\HatliFood\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ht\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

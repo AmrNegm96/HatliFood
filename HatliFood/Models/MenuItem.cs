@@ -16,7 +16,8 @@ namespace HatliFood.Models
 
         [Required]
         public string ImgPath { get; set; }
-
+        [NotMapped]
+         public IFormFile ImgFile { get; set; }
         [Required]
         public string Name { get; set; }
 

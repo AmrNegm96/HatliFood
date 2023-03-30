@@ -71,7 +71,7 @@ namespace HatliFood.Controllers
                 
                 restaurant.ImgPath = fileName  + extension;
                 
-                string path = Path.Combine(wwwRootPath + "/Image/" + fileName + extension);
+                string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
 
                 using(var filestream = new FileStream(path, FileMode.Create))
                 {
@@ -116,29 +116,31 @@ namespace HatliFood.Controllers
             }
             _restaurant.ImgPath = "dd";
 
-            // get old Image Path to delete 
-            string wwwRootPath = _hosting.WebRootPath;
-
-            //var oldData = await Restu.FindAsync(id);
-
-            var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
-            string oldPath = oldData?.ImgPath;
-
-            if(System.IO.File.Exists(wwwRootPath + "/Image/" + oldPath))
-            {
-                System.IO.File.Delete(wwwRootPath + "/Image/" + oldPath);
-            }
+            
 
             if (ModelState.IsValid)
             {
                 try
                 {
+                    // get old Image Path to delete 
+                    string wwwRootPath = _hosting.WebRootPath;
+
+                    //var oldData = await Restu.FindAsync(id);
+
+                    var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
+                    string oldPath = oldData?.ImgPath;
+
+                    if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
+                    {
+                        System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
+                    }
+
                     string fileName = Path.GetFileNameWithoutExtension(_restaurant.ImgFile.FileName);
                     string extension = Path.GetExtension(_restaurant.ImgFile.FileName);
 
                     _restaurant.ImgPath = fileName + extension;
 
-                    string path = Path.Combine(wwwRootPath + "/Image/" + fileName + extension);
+                    string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
 
                     using (var filestream = new FileStream(path, FileMode.Create))
                     {
@@ -187,6 +189,7 @@ namespace HatliFood.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            string wwwRootPath = _hosting.WebRootPath;
             if (_context.Restaurant == null)
             {
                 return Problem("Entity set 'ApplicationDbContext.Restaurant'  is null.");
@@ -195,6 +198,13 @@ namespace HatliFood.Controllers
             if (restaurant != null)
             {
                 _context.Restaurant.Remove(restaurant);
+            }
+            var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
+            string oldPath = oldData?.ImgPath;
+
+            if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
+            {
+                System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
             }
 
             await _context.SaveChangesAsync();
