@@ -1,36 +1,30 @@
-﻿@model HatliFood.Models.Restaurant
+﻿@model HatliFood.Models.Category
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 
-<h1>Create</h1>
+<h1>Edit</h1>
 
-<h4>Restaurant</h4>
+<h4>Category</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create" enctype="multipart/form-data">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            
             <div class="form-group">
-               <input asp-for="ImgPath" class="form-control" type="hidden" value="jdjdj"/>
+                <label asp-for="Rid" class="control-label"></label>
+                <select asp-for="Rid" class="form-control" asp-items="ViewBag.Rid"></select>
+                <span asp-validation-for="Rid" class="text-danger"></span>
             </div>
-
-             <div class="form-group">
-
-                <label asp-for="ImgFile" class="control-label" ></label>
-                <input asp-for="ImgFile"  type="file" accept="image/*"/>
-                <span asp-validation-for="ImgFile" class="text-danger"></span>
-            </div>
-
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>

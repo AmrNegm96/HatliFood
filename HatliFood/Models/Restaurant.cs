@@ -19,7 +19,7 @@ namespace HatliFood.Models
         public IFormFile ImgFile { get; set; }
 
 
-        [InverseProperty("RidNavigation")]
+        //[InverseProperty("RidNavigation")]
         public virtual ICollection<Category> Categories { get; } = new List<Category>();
 
         [InverseProperty("Restaurant")]
