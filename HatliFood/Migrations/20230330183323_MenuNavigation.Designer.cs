@@ -4,6 +4,7 @@ using HatliFood.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HatliFood.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230330183323_MenuNavigation")]
+    partial class MenuNavigation
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -102,7 +105,8 @@ namespace HatliFood.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Rid")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("RID");
 
                     b.HasKey("Id");
 
@@ -139,6 +143,9 @@ namespace HatliFood.Migrations
                     b.Property<int>("Cid")
                         .HasColumnType("int");
 
+                    b.Property<int>("CidNavigationId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -156,7 +163,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("Cid");
+                    b.HasIndex("CidNavigationId");
 
                     b.ToTable("MenuItem");
                 });
@@ -474,7 +481,7 @@ namespace HatliFood.Migrations
                 {
                     b.HasOne("HatliFood.Models.Category", "CidNavigation")
                         .WithMany("MenuItems")
-                        .HasForeignKey("Cid")
+                        .HasForeignKey("CidNavigationId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

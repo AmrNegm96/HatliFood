@@ -71,7 +71,7 @@ namespace HatliFood.Controllers
 
                 restaurant.ImgPath = fileName + extension;
 
-                string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
+                string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
 
                 using (var filestream = new FileStream(path, FileMode.Create))
                 {
@@ -130,9 +130,9 @@ namespace HatliFood.Controllers
                     var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
                     string oldPath = oldData?.ImgPath;
 
-                    if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
+                    if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants/" + oldPath))
                     {
-                        System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
+                        System.IO.File.Delete(wwwRootPath + "/Image/Resturants/" + oldPath);
                     }
 
                     string fileName = Path.GetFileNameWithoutExtension(_restaurant.ImgFile.FileName);
@@ -140,7 +140,7 @@ namespace HatliFood.Controllers
 
                     _restaurant.ImgPath = fileName + extension;
 
-                    string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
+                    string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
 
                     using (var filestream = new FileStream(path, FileMode.Create))
                     {
@@ -202,9 +202,9 @@ namespace HatliFood.Controllers
             var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
             string oldPath = oldData?.ImgPath;
 
-            if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
+            if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants/" + oldPath))
             {
-                System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
+                System.IO.File.Delete(wwwRootPath + "/Image/Resturants/" + oldPath);
             }
 
             await _context.SaveChangesAsync();
