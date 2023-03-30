@@ -9,129 +9,149 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HatliFood
 build_property.RootNamespace = HatliFood
-build_property.ProjectDir = I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\
+build_property.ProjectDir = G:\ITISD43\22-MVC\Project\ver1\HatliFood\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood
+build_property.MSBuildProjectDirectory = G:\ITISD43\22-MVC\Project\ver1\HatliFood
 build_property._RazorSourceGeneratorDebug = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Account/Login.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Account/Register.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Account/RegisterCompleted.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Account/RegisterCompleted.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RlckNvbXBsZXRlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Buyers/Create.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Buyers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Buyers/Delete.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Buyers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Buyers/Details.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Buyers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Buyers/Edit.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Buyers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Buyers/Index.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Buyers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnV5ZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/DeliveryGuys/Create.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/DeliveryGuys/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlHdXlzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/DeliveryGuys/Delete.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/DeliveryGuys/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlHdXlzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/DeliveryGuys/Details.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/DeliveryGuys/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlHdXlzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/DeliveryGuys/Edit.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/DeliveryGuys/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlHdXlzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/DeliveryGuys/Index.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/DeliveryGuys/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVsaXZlcnlHdXlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Home/Index.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Home/Privacy.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/MenuItems/Create.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/MenuItems/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/MenuItems/Delete.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/MenuItems/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1zXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/MenuItems/Details.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/MenuItems/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1zXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/MenuItems/Edit.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/MenuItems/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1zXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/MenuItems/Index.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/MenuItems/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVudUl0ZW1zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Restaurants/Create.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Orders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Orders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Orders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Orders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Orders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Restaurants/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Restaurants/Delete.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Restaurants/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Restaurants/Details.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Restaurants/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Restaurants/Edit.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Restaurants/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Restaurants/Index.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Restaurants/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzdGF1cmFudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Shared/Error.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Shared/_ValidationScriptsPartial.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/_ViewImports.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/_ViewStart.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[I:/.ITI/17.NET/.mvcProject/HatliFood/HatliFood/Views/Shared/_Layout.cshtml]
+[G:/ITISD43/22-MVC/Project/ver1/HatliFood/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lkfypgxs8m
