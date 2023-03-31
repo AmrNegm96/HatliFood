@@ -22,3 +22,5 @@ HatliFood/obj
 HatliFood/.vs/*
 HatliFood/bin/*
 HatliFood/obj/*
+
+*.cashe
