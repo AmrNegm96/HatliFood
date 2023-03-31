@@ -24,10 +24,20 @@ namespace HatliFood.Controllers
         }
 
         // GET: MenuItems
-        public async Task<IActionResult> Index()
+        public IActionResult Index(int? id)
         {
-            var applicationDbContext = _context.MenuItems.Include(m => m.CidNavigation);
-            return View(await applicationDbContext.ToListAsync());
+            List<MenuItem> applicationDbContext ;
+            if(id != null)
+            {
+                applicationDbContext = _context.MenuItems.AsNoTracking().Where(res => res.CidNavigation.Rid == id).ToList();
+                ViewBag.ResturantName = _context.Restaurant.AsNoTracking().Where(res => res.Id == id).FirstOrDefault()?.Name;
+            }
+            else
+            {
+                applicationDbContext = _context.MenuItems.Include(m => m.CidNavigation).ToList();
+            }
+
+            return View(applicationDbContext);
         }
 
         // GET: MenuItems/Details/5
@@ -37,6 +47,12 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
+
+            int resturantId = _context.MenuItems.AsNoTracking().Select(c => c.CidNavigation.Rid).FirstOrDefault();
+            ViewBag.ResturantDetails = _context.Restaurant.AsNoTracking().Where(res => res.Id == resturantId).FirstOrDefault();
+            ViewBag.OrderDetails = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList();
+            ViewBag.OrderDetailsCount = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList().Count();
+
 
             var menuItem = await _context.MenuItems
                 .Include(m => m.CidNavigation)

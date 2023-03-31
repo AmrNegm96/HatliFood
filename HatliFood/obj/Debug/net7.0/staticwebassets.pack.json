@@ -185,6 +185,10 @@
       "PackagePath": "staticwebassets\\Image\\Menus\\bigMAC.jpg"
     },
     {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Menus\\pizza.jpg",
+      "PackagePath": "staticwebassets\\Image\\Menus\\pizza.jpg"
+    },
+    {
       "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\MenusbigMAC.jpg",
       "PackagePath": "staticwebassets\\Image\\MenusbigMAC.jpg"
     },

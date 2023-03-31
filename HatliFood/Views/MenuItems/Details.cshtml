@@ -4,7 +4,80 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+
+<div class="container m-5">
+
+    <div class="row">
+
+        <div class="col-sm-4 col-xs-12 me-3">
+            <img src="~/Image/Menus/@Model.ImgPath" alt="image" style="width:300px ; height:300px; margin:auto" />
+
+            <div class="row my-3 mx-3">
+                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn-primary btn col-5 ml-2" >Edit</a> 
+                <a asp-action="Index" class="btn-secondary btn col-5 mx-2" >Back to List</a>
+            </div>
+
+        </div>
+
+        <div class="col-sm-6 -col-xs-12">
+            <h3> 
+                Item Name: 
+                @Html.DisplayFor(model => model.Name)
+            </h3>
+            <hr />
+
+            <dl class="row">
+                <dt class = "col-sm-4"> @Html.DisplayNameFor(model => model.Price): </dt>
+                <dd class = "col-sm-7 mb-4">  @Html.DisplayFor(model => model.Price) </dd>
+                
+                <dt class = "col-sm-4"> @Html.DisplayNameFor(model => model.Description):</dt>
+                <dd class = "col-sm-7 mb-4"> @Html.DisplayFor(model => model.Description) </dd>
+                
+                <dt class = "col-sm-4"> <h6> Category: </h6> </dt>
+                <dd class = "col-sm-7"> @Html.DisplayFor(model => model.CidNavigation.Name)</dd>
+                
+                <!-- Start Resturant Details-->
+                <hr />
+                <dt class = "col-sm-4"> <h6> Resturant Details: </h6> </dt>
+                <dd class = "col-sm-12"> 
+                    <img src="~/Image/Resturants/@ViewBag.ResturantDetails.ImgPath" alt="image" style="width:50px ; height:50px; margin:auto" class="rounded-circle" />
+                    <p class="d-inline-block"> @ViewBag.ResturantDetails.Name </p>
+                </dd>
+
+                <!-- Start Order Details-->
+                <hr />
+                <dt class = "col-sm-4"> <h6> Order Details: </h6> </dt>
+                @{
+                    if (ViewBag.OrderDetailsCount > 0)
+                    {
+                        <dd class = "col-sm-12"> 
+                              <p> Number Of Orders @ViewBag.OrderDetailsCount </p>
+                              <!--  Get All orders from order controller -->
+                              <a asp-action="Index" asp-route-id="@ViewBag.OrderDetails.Orders.Id" asp-controller="Orders" class="btn-danger btn col-4 ">View All Orders</a>
+                              
+                        </dd>
+
+                    }
+                    else
+                    {
+                        <div>  No Orders.. </div>
+                    }
+                }
+                
+
+
+
+            </dl>
+        </div>
+    
+    </div>
+
+
+</div>
+
+
+
+@*<h1>Details</h1>
 
 <div>
     <h4>MenuItem</h4>
@@ -20,7 +93,6 @@
             @Html.DisplayNameFor(model => model.ImgPath)
         </dt>
         <dd class = "col-sm-10">
-            <img src="~/Image/Menus/@Model.ImgPath" alt="image" style="width:100px ; height:100px" />
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
@@ -41,8 +113,6 @@
             @Html.DisplayFor(model => model.CidNavigation.Name)
         </dd>
     </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+</div>*@
+
+
