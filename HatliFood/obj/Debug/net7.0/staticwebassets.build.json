@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rMFiwiz+sldpkKwUr7kuu72x+Y4s11FRq3bzMk4ZF5c=",
+  "Hash": "zjU6wnornseI8+TZO15Gsi/wmYnbgDGmYMnC2LSP8jA=",
   "Source": "HatliFood",
   "BasePath": "_content/HatliFood",
   "Mode": "Default",
@@ -916,23 +916,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\Resturants\\KFC.png"
-    },
-    {
-      "Identity": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\Mc.jpg",
-      "SourceId": "HatliFood",
-      "SourceType": "Discovered",
-      "ContentRoot": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\",
-      "BasePath": "_content/HatliFood",
-      "RelativePath": "Image/Resturants/Mc.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Image\\Resturants\\Mc.jpg"
     },
     {
       "Identity": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\McDonald's.jpg",

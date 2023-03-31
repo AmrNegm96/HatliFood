@@ -193,10 +193,6 @@
       "PackagePath": "staticwebassets\\Image\\Resturants\\KFC.png"
     },
     {
-      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\Mc.jpg",
-      "PackagePath": "staticwebassets\\Image\\Resturants\\Mc.jpg"
-    },
-    {
       "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\McDonald's.jpg",
       "PackagePath": "staticwebassets\\Image\\Resturants\\McDonald's.jpg"
     },
