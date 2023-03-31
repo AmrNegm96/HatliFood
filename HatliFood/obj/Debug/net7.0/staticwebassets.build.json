@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zjU6wnornseI8+TZO15Gsi/wmYnbgDGmYMnC2LSP8jA=",
+  "Hash": "aeGxSq4CJ6fDRsbLv7fcwlU+4K08K/v6Apnvzze/Eyo=",
   "Source": "HatliFood",
   "BasePath": "_content/HatliFood",
   "Mode": "Default",
@@ -882,6 +882,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Image\\Menus\\bigMAC.jpg"
+    },
+    {
+      "Identity": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Menus\\pizza.jpg",
+      "SourceId": "HatliFood",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\",
+      "BasePath": "_content/HatliFood",
+      "RelativePath": "Image/Menus/pizza.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\Menus\\pizza.jpg"
     },
     {
       "Identity": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\MenusbigMAC.jpg",

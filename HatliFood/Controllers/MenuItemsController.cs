@@ -48,6 +48,12 @@ namespace HatliFood.Controllers
                 return NotFound();
             }
 
+            int resturantId = _context.MenuItems.AsNoTracking().Select(c => c.CidNavigation.Rid).FirstOrDefault();
+            ViewBag.ResturantDetails = _context.Restaurant.AsNoTracking().Where(res => res.Id == resturantId).FirstOrDefault();
+            ViewBag.OrderDetails = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList();
+            ViewBag.OrderDetailsCount = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList().Count();
+
+
             var menuItem = await _context.MenuItems
                 .Include(m => m.CidNavigation)
                 .FirstOrDefaultAsync(m => m.Id == id);
