@@ -8,9 +8,7 @@
         Description
     };
 
-    setCookie("HatliFood-"+Item.Id , JSON.stringify(Item) , 1);
-
+    setCookie("HatliFood-"+Item.Id , JSON.stringify(Item));
     // cart logic will be added 
-
 }
 

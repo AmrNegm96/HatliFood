@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HatliFood.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230330185401_CategoryNavigationV2")]
-    partial class CategoryNavigationV2
+    [Migration("20230331135854_adminUser")]
+    partial class adminUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -141,7 +141,8 @@ namespace HatliFood.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Cid")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("CID");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -452,6 +453,17 @@ namespace HatliFood.Migrations
                     b.Navigation("Buyer");
                 });
 
+            modelBuilder.Entity("HatliFood.Models.Admin", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("HatliFood.Models.Buyer", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
@@ -472,6 +484,17 @@ namespace HatliFood.Migrations
                         .IsRequired();
 
                     b.Navigation("RidNavigation");
+                });
+
+            modelBuilder.Entity("HatliFood.Models.DeliveryGuy", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("HatliFood.Models.MenuItem", b =>

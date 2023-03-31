@@ -450,6 +450,17 @@ namespace HatliFood.Migrations
                     b.Navigation("Buyer");
                 });
 
+            modelBuilder.Entity("HatliFood.Models.Admin", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("HatliFood.Models.Buyer", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
@@ -470,6 +481,17 @@ namespace HatliFood.Migrations
                         .IsRequired();
 
                     b.Navigation("RidNavigation");
+                });
+
+            modelBuilder.Entity("HatliFood.Models.DeliveryGuy", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("HatliFood.Models.MenuItem", b =>

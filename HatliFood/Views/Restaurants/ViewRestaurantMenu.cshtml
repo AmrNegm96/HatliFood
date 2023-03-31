@@ -22,9 +22,9 @@
             </a>
         </p>
         <div class="collapse" id="@cat.Name">
-        @foreach (MenuItem item in MenuItemsInCat[cat.Id])
-        {
-            
+            @foreach (MenuItem item in MenuItemsInCat[cat.Id])
+            {
+
                 <div class="card card-body">
 
                     <div class="text-center  border border-1 border-light">
@@ -36,23 +36,39 @@
                             </div>
                             <img src="~/image/resturants/@item.ImgPath" class="rounded" style="width:150px;height:150px">
                         </div>
-                        <button class="btn btn-success w-25" onclick="AddItemToCart(@item.Id , '@item.Name' , @item.Price , '@item.ImgPath' , '@item.Description')">Add to cart</button>
+                        <button class="myButton btn btn-success w-25" itemId="@item.Id" itemName="@item.Name"> Add to Cart</button>
+                        @*<a class="btn btn-success w-25" asp-action="AddCookie" asp-controller="Carts" asp-route-id="@item.Id" asp-route-name="@item.Name" asp-route-price="@item.Price">Add to cart</a>*@
+                        @*<button class="btn btn-success w-25" onclick="AddItemToCart(@item.Id , '@item.Name' , @item.Price , '@item.ImgPath' , '@item.Description')">Add to cart</button>*@
                     </div>
 
                 </div>
-       
-        }
+
+            }
         </div>
 
 
     }
-
-    
-    
-
-
-
 </div>
+@section Scripts {
+    <script>
+        $(function () {
+            $('.myButton').click(function () {
+                $.ajax({
+                    type: 'POST',
+                    url: '@Url.Action("AddCookie", "Carts")',
+                    data: {
+                        id: $(this).attr('itemId'),
+                        name: $(this).attr('itemName'),
+                        price: $(this).attr('itemPrice')
+                    },
+                    success: function (result) {
+                        // Handle the result of the action here
+                    }
+                });
+            });
+        });
+    </script>
+}
 
 @*<div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |

@@ -255,7 +255,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: Restaurants/Details/5
-        public async Task<IActionResult> ViewRestaurantDetails(int? id)
+        public async Task<IActionResult> ViewRestaurantMenu(int? id)
         {
             if (id == null || _context.Restaurant == null)
             {
