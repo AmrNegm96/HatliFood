@@ -10,6 +10,7 @@ using HatliFood.Models;
 using Microsoft.AspNetCore.Identity;
 using HatliFood.Models.ViewModels;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
 
 namespace HatliFood.Controllers
 {
@@ -59,48 +60,100 @@ namespace HatliFood.Controllers
 
         // GET: DeliveryGuys/Create
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
 
         public IActionResult Create()
         {
             return View();
         }
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //[Authorize(Roles = "Admin")]
+
+        //public async Task<IActionResult> Create([Bind("UserId,Name,PhoneNumber")] DeliveryGuy deliveryGuy)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var user = new ApplicationUser { UserName = deliveryGuy.PhoneNumber.ToString(), Email = deliveryGuy.PhoneNumber.ToString() };
+        //        var result = await _userManager.CreateAsync(user, "Del@1234"); // Change the default password as needed
+
+        //        if (result.Succeeded)
+        //        {
+        //            var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Delivery);
+        //            if (!roleExists)
+        //            {
+        //                var newRole = new IdentityRole(UserRoles.Delivery);
+        //                await _roleManager.CreateAsync(newRole);
+        //            }
+
+        //            await _userManager.AddToRoleAsync(user, UserRoles.Delivery);
+
+        //            deliveryGuy.UserId = user.Id;
+        //            _context.Add(deliveryGuy);
+        //            await _context.SaveChangesAsync();
+        //            return RedirectToAction(nameof(Index));
+        //        }
+
+        //        foreach (var error in result.Errors)
+        //        {
+        //            ModelState.AddModelError(string.Empty, error.Description);
+        //        }
+        //    }
+
+        //    return View(deliveryGuy);
+        //}
+
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
-
-        public async Task<IActionResult> Create([Bind("UserId,Name,PhoneNumber")] DeliveryGuy deliveryGuy)
+        //[Authorize(Roles = "Admin")]
+        public async Task<IActionResult> Create(RegisterDelVM RegisterDelVM)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                var user = new ApplicationUser { UserName = deliveryGuy.PhoneNumber.ToString(), Email = deliveryGuy.PhoneNumber.ToString() };
-                var result = await _userManager.CreateAsync(user, "Del@1234"); // Change the default password as needed
-
-                if (result.Succeeded)
-                {
-                    var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Delivery);
-                    if (!roleExists)
-                    {
-                        var newRole = new IdentityRole(UserRoles.Delivery);
-                        await _roleManager.CreateAsync(newRole);
-                    }
-
-                    await _userManager.AddToRoleAsync(user, UserRoles.Delivery);
-
-                    deliveryGuy.UserId = user.Id;
-                    _context.Add(deliveryGuy);
-                    await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError(string.Empty, error.Description);
-                }
+                return View(RegisterDelVM);
             }
 
-            return View(deliveryGuy);
+            var user = await _userManager.FindByEmailAsync(RegisterDelVM.PhoneNumber);
+            if (user != null)
+            {
+                TempData["Error"] = "This Email address is already in use";
+                return View(RegisterDelVM);
+            }
+
+            var newUser = new IdentityUser()
+            {
+                Email = RegisterDelVM.PhoneNumber,
+                UserName = RegisterDelVM.PhoneNumber
+            };
+
+            var newUserResponse = await _userManager.CreateAsync(newUser, "Del@1234");
+
+            if (newUserResponse.Succeeded)
+            {
+                /////Error
+                var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Delivery);
+                if (!roleExists)
+                {
+                    var newRole = new IdentityRole(UserRoles.Delivery);
+                    await _roleManager.CreateAsync(newRole);
+                }
+                /////
+                await _userManager.AddToRoleAsync(newUser, UserRoles.Delivery);
+
+                var newDel = new DeliveryGuy()
+                {
+                    UserId = newUser.Id,
+                    Name = RegisterDelVM.Name,
+                    PhoneNumber = RegisterDelVM.PhoneNumber
+                };
+                _context.DeliveryGuys.Add(newDel);
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction("Index","DeliveryGuys");
         }
+
+
+
         [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> Edit(string id)
@@ -203,7 +256,7 @@ namespace HatliFood.Controllers
 
         private bool DeliveryGuyExists(string id)
         {
-          return (_context.DeliveryGuys?.Any(e => e.UserId == id)).GetValueOrDefault();
+            return (_context.DeliveryGuys?.Any(e => e.UserId == id)).GetValueOrDefault();
         }
     }
 }
