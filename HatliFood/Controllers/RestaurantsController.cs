@@ -233,17 +233,17 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
-            
-            ViewBag.Categories      = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
+
+            ViewBag.Categories = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
             ViewBag.CategoriesCount = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList().Count();
 
-            ViewBag.Menus           = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList();
-            ViewBag.MenusCount      = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList().Count();
+            ViewBag.Menus = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList();
+            ViewBag.MenusCount = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList().Count();
 
 
 
-            ViewBag.Orders          = _context.Orders.AsNoTracking().Where(o => o.Restaurant.Id == id).ToList();
-            ViewBag.OrdersCount     = _context.Orders.AsNoTracking().Where(o => o.Restaurant.Id == id).ToList().Count();
+            ViewBag.Orders = _context.Orders.AsNoTracking().Where(o => o.Restaurant.Id == id).ToList();
+            ViewBag.OrdersCount = _context.Orders.AsNoTracking().Where(o => o.Restaurant.Id == id).ToList().Count();
 
 
             return View(restaurant);
@@ -273,7 +273,7 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
-            
+
             var restaurant = await _context.Restaurant.FirstOrDefaultAsync(m => m.Id == id);
 
             if (restaurant == null)
@@ -282,10 +282,10 @@ namespace HatliFood.Controllers
             }
             else
             {
-                List<Category> categories = _context.Categorys.Where(c=>c.Rid == restaurant.Id).ToList();
-                Dictionary<int , List<MenuItem> > ItemsInCategories = new Dictionary<int , List<MenuItem>>();
-               
-                foreach(var category in categories)
+                List<Category> categories = _context.Categorys.Where(c => c.Rid == restaurant.Id).ToList();
+                Dictionary<int, List<MenuItem>> ItemsInCategories = new Dictionary<int, List<MenuItem>>();
+
+                foreach (var category in categories)
                 {
                     List<MenuItem> menuItems = _context.MenuItems.Where(i => i.Cid == category.Id).ToList();
                     ItemsInCategories.Add(category.Id, menuItems);
@@ -296,7 +296,7 @@ namespace HatliFood.Controllers
 
             return View(restaurant);
         }
-        } 
-        #endregion
     }
+    #endregion
 }
+
