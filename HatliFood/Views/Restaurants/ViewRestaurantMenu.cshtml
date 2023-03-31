@@ -16,7 +16,6 @@
 
     @foreach (Category cat in ViewBag.Categories)
     {
-
         <p>
             <a class="btn btn-success w-100" data-bs-toggle="collapse" href="#@cat.Name" role="button" aria-expanded="false" aria-controls="collapseExample">
                 @cat.Name
@@ -25,7 +24,6 @@
         <div class="collapse" id="@cat.Name">
             @foreach (MenuItem item in MenuItemsInCat[cat.Id])
             {
-
                 <div class="card card-body">
 
                     <div class="text-center  border border-1 border-light">
@@ -49,13 +47,9 @@
                         @*<a class="btn btn-success w-25" asp-action="AddCookie" asp-controller="Carts" asp-route-id="@item.Id" asp-route-name="@item.Name" asp-route-price="@item.Price">Add to cart</a>*@
                         @*<button class="btn btn-success w-25" onclick="AddItemToCart(@item.Id , '@item.Name' , @item.Price , '@item.ImgPath' , '@item.Description')">Add to cart</button>*@
                     </div>
-
                 </div>
-
             }
         </div>
-
-
     }
 </div>
 @section Scripts {

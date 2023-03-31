@@ -24,7 +24,7 @@ else
                 aria-expanded="false">
             <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User)
         </button>
-        <a class="btn btn-outline-success" asp-controller="Orders" asp-action="ListMyOrders" asp-route-id="@UserManager.GetUserId(User)">
+        <a class="btn btn-outline-success" asp-controller="Orders" asp-action="Index" asp-route-id="@UserManager.GetUserId(User)">
             <i class="bi bi-list"></i> My Orders
         </a>
         <a class="btn btn-outline-success" asp-controller="Carts" asp-action="Index">
