@@ -102,7 +102,8 @@ namespace HatliFood.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Rid")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("RID");
 
                     b.HasKey("Id");
 
@@ -137,7 +138,8 @@ namespace HatliFood.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Cid")
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("CID");
 
                     b.Property<string>("Description")
                         .IsRequired()

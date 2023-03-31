@@ -65,7 +65,6 @@ namespace HatliFood.Controllers
         {
 
             menuItem.ImgPath = "dd";
-            //menuItem.CidNavigation = _context.Categorys.Where(c=>c.Id == menuItem.Cid).FirstOrDefault();
             if (ModelState.IsValid)
             {
 
@@ -75,7 +74,7 @@ namespace HatliFood.Controllers
 
                 menuItem.ImgPath = fileName + extension;
 
-                string path = Path.Combine(wwwRootPath + "/Image/Menus/" + fileName + extension);
+                string path = Path.Combine(wwwRootPath + "/Image/Menus" + fileName + extension);
 
                 using (var filestream = new FileStream(path, FileMode.Create))
                 {
@@ -86,6 +85,7 @@ namespace HatliFood.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
 
+                ViewData["Cid"] = new SelectList(_context.Categorys, "Id", "Name", menuItem.Cid);
             }
             return View(menuItem);
         }
@@ -136,9 +136,9 @@ namespace HatliFood.Controllers
                     var oldData = _context.MenuItems.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
                     string oldPath = oldData?.ImgPath;
 
-                    if (System.IO.File.Exists(wwwRootPath + "/Image/Menus/" + oldPath))
+                    if (System.IO.File.Exists(wwwRootPath + "/Image/Menus" + oldPath))
                     {
-                        System.IO.File.Delete(wwwRootPath + "/Image/Menus/" + oldPath);
+                        System.IO.File.Delete(wwwRootPath + "/Image/Menus" + oldPath);
                     }
 
                     string fileName = Path.GetFileNameWithoutExtension(menuItem.ImgFile.FileName);
@@ -146,7 +146,7 @@ namespace HatliFood.Controllers
 
                     menuItem.ImgPath = fileName + extension;
 
-                    string path = Path.Combine(wwwRootPath + "/Image/Menus/" + fileName + extension);
+                    string path = Path.Combine(wwwRootPath + "/Image/Menus" + fileName + extension);
 
                     using (var filestream = new FileStream(path, FileMode.Create))
                     {
@@ -171,8 +171,8 @@ namespace HatliFood.Controllers
                 }
                 return RedirectToAction(nameof(Index));
 
-
-            }
+                
+                }
             return View(menuItem);
         }
 
@@ -214,9 +214,9 @@ namespace HatliFood.Controllers
             var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
             string oldPath = oldData?.ImgPath;
 
-            if (System.IO.File.Exists(wwwRootPath + "/Image/Menus/" + oldPath))
+            if (System.IO.File.Exists(wwwRootPath + "/Image/Menus" + oldPath))
             {
-                System.IO.File.Delete(wwwRootPath + "/Image/Menus/" + oldPath);
+                System.IO.File.Delete(wwwRootPath + "/Image/Menus" + oldPath);
             }
 
             await _context.SaveChangesAsync();
@@ -225,7 +225,7 @@ namespace HatliFood.Controllers
 
         private bool MenuItemExists(int id)
         {
-            return (_context.MenuItems?.Any(e => e.Id == id)).GetValueOrDefault();
+          return (_context.MenuItems?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
