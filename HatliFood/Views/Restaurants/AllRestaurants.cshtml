@@ -7,17 +7,17 @@
     <link rel="stylesheet" href="~/css/BuyerRestaurantMain.css" />
 </head>*@
 
-<h1 class="my-5">Choose Your Craving</h1>
+<h1>Choose Your Craving</h1>
 
 <div class="container">
     <div class="row">
         @foreach (var item in Model)
         {
-            <div class="card col-4 mx-auto my-3" style="width: 300px; height: 400px">
-                <img class="card-img-top mx-auto" style="width: 250px; height: 300px; object-fit: fill;" src="~/image/resturants/@item.ImgPath" alt="Card image cap">
+            <div class="card col-4 m-auto" style="width: 300px; height: 400px">
+                <img class="card-img-top" style="width: 250px; height: 300px; object-fit: fill;" src="~/image/resturants/@item.ImgPath" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">@item.Name</h5>
-                    <a class="btn btn-success w-100" asp-action="ViewRestaurantDetails" asp-controller="Restaurants" asp-route-id="@item.Id">View Menu</a>
+                    <a href="#" class="btn btn-primary">View Menu</a>
                 </div>
             </div>
         }

@@ -7,8 +7,6 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HatliFood.Data;
 using HatliFood.Models;
-using Microsoft.AspNetCore.Http;
-using System.Diagnostics;
 
 namespace HatliFood.Controllers
 {
@@ -157,26 +155,14 @@ namespace HatliFood.Controllers
             {
                 _context.Buyers.Remove(buyer);
             }
-
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool BuyerExists(string id)
         {
-            return (_context.Buyers?.Any(e => e.UserId == id)).GetValueOrDefault();
+          return (_context.Buyers?.Any(e => e.UserId == id)).GetValueOrDefault();
         }
-
-        //public void AddItemToCart(MenuItem item)
-        //{
-        //    Debug.WriteLine(item.Name);
-        //    //CookieOptions cookieOptions = new CookieOptions();
-
-        //    //cookieOptions.Expires = DateTimeOffset.Now.AddDays(1);
-
-        //    //Response.Cookies.Append("userName", "Amr", cookieOptions);
-
-        //    //Request.Cookies["userName"].ToString();
-        //}
     }
 }
