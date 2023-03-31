@@ -3,7 +3,6 @@ using HatliFood.Models;
 using HatliFood.Models.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Build.ObjectModelRemoting;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -112,14 +111,5 @@ namespace HatliFood.Controllers
 
             return View("RegisterCompleted");
         }
-
-        [HttpPost]
-
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction("AllRestaurants", "Restaurants");
-        }
-    
     }
 }

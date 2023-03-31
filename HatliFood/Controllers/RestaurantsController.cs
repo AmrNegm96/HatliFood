@@ -59,7 +59,7 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,ImgFile,ImgPath")] Restaurant restaurant)
+        public async Task<IActionResult> Create([Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
         {
             restaurant.ImgPath = "dd";
             if (ModelState.IsValid)
@@ -71,7 +71,7 @@ namespace HatliFood.Controllers
 
                 restaurant.ImgPath = fileName + extension;
 
-                string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
+                string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
 
                 using (var filestream = new FileStream(path, FileMode.Create))
                 {
@@ -106,7 +106,7 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ImgFile,ImgPath")] Restaurant _restaurant)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
         {
             var Restu = _context.Restaurant;
 
@@ -130,9 +130,9 @@ namespace HatliFood.Controllers
                     var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
                     string oldPath = oldData?.ImgPath;
 
-                    if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
+                    if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants/" + oldPath))
                     {
-                        System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
+                        System.IO.File.Delete(wwwRootPath + "/Image/Resturants/" + oldPath);
                     }
 
                     string fileName = Path.GetFileNameWithoutExtension(_restaurant.ImgFile.FileName);
@@ -140,7 +140,7 @@ namespace HatliFood.Controllers
 
                     _restaurant.ImgPath = fileName + extension;
 
-                    string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
+                    string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
 
                     using (var filestream = new FileStream(path, FileMode.Create))
                     {
@@ -202,9 +202,9 @@ namespace HatliFood.Controllers
             var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
             string oldPath = oldData?.ImgPath;
 
-            if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
+            if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants/" + oldPath))
             {
-                System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
+                System.IO.File.Delete(wwwRootPath + "/Image/Resturants/" + oldPath);
             }
 
             await _context.SaveChangesAsync();
@@ -216,29 +216,33 @@ namespace HatliFood.Controllers
             return (_context.Restaurant?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-        string UploadFile(string filename)
-        {
-            if (filename != null)
-            {
-                string uploads = Path.Combine(_hosting.WebRootPath, "uploads");
-                string fullPath = Path.Combine(uploads, filename);
-                //filename.CopyTo(new FileStream(fullPath, FileMode.Create));
 
-                return fullPath;
+
+        // [Authorize('Restaurant')]
+        #region Resturant Actor [View Restaurant Details] 
+        public async Task<IActionResult> RestaurantDetails(int? id)
+        {
+            if (id == null || _context.Restaurant == null)
+            {
+                return NotFound();
             }
 
-            return null;
+            var restaurant = await _context.Restaurant
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (restaurant == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.Categories = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
+            ViewBag.Menus      = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList();
+
+
+            return View(restaurant);
         }
 
 
-
-
-
-
-
-
-
-
+        #endregion Resturant Actor
 
 
 
@@ -252,38 +256,7 @@ namespace HatliFood.Controllers
             return _context.Restaurant != null ?
                         View(await _context.Restaurant.ToListAsync()) :
                         Problem("Error Happened while loading List of resturants");
-        }
-
-        // GET: Restaurants/Details/5
-        public async Task<IActionResult> ViewRestaurantDetails(int? id)
-        {
-            if (id == null || _context.Restaurant == null)
-            {
-                return NotFound();
-            }
-            
-            var restaurant = await _context.Restaurant.FirstOrDefaultAsync(m => m.Id == id);
-
-            if (restaurant == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                List<Category> categories = _context.Categorys.Where(c=>c.Rid == restaurant.Id).ToList();
-                Dictionary<int , List<MenuItem> > ItemsInCategories = new Dictionary<int , List<MenuItem>>();
-               
-                foreach(var category in categories)
-                {
-                    List<MenuItem> menuItems = _context.MenuItems.Where(i => i.Cid == category.Id).ToList();
-                    ItemsInCategories.Add(category.Id, menuItems);
-                }
-                ViewBag.Categories = categories;
-                ViewBag.ItemsInCategories = ItemsInCategories;
-            }
-
-            return View(restaurant);
-        }
+        } 
         #endregion
     }
 }
