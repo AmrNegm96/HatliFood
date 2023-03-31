@@ -15,30 +15,40 @@
 
     @foreach (Category cat in ViewBag.Categories)
     {
-        <h1>@cat.Name</h1>
 
+        <p>
+            <a class="btn btn-success w-100" data-bs-toggle="collapse" href="#@cat.Name" role="button" aria-expanded="false" aria-controls="collapseExample">
+                @cat.Name
+            </a>
+        </p>
+        <div class="collapse" id="@cat.Name">
         @foreach (MenuItem item in MenuItemsInCat[cat.Id])
         {
-            <div class="text-center  border border-1 border-light">
-                <div style="display:flex;justify-content:space-around">
-                    <div>
-                        <p> @item.Name </p>
-                        <p> @item.Price </p>
-                        <p> @item.Description </p>
-                    </div>
-                    <img src="~/image/resturants/@item.ImgPath" class="rounded" style="width:150px;height:150px">
-                </div>
-                <button class="btn btn-success w-25" onclick="AddItemToCart(@item.Id , '@item.Name' , @item.Price , '@item.ImgPath' , '@item.Description')" >Add to cart</button>
-            </div>
-
-
             
+                <div class="card card-body">
 
+                    <div class="text-center  border border-1 border-light">
+                        <div style="display:flex;justify-content:space-around">
+                            <div>
+                                <p> @item.Name </p>
+                                <p> @item.Price </p>
+                                <p> @item.Description </p>
+                            </div>
+                            <img src="~/image/resturants/@item.ImgPath" class="rounded" style="width:150px;height:150px">
+                        </div>
+                        <button class="btn btn-success w-25" onclick="AddItemToCart(@item.Id , '@item.Name' , @item.Price , '@item.ImgPath' , '@item.Description')">Add to cart</button>
+                    </div>
 
+                </div>
+       
         }
+        </div>
 
 
     }
+
+    
+    
 
 
 

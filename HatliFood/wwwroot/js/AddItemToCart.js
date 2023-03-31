@@ -11,5 +11,6 @@
     setCookie("HatliFood-"+Item.Id , JSON.stringify(Item) , 1);
 
     // cart logic will be added 
+
 }
 
