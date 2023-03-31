@@ -1,5 +1,6 @@
 ﻿@model HatliFood.Models.Restaurant
 @using HatliFood.Models;
+@inject UserManager<IdentityUser> UserManager;
 
 @{
     ViewData["Title"] = "ViewRestaurantDetails";
@@ -36,7 +37,15 @@
                             </div>
                             <img src="~/image/resturants/@item.ImgPath" class="rounded" style="width:150px;height:150px">
                         </div>
-                        <button class="myButton btn btn-success w-25" itemId="@item.Id" itemName="@item.Name"> Add to Cart</button>
+                        @if (!User.Identity.IsAuthenticated)
+                        {
+                            <a class="btn btn-success w-25" asp-action="Login" asp-controller="Account">Login</a>
+                            <button class="btn btn-secondary w-25"> Add to Cart</button>
+                        }
+                        else
+                        {
+                            <button class="myButton btn btn-success w-25" itemId="@item.Id" itemName="@item.Name" itemPrice="@item.Price"> Add to Cart</button>
+                        }
                         @*<a class="btn btn-success w-25" asp-action="AddCookie" asp-controller="Carts" asp-route-id="@item.Id" asp-route-name="@item.Name" asp-route-price="@item.Price">Add to cart</a>*@
                         @*<button class="btn btn-success w-25" onclick="AddItemToCart(@item.Id , '@item.Name' , @item.Price , '@item.ImgPath' , '@item.Description')">Add to cart</button>*@
                     </div>
