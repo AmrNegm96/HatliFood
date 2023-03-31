@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace HatliFood.Models
 {
@@ -25,16 +24,14 @@ namespace HatliFood.Models
         [Required]
         public string Description { get; set; }
 
-        //[Column("CID")]
-        [ForeignKey("CidNavigation")]
+        [Column("CID")]
         public int Cid { get; set; }
 
-        //[InverseProperty("MenuItems")]
-        [ValidateNever]
-
+        [ForeignKey("Cid")]
+        [InverseProperty("MenuItems")]
         public virtual Category CidNavigation { get; set; }
 
-        //[InverseProperty("MenuItem")]
+        [InverseProperty("MenuItem")]
         public virtual ICollection<OrderItem> OrderItems { get; } = new List<OrderItem>();
     }
 }
