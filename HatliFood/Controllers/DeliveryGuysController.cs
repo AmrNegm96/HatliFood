@@ -9,6 +9,7 @@ using HatliFood.Data;
 using HatliFood.Models;
 using Microsoft.AspNetCore.Identity;
 using HatliFood.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HatliFood.Controllers
 {
@@ -28,6 +29,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: DeliveryGuys
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             return _context.DeliveryGuys != null ?
@@ -36,6 +38,8 @@ namespace HatliFood.Controllers
         }
 
         // GET: DeliveryGuys/Details/5
+        [Authorize(Roles = "Admin ,Delivery")]
+
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.DeliveryGuys == null)
@@ -55,12 +59,16 @@ namespace HatliFood.Controllers
 
         // GET: DeliveryGuys/Create
 
+        [Authorize(Roles = "Admin")]
+
         public IActionResult Create()
         {
             return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Create([Bind("UserId,Name,PhoneNumber")] DeliveryGuy deliveryGuy)
         {
             if (ModelState.IsValid)
@@ -93,6 +101,7 @@ namespace HatliFood.Controllers
 
             return View(deliveryGuy);
         }
+        [Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> Edit(string id)
         {
@@ -115,6 +124,8 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Edit(string id, [Bind("UserId,Name,PhoneNumber")] DeliveryGuy deliveryGuy)
         {
             if (id != deliveryGuy.UserId)
@@ -147,6 +158,8 @@ namespace HatliFood.Controllers
         }
 
         // GET: DeliveryGuys/Delete/5
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
@@ -167,6 +180,8 @@ namespace HatliFood.Controllers
         // POST: DeliveryGuys/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
             var deliveryGuy = await _context.DeliveryGuys.FindAsync(id);

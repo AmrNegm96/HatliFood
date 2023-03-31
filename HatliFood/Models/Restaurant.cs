@@ -12,17 +12,20 @@ namespace HatliFood.Models
         [Required]
         public string Name { get; set; }
 
+        public string? Details { get; set; }
+
+        public string? Location { get; set; }
+
+        public string? City { get; set; }
+
         [Required]
         public string ImgPath { get; set; }
 
         [NotMapped]
         public IFormFile ImgFile { get; set; }
 
-
-        [InverseProperty("RidNavigation")]
         public virtual ICollection<Category> Categories { get; } = new List<Category>();
 
-        [InverseProperty("Restaurant")]
         public virtual ICollection<Order> Orders { get; } = new List<Order>();
     }
 }

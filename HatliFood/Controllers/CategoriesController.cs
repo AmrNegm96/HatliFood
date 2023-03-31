@@ -34,8 +34,12 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
-            ViewData["Items"] = _context.MenuItems.AsNoTracking().Where(m => m.Cid == id).ToList();
-            ViewData["CountOfItems"] = _context.MenuItems.AsNoTracking().Where(m => m.Cid == id).ToList().Count();
+
+            int resturantId = _context.Categorys.AsNoTracking().Where(c=>c.Id == id).Select(c => c.Rid).FirstOrDefault();
+            ViewBag.Resturant = _context.Restaurant.AsNoTracking().Where(res => res.Id == resturantId).FirstOrDefault();
+
+            ViewBag.Menus = _context.MenuItems.AsNoTracking().Where(m => m.Cid == id).ToList();
+            ViewBag.CountOfItems = _context.MenuItems.AsNoTracking().Where(m => m.Cid == id).ToList().Count();
 
 
             var category = await _context.Categorys

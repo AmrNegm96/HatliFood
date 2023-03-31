@@ -4,35 +4,53 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
 
-<div>
-    <h4>Category</h4>
-    <hr />
+<div class="container my-5">
+     <a asp-action="Index" class="float-start fs-5 text-secondary"> 
+         <i class="bi bi-arrow-left-square-fill"></i>
+     </a>
+
+    <h3 class="text-center mb-5">
+        <span class = "col-sm text-center"> @Html.DisplayFor(model => model.Name) </span> 
+        <div>
+        <a asp-action="Edit" asp-route-id="@Model?.Id" class="float-end fs-5 text-secondary">Edit</a> 
+    </div>
+    </h3>
+
+    @*<hr />*@
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RidNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RidNavigation.Name)
-        </dd>
+       
 
-        <dt></dt>
+        <dt class="fs-5 mb-3"> Resturant Details </dt>
+
+        <dd>
+              <img src="~/Image/Resturants/@ViewBag.Resturant.ImgPath" alt="image" style="width:80px ; height:80px" class="rounded-circle m-auto pt-2"/>
+             <h6 class="d-inline-block"> @ViewBag.Resturant.Name </h6>
+            <a asp-action="RestaurantDetails" asp-controller="Restaurants" asp-route-id="@ViewBag.Resturant.Id" class="btn-primary btn col-2 float-end my-3 "> View Details</a> 
+
+        </dd>
+        <hr />
+
+
+        <dt class="fs-5 mb-3"> Menu Items </dt>
+
         <dd>
             @{
                 if (ViewBag.CountOfItems > 0)
                 {
-                    @foreach (var Menu in ViewBag.Items)
-                    {
-                            <h4> @Menu.Name </h4>
+                        <ul class = "list-unstyled"> 
+                        @foreach (var Menu in ViewBag.Menus)
+                        {
+                           <li class="mb-2"> 
+                                <img src="~/Image/Menus/@Menu.ImgPath" alt="image" style="width:50px ; height:50px" class="rounded-circle m-auto pt-2"/>
+                                     <h6 class="d-inline-block"> @Menu.Name </h6>
 
-                    }
+                                <a asp-action="Details" asp-controller="MenuItems" asp-route-id="@Menu.Id" class="btn-primary btn col-2 float-end "> View Details</a> 
+
+                           </li>
+
+                        }
+                      </ul>
                 }
                 else
                 {
@@ -41,11 +59,9 @@
             }
            
         </dd>
+        <hr />
 
 
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

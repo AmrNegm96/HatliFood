@@ -1,0 +1,42 @@
+﻿
+
+
+h3 {
+    color: #122f3e;
+}
+
+#Menus-container, #Categories-container, #Orders-container {
+    display: none;
+}
+
+.Menus > div, .Categories > div {
+    text-align: center;
+    height: auto;
+    box-shadow: 2px 3px 5px #59889a;
+    color: #59889a;
+    background: white;
+}
+
+.Menus > div > h6, .Categories > div > h6, .add-new > h6 {
+        line-height: 50px;
+}
+
+
+.add-new, .alert-no-element {
+    height: inherit;
+    margin-left: 20px;
+    text-decoration: none;
+    width: 200px;
+    box-shadow: 2px 3px 5px #59889a;
+    color: #59889a;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.alert-no-element {
+    background: #942F21 !important;
+    color: #E9A190!important;
+}
+
+
