@@ -8,15 +8,15 @@
           <link href="~/css/ResturantDetails.css" rel="stylesheet" />
     }
 
-<div class="mt-5 container">
+<div class="mt-4 container">
     <div class="row">
-        <div class = "col-sm-2">
-            <img src="~/Image/Resturants/@Model.ImgPath" alt="image" style="width:250px ; height:250px" class="rounded-circle " />
+        <div class = "col-md-2 col-sm-12 mt-3">
+            <img src="~/Image/Resturants/@Model.ImgPath" alt="image" style="width:150px ; height:150px" class="rounded-circle " />
         </div>
 
-          <div class = "col-sm mt-2 ml-5">
-            <h1 class="m-5 fw-bold "> @Html.DisplayFor(model => model.Name) </h1>
-            <h4 class="m-5 my-1 "> @Html.DisplayFor(model => model.Details) </h4>
+          <div class = "col-md col-sm-12 ">
+            <h3 class="my-4 mx-5 fw-bold "> @Html.DisplayFor(model => model.Name) </h3>
+            <p class="m-5 my-1 "> @Html.DisplayFor(model => model.Details) </p>
             <div class="mx-5">
                  <p class="my-3 fw-bold d-inline-block"> @Html.DisplayFor(model => model.City) </p> 
                     @{
@@ -25,7 +25,7 @@
                                 <span class="fs-5"> | </span>
                         }
                     } 
-                <p class="mt-3 fw-bold d-inline-block"> @Html.DisplayFor(model => model.Location) </p>
+                 <p class="mt-3 fw-bold d-inline-block"> @Html.DisplayFor(model => model.Location) </p>
             </div>
             
 
@@ -33,9 +33,9 @@
         </div>
 
         <!-- Tabs -->
-        <ul class="nav nav-tabs m-5">
+        <ul class="nav nav-tabs m-5 mb-4">
               <li class="nav-item">
-                <button class="nav-link active" aria-current="page" id="Categories">Categories</button>
+                <button class="nav-link active" id="Categories">Categories</button>
               </li>
 
               <li class="nav-item">
@@ -49,50 +49,123 @@
         </ul>
 
         <!-- View All Categories that are associated with this Resturant -->
-        <div class="Cards row Categories mx-5 my-2 ">
+        <div class="Cards row  Categories d-flex mx-5 my-2" id ="Categories-container">
             @{
-                foreach (var category in ViewBag.Categories)
+                if (ViewBag.CategoriesCount > 0)
                 {
-                   <div class="col-2 bg-primary-emphasis rounded-3"> 
-                        <h3>
-                            @category.Name
-                        </h3>
-                   </div> 
+                    foreach (var category in ViewBag.Categories)
+                    {
+                        <div class="col-3 bg-primary-emphasis rounded-3"> 
+                            <h6>
+                                @category.Name
+                            </h6>
+                        <div class="pb-3">
+                             <a asp-action="Edit" asp-controller="Categories" asp-route-id="@category.Id" class="btn-primary btn col-5"> Edit</a> 
+                             <a asp-action="Delete" asp-controller="Categories"  asp-route-id="@category.Id" class="btn-danger btn col-5 "> Delete</a> 
+                        </div>
+                        
+                       </div> 
+                    }
+                     <a class="add-new rounded-3" asp-controller="Categories" asp-action="Create"> 
+                          <p> Create New Category </p>
+                     </a> 
+
+                }
+                else
+                {
+                     <div class="alert alert-danger "> 
+                                 <h5 class="my-3">No Categories in this Resturant</h5>
+                        <a asp-action="Create" asp-controller="Categories" class="btn-primary btn col-2"> Create</a> 
+
+                     </div>
                 }
             }
+            
+
         </div>
 
         <!-- View All Menus that are associated with this Resturant -->
-         <div class="Cards row Menus mx-5 my-2 ">
+         <div class="Cards row Menus mx-5 my-2" id ="Menus-container">
             @{
-                foreach (var menu in ViewBag.Menus)
+                if (ViewBag.MenusCount > 0)
                 {
-                    <div class="col-2 bg-primary-emphasis rounded-3"> 
-                        <h3>
-                            @menu.Name
-                         </h3>
-                    </div> 
+                    foreach (var menu in ViewBag.Menus)
+                    {
+                                <div class="col-4 bg-primary-emphasis rounded-3"> 
+                                     <img src="~/Image/Menus/@menu.ImgPath" alt="image" style="width:100px ; height:100px" class="rounded-circle pt-2"/>
+                                    <h6>
+                                @menu.Name
+                                     </h6>
 
+                                       <div class="pb-3">
+                                             <a asp-action="Edit" asp-controller="MenuItems" asp-route-id="@menu.Id" class="btn-primary btn col-5"> Edit</a> 
+                                             <a asp-action="Delete" asp-controller="MenuItems"  asp-route-id="@menu.Id" class="btn-danger btn col-5 "> Delete</a> 
+                                      </div>
+                        </div>
+
+                    }
+                     
+                    <a class="add-new rounded-3" asp-controller="MenuItems" asp-action="Create"> 
+                          <p> Create New Menu </p>
+                     </a> 
                 }
+
+                else
+                {
+                     <div class="alert alert-danger "> 
+                           <h5 class="my-3">No Menu Items in this Resturant</h5>
+                           <a asp-action="Create" asp-controller="Menus" class="btn-primary btn col-2"> Create</a> 
+                     </div>
+                }
+                
             }
+        
+      
         </div>
 
-        
-       
-      
-        
-      
-    </div>
+        <!-- View All Orsers that are associated with this Resturant -->
+         <div class="Cards row Orders mx-5 my-2" id ="Orders-container">
+            @{
+                if (ViewBag.OrdersCount > 0)
+                {
+                    foreach (var order in ViewBag.Orders)
+                    {
+                         <div class="col-4 bg-primary-emphasis rounded-3"> 
+                              <h6> @order.Id </h6>
+                              <p> @order.OrderDate</p>
+                              <p> Buyer Name :  @order.Buyer.Name</p>
+                              <p> DeliveryGuy Name :  @order.DeliveryGuyUser.Name</p>
+
+                              <hr/>
+
+                              <div class="pb-3">
+                                   <a asp-action="Edit" asp-controller="Orders" asp-route-id="@order.Id" class="btn-primary btn col-5"> Edit</a> 
+                                   <a asp-action="Delete" asp-controller="Orders"  asp-route-id="@order.Id" class="btn-danger btn col-5 "> Delete</a> 
+                              </div>
+                        </div>
+
+                    }
+
+                }
+
+                else
+                {
+                   <div class="alert alert-danger text-center "> 
+                       <h5 class="my-3">No Orders in this Resturant</h5>
+                   </div>
+                }
+
+            }
+
+
+        </div>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
 
-
-@section Scripts
-{
-        <script src="~/js/RestaurantDetails.js"></script>
+    @section Scripts
+        {
+            <script src="~/js/RestaurantDetails.js"></script>
 }
-
-
