@@ -2,6 +2,8 @@
 using HatliFood.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Net;
 using System.Text.Json;
 
 namespace HatliFood.Controllers
@@ -14,14 +16,12 @@ namespace HatliFood.Controllers
         {
             _UserManager = UserManager;
         }
+        
         public IActionResult Index()
         {
             var cookies = Request.Cookies;
             List<string> allCookies = new List<string>();
-
             var id = _UserManager.GetUserId(User);
-
-
             foreach (var cookie in cookies)
             {
                 if (cookie.Key.Contains("HatliFood-"))
@@ -29,10 +29,24 @@ namespace HatliFood.Controllers
                     allCookies.Add(cookie.Value);
                 }
             }
-
-
             ViewBag.AllCookies = allCookies;
             return View();
+        }
+        public async Task<IActionResult> DeleteItem(int? id)
+        {
+            var cookies = Request.Cookies;
+            foreach (var cookie in cookies)
+            {
+                if (cookie.Key.Contains("HatliFood-"+id))
+                {
+                    Response.Cookies.Delete("HatliFood-" + id);
+                    //Response.Cookies.Append("HatliFood-" + id, "", new CookieOptions
+                    //{
+                    //    Expires = DateTime.Now.AddDays(-1)
+                    //});
+                }
+            }
+            return RedirectToAction(nameof(Index));
         }
 
         [HttpPost]
