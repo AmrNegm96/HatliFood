@@ -35,6 +35,6 @@ namespace HatliFood.Models
         public virtual Category CidNavigation { get; set; }
 
         //[InverseProperty("MenuItem")]
-        public virtual ICollection<OrderItem> OrderItems { get; } = new List<OrderItem>();
+        public virtual ICollection<OrderItem> MOrderItems { get; set; } = new HashSet<OrderItem>();
     }
 }

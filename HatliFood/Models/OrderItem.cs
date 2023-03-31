@@ -8,20 +8,18 @@ namespace HatliFood.Models
     [Table("OrderItem")]
     public partial class OrderItem
     {
-        [Key]
         public int OrderId { get; set; }
 
-        [Key]
         public int MenuItemId { get; set; }
 
         public int Quantity { get; set; }
 
         [ForeignKey("MenuItemId")]
-        [InverseProperty("OrderItems")]
+        [InverseProperty("MOrderItems")]
         public virtual MenuItem MenuItem { get; set; }
 
         [ForeignKey("OrderId")]
-        [InverseProperty("OrderItems")]
+        [InverseProperty("OOrderItems")]
         public virtual Order Order { get; set; }
     }
 }

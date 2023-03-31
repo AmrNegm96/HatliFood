@@ -17,7 +17,7 @@ namespace HatliFood.Models
 
         public int PhoneNumber { get; set; }
 
-        public virtual ICollection<Order> Orders { get; } = new List<Order>();
+        public virtual ICollection<Order>? DOrders { get; set; } = new HashSet<Order>();
     }
 
 }

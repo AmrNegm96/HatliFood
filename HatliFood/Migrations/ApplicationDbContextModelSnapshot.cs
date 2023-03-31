@@ -175,9 +175,8 @@ namespace HatliFood.Migrations
                         .HasColumnName("BID");
 
                     b.Property<string>("DeliveryGuyUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)")
-                        .HasColumnName("deliveryGuyUserId");
+                        .HasColumnName("deliveryGuyId");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
@@ -521,13 +520,11 @@ namespace HatliFood.Migrations
                         .IsRequired();
 
                     b.HasOne("HatliFood.Models.DeliveryGuy", "DeliveryGuyUser")
-                        .WithMany("Orders")
-                        .HasForeignKey("DeliveryGuyUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("DOrders")
+                        .HasForeignKey("DeliveryGuyUserId");
 
                     b.HasOne("HatliFood.Models.Restaurant", "Restaurant")
-                        .WithMany("Orders")
+                        .WithMany("ROrders")
                         .HasForeignKey("RestaurantId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -542,13 +539,13 @@ namespace HatliFood.Migrations
             modelBuilder.Entity("HatliFood.Models.OrderItem", b =>
                 {
                     b.HasOne("HatliFood.Models.MenuItem", "MenuItem")
-                        .WithMany("OrderItems")
+                        .WithMany("MOrderItems")
                         .HasForeignKey("MenuItemId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("HatliFood.Models.Order", "Order")
-                        .WithMany("OrderItems")
+                        .WithMany("OOrderItems")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -623,24 +620,24 @@ namespace HatliFood.Migrations
 
             modelBuilder.Entity("HatliFood.Models.DeliveryGuy", b =>
                 {
-                    b.Navigation("Orders");
+                    b.Navigation("DOrders");
                 });
 
             modelBuilder.Entity("HatliFood.Models.MenuItem", b =>
                 {
-                    b.Navigation("OrderItems");
+                    b.Navigation("MOrderItems");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Order", b =>
                 {
-                    b.Navigation("OrderItems");
+                    b.Navigation("OOrderItems");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Restaurant", b =>
                 {
                     b.Navigation("Categories");
 
-                    b.Navigation("Orders");
+                    b.Navigation("ROrders");
                 });
 #pragma warning restore 612, 618
         }

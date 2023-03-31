@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\" />
-    <Folder Include="Migrations\" />
     <Folder Include="wwwroot\Image\Menus\" />
   </ItemGroup>
 

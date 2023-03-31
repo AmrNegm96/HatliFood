@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HatliFood.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230329043417_Init3")]
-    partial class Init3
+    [Migration("20230331191211_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,14 +33,14 @@ namespace HatliFood.Migrations
                     b.Property<int?>("ApartmentNumber")
                         .HasColumnType("int");
 
-                    b.Property<string>("Bid")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("BID");
-
                     b.Property<string>("BuildingNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("BuyerID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("BID");
 
                     b.Property<string>("City")
                         .IsRequired()
@@ -55,7 +55,19 @@ namespace HatliFood.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("BuyerID");
+
                     b.ToTable("Addresss");
+                });
+
+            modelBuilder.Entity("HatliFood.Models.Admin", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Admin");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Buyer", b =>
@@ -93,8 +105,7 @@ namespace HatliFood.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Rid")
-                        .HasColumnType("int")
-                        .HasColumnName("RID");
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -129,8 +140,7 @@ namespace HatliFood.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("Cid")
-                        .HasColumnType("int")
-                        .HasColumnName("CID");
+                        .HasColumnType("int");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -162,23 +172,14 @@ namespace HatliFood.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Bid")
-                        .HasColumnType("int")
-                        .HasColumnName("BID");
-
-                    b.Property<string>("BuyerUserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("buyerUserId");
-
-                    b.Property<string>("DeliveryGuyUserId")
+                    b.Property<string>("BuyerId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)")
-                        .HasColumnName("deliveryGuyUserId");
+                        .HasColumnName("BID");
 
-                    b.Property<int?>("Did")
-                        .HasColumnType("int")
-                        .HasColumnName("DID");
+                    b.Property<string>("DeliveryGuyUserId")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnName("deliveryGuyId");
 
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
@@ -190,11 +191,9 @@ namespace HatliFood.Migrations
                         .HasColumnType("int")
                         .HasColumnName("restaurantId");
 
-                    b.Property<int>("Rid")
-                        .HasColumnType("int")
-                        .HasColumnName("RID");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("BuyerId");
 
                     b.HasIndex("DeliveryGuyUserId");
 
@@ -229,8 +228,17 @@ namespace HatliFood.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Details")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ImgPath")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Location")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -440,6 +448,28 @@ namespace HatliFood.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("HatliFood.Models.Address", b =>
+                {
+                    b.HasOne("HatliFood.Models.Buyer", "Buyer")
+                        .WithMany("Addresses")
+                        .HasForeignKey("BuyerID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Buyer");
+                });
+
+            modelBuilder.Entity("HatliFood.Models.Admin", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("HatliFood.Models.Buyer", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
@@ -462,6 +492,17 @@ namespace HatliFood.Migrations
                     b.Navigation("RidNavigation");
                 });
 
+            modelBuilder.Entity("HatliFood.Models.DeliveryGuy", b =>
+                {
+                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("HatliFood.Models.MenuItem", b =>
                 {
                     b.HasOne("HatliFood.Models.Category", "CidNavigation")
@@ -475,17 +516,23 @@ namespace HatliFood.Migrations
 
             modelBuilder.Entity("HatliFood.Models.Order", b =>
                 {
-                    b.HasOne("HatliFood.Models.DeliveryGuy", "DeliveryGuyUser")
+                    b.HasOne("HatliFood.Models.Buyer", "Buyer")
                         .WithMany("Orders")
-                        .HasForeignKey("DeliveryGuyUserId")
+                        .HasForeignKey("BuyerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("HatliFood.Models.DeliveryGuy", "DeliveryGuyUser")
+                        .WithMany("DOrders")
+                        .HasForeignKey("DeliveryGuyUserId");
+
                     b.HasOne("HatliFood.Models.Restaurant", "Restaurant")
-                        .WithMany("Orders")
+                        .WithMany("ROrders")
                         .HasForeignKey("RestaurantId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Buyer");
 
                     b.Navigation("DeliveryGuyUser");
 
@@ -495,13 +542,13 @@ namespace HatliFood.Migrations
             modelBuilder.Entity("HatliFood.Models.OrderItem", b =>
                 {
                     b.HasOne("HatliFood.Models.MenuItem", "MenuItem")
-                        .WithMany("OrderItems")
+                        .WithMany("MOrderItems")
                         .HasForeignKey("MenuItemId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("HatliFood.Models.Order", "Order")
-                        .WithMany("OrderItems")
+                        .WithMany("OOrderItems")
                         .HasForeignKey("OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -562,6 +609,13 @@ namespace HatliFood.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("HatliFood.Models.Buyer", b =>
+                {
+                    b.Navigation("Addresses");
+
+                    b.Navigation("Orders");
+                });
+
             modelBuilder.Entity("HatliFood.Models.Category", b =>
                 {
                     b.Navigation("MenuItems");
@@ -569,24 +623,24 @@ namespace HatliFood.Migrations
 
             modelBuilder.Entity("HatliFood.Models.DeliveryGuy", b =>
                 {
-                    b.Navigation("Orders");
+                    b.Navigation("DOrders");
                 });
 
             modelBuilder.Entity("HatliFood.Models.MenuItem", b =>
                 {
-                    b.Navigation("OrderItems");
+                    b.Navigation("MOrderItems");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Order", b =>
                 {
-                    b.Navigation("OrderItems");
+                    b.Navigation("OOrderItems");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Restaurant", b =>
                 {
                     b.Navigation("Categories");
 
-                    b.Navigation("Orders");
+                    b.Navigation("ROrders");
                 });
 #pragma warning restore 612, 618
         }
