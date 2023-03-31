@@ -1,42 +1,39 @@
 ﻿@model IEnumerable<HatliFood.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Categories";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.RidNavigation)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.RidNavigation.ImgPath)
-            </td>
-           
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<h2 class="text-center mt-5 mb-5">All Categories </h2>
+
+<div class="container m-5 p-3">
+    <div class="row d-flex flex-wrap">
+        @foreach (var item in Model)
+        {
+           <div class="card col-4 p-2 ms-2" style="box-shadow: 2px 3px 5px #59889a;">
+               
+                  <h5 class="text-center">  @item.Name </h5>
+
+                  <div class="card-body">
+
+                     <div class="row">
+                          <a asp-action="Edit" asp-route-id="@item.Id" class="btn-primary btn col-3 "> Edit</a> 
+                          <a asp-action="Details" asp-route-id="@item.Id" class="btn-success btn col-4 mx-2"  > Details</a> 
+                          <a asp-action="Delete" asp-route-id="@item.Id" class="btn-danger btn   col-4 ">Delete</a>
+                      </div>
+                  </div>
+           </div>
+
+        }
+           <a class="card col-md-3 col-xs-12 btn-light mx-2 text-decoration-none" asp-action="Create" style="box-shadow: 1px 2px 5px #59889a;">
+                <span  class="btn mx- fs-4 m-auto " style="float-right;">Create New</span>
+            </a>  
+    </div>
+</div>
+
+
+
+
+
+
