@@ -59,7 +59,7 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,ImgFile,ImgPath")] Restaurant restaurant)
+        public async Task<IActionResult> Create([Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
         {
             restaurant.ImgPath = "dd";
             if (ModelState.IsValid)
@@ -106,7 +106,7 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,ImgFile,ImgPath")] Restaurant _restaurant)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
         {
             var Restu = _context.Restaurant;
 
@@ -233,6 +233,10 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
+
+            ViewBag.Categories = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
+            ViewBag.Menus      = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList();
+
 
             return View(restaurant);
         }

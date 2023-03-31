@@ -1,0 +1,1686 @@
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.AssemblyReference.cache
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfoInputs.cache
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfo.cs
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CoreCompileInputs.cache
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.MvcApplicationPartsAssemblyInfo.cache
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cache
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cs
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.Development.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.staticwebassets.runtime.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.exe
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.deps.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.runtimeconfig.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.pdb
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Core.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Identity.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Humanizer.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Common.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Configuration.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Frameworks.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.LibraryModel.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Packaging.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.ProjectModel.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Protocol.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Versioning.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.CodeDom.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Convention.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Hosting.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Runtime.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.TypedParts.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Memory.Data.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.HatliFood.Microsoft.AspNetCore.StaticWebAssets.props
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.build.HatliFood.props
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HatliFood.props
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HatliFood.props
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.pack.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.build.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.development.json
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\bundle\HatliFood.styles.css
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\projectbundle\HatliFood.bundle.scp.css
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CopyComplete
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\refint\HatliFood.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.pdb
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.genruntimeconfig.cache
+D:\MY ITI\15- MVC\HatliFood\HatliFood\obj\Debug\net7.0\ref\HatliFood.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\MY ITI\15- MVC\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\appsettings.Development.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\appsettings.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\HatliFood.staticwebassets.runtime.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\HatliFood.exe
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\HatliFood.deps.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\HatliFood.runtimeconfig.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\HatliFood.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\HatliFood.pdb
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Azure.Core.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Azure.Identity.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Humanizer.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Build.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\Newtonsoft.Json.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.Common.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.Configuration.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.Frameworks.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.LibraryModel.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.Packaging.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.ProjectModel.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.Protocol.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\NuGet.Versioning.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.CodeDom.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Composition.Convention.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Composition.Hosting.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Composition.Runtime.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Composition.TypedParts.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Memory.Data.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.csproj.AssemblyReference.cache
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.GeneratedMSBuildEditorConfig.editorconfig
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfoInputs.cache
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfo.cs
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CoreCompileInputs.cache
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.MvcApplicationPartsAssemblyInfo.cache
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cache
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cs
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.HatliFood.Microsoft.AspNetCore.StaticWebAssets.props
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.build.HatliFood.props
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HatliFood.props
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HatliFood.props
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\staticwebassets.pack.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\staticwebassets.build.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\staticwebassets.development.json
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\scopedcss\bundle\HatliFood.styles.css
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\scopedcss\projectbundle\HatliFood.bundle.scp.css
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CopyComplete
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\refint\HatliFood.dll
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.pdb
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\HatliFood.genruntimeconfig.cache
+G:\ITISD43\22-MVC\Project\MVC\HatliFood\obj\Debug\net7.0\ref\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.Development.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.staticwebassets.runtime.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.exe
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.deps.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.runtimeconfig.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.pdb
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Core.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Identity.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Humanizer.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Mono.TextTemplating.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Newtonsoft.Json.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Common.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Configuration.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Frameworks.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.LibraryModel.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Packaging.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.ProjectModel.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Protocol.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Versioning.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.CodeDom.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Convention.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Hosting.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Runtime.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.TypedParts.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Drawing.Common.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Memory.Data.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Runtime.Caching.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Permissions.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Windows.Extensions.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.AssemblyReference.cache
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.GeneratedMSBuildEditorConfig.editorconfig
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfoInputs.cache
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfo.cs
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CoreCompileInputs.cache
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.MvcApplicationPartsAssemblyInfo.cache
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cache
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cs
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.HatliFood.Microsoft.AspNetCore.StaticWebAssets.props
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.build.HatliFood.props
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HatliFood.props
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HatliFood.props
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.pack.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.build.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.development.json
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\bundle\HatliFood.styles.css
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\projectbundle\HatliFood.bundle.scp.css
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CopyComplete
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\refint\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.pdb
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.genruntimeconfig.cache
+H:\ITI\GitHup\ITI_Projects\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\ref\HatliFood.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.Development.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.staticwebassets.runtime.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.exe
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.deps.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.runtimeconfig.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.pdb
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Core.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Identity.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Humanizer.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Mono.TextTemplating.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\Newtonsoft.Json.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Common.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Configuration.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Frameworks.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.LibraryModel.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Packaging.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.ProjectModel.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Protocol.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Versioning.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.CodeDom.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Convention.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Hosting.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Runtime.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.TypedParts.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Drawing.Common.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Memory.Data.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Runtime.Caching.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Permissions.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Windows.Extensions.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.AssemblyReference.cache
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.GeneratedMSBuildEditorConfig.editorconfig
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfoInputs.cache
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfo.cs
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CoreCompileInputs.cache
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.MvcApplicationPartsAssemblyInfo.cache
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cache
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cs
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.HatliFood.Microsoft.AspNetCore.StaticWebAssets.props
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.build.HatliFood.props
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HatliFood.props
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HatliFood.props
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.pack.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.build.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.development.json
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\bundle\HatliFood.styles.css
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\projectbundle\HatliFood.bundle.scp.css
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CopyComplete
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\refint\HatliFood.dll
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.pdb
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.genruntimeconfig.cache
+I:\.ITI\17.NET\.mvcProject\HatliFood\HatliFood\obj\Debug\net7.0\ref\HatliFood.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.staticwebassets.runtime.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.exe
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.deps.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.runtimeconfig.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.pdb
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Humanizer.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Common.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Configuration.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Frameworks.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.LibraryModel.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Packaging.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.ProjectModel.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Protocol.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Versioning.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Convention.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Hosting.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Runtime.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.TypedParts.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.AssemblyReference.cache
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfoInputs.cache
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfo.cs
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CoreCompileInputs.cache
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cache
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cs
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.HatliFood.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.build.HatliFood.props
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HatliFood.props
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HatliFood.props
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\bundle\HatliFood.styles.css
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\projectbundle\HatliFood.bundle.scp.css
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CopyComplete
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\refint\HatliFood.dll
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.pdb
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.genruntimeconfig.cache
+C:\Users\youss\Desktop\HatliFood\HatliFood\HatliFood\obj\Debug\net7.0\ref\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.Development.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\appsettings.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.staticwebassets.runtime.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.exe
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.deps.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.runtimeconfig.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\HatliFood.pdb
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Core.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Azure.Identity.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Humanizer.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Build.Framework.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Elfie.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Features.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Razor.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DiaSymReader.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.DotNet.Scaffolding.Shared.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.NET.StringTools.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\dotnet-aspnet-codegenerator-design.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Mono.TextTemplating.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\Newtonsoft.Json.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Common.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Configuration.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.DependencyResolver.Core.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Frameworks.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.LibraryModel.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Packaging.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.ProjectModel.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Protocol.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\NuGet.Versioning.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.CodeDom.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.AttributedModel.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Convention.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Hosting.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.Runtime.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Composition.TypedParts.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Drawing.Common.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Memory.Data.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Reflection.MetadataLoadContext.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Runtime.Caching.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Security.Permissions.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\System.Windows.Extensions.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.AssemblyReference.cache
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.GeneratedMSBuildEditorConfig.editorconfig
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfoInputs.cache
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.AssemblyInfo.cs
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CoreCompileInputs.cache
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.MvcApplicationPartsAssemblyInfo.cache
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cache
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.RazorAssemblyInfo.cs
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.HatliFood.Microsoft.AspNetCore.StaticWebAssets.props
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.build.HatliFood.props
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.HatliFood.props
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.HatliFood.props
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.pack.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.build.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\staticwebassets.development.json
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\bundle\HatliFood.styles.css
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\scopedcss\projectbundle\HatliFood.bundle.scp.css
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.csproj.CopyComplete
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\refint\HatliFood.dll
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.pdb
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\HatliFood.genruntimeconfig.cache
+H:\ITI\GitHup\ITI_Projects\MVCProject\HatliFood\HatliFood\obj\Debug\net7.0\ref\HatliFood.dll

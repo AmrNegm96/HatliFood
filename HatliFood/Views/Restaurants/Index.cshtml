@@ -4,11 +4,47 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1 class="text-center mt-5 mb-5">All Resturants </h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
+   @* <p>
+        <button asp-action="Create" class="float-right btn-primary btn mx-5" style="float-right;">Create New</button>
+    </p>*@
+<div class="container">
+    
+        <div class="row d-flex flex-wrap mx-5"  style="max-width:1200px; margin-left:50px" >
+
+            @foreach (var item in Model)
+            {
+
+                 <div class="card col-md-3 col-xs-12 mb-4 " >
+                     <img src="~/Image/Resturants/@item.ImgPath" alt="image" style="width:200px ; height:200px" class="rounded-circle m-auto pt-2"/>
+
+                   <div class="card-body">
+                            <h5 class="card-title text-center py-2">@item.Name</h5>
+                        <div class="row py-4">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn-primary btn col-3 "> Edit</a> 
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn-success btn col-4 mx-2"  > Details</a> 
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn-danger btn   col-4 ">Delete</a>
+                        </div>
+
+                   </div>
+
+                 </div>
+            }
+
+           <a class="card col-md-3 col-xs-12 mb-4 btn-light mx-2" asp-action="Create">
+                <span  class="btn mx- fs-4 m-auto" style="float-right;">Create New</span>
+
+            </a>  
+
+        </div>
+           
+    
+</div>
+
+
+@*
 <table class="table">
     <thead>
         <tr>
@@ -39,4 +75,4 @@
         </tr>
 }
     </tbody>
-</table>
+</table>*@

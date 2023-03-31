@@ -112,7 +112,7 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Price,ImgPath,Name,Description,Cid")] MenuItem menuItem)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Price,ImgFile,ImgPath,Name,Description,Cid")] MenuItem menuItem)
         {
             var Menu = _context.MenuItems;
 
