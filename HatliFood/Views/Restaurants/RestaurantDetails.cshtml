@@ -1,0 +1,98 @@
+﻿@model HatliFood.Models.Restaurant
+
+@{
+    ViewData["Title"] = "RestaurantDetails";
+}
+@section Styles
+    {
+          <link href="~/css/ResturantDetails.css" rel="stylesheet" />
+    }
+
+<div class="mt-5 container">
+    <div class="row">
+        <div class = "col-sm-2">
+            <img src="~/Image/Resturants/@Model.ImgPath" alt="image" style="width:250px ; height:250px" class="rounded-circle " />
+        </div>
+
+          <div class = "col-sm mt-2 ml-5">
+            <h1 class="m-5 fw-bold "> @Html.DisplayFor(model => model.Name) </h1>
+            <h4 class="m-5 my-1 "> @Html.DisplayFor(model => model.Details) </h4>
+            <div class="mx-5">
+                 <p class="my-3 fw-bold d-inline-block"> @Html.DisplayFor(model => model.City) </p> 
+                    @{
+                        if (Model.Location != null && Model.City != null)
+                        {
+                                <span class="fs-5"> | </span>
+                        }
+                    } 
+                <p class="mt-3 fw-bold d-inline-block"> @Html.DisplayFor(model => model.Location) </p>
+            </div>
+            
+
+
+        </div>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs m-5">
+              <li class="nav-item">
+                <button class="nav-link active" aria-current="page" id="Categories">Categories</button>
+              </li>
+
+              <li class="nav-item">
+                <button class="nav-link" id="Menus">Menus</button>
+              </li>
+
+              <li class="nav-item">
+                <button class="nav-link" id="Orders">Orders</button>
+              </li>
+             
+        </ul>
+
+        <!-- View All Categories that are associated with this Resturant -->
+        <div class="Cards row Categories mx-5 my-2 ">
+            @{
+                foreach (var category in ViewBag.Categories)
+                {
+                   <div class="col-2 bg-primary-emphasis rounded-3"> 
+                        <h3>
+                            @category.Name
+                        </h3>
+                   </div> 
+                }
+            }
+        </div>
+
+        <!-- View All Menus that are associated with this Resturant -->
+         <div class="Cards row Menus mx-5 my-2 ">
+            @{
+                foreach (var menu in ViewBag.Menus)
+                {
+                    <div class="col-2 bg-primary-emphasis rounded-3"> 
+                        <h3>
+                            @menu.Name
+                         </h3>
+                    </div> 
+
+                }
+            }
+        </div>
+
+        
+       
+      
+        
+      
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+@section Scripts
+{
+        <script src="~/js/RestaurantDetails.js"></script>
+}
+
+

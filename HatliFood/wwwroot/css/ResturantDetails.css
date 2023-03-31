@@ -1,0 +1,15 @@
+﻿
+
+
+h1 {
+    color: #122f3e;
+}
+.Menus > div, .Categories > div {
+    height: 100px;
+    background: #c0dfee;
+    text-align: center;
+}
+
+    .Menus > div > h3 ,  .Categories > div > h3 {
+        line-height: 90px;
+    }

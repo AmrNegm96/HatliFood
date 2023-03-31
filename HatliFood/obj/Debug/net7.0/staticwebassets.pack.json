@@ -1,259 +1,463 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HatliFood.bundle.scp.css",
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ht\\.nuget\\packages\\bootstrap\\5.2.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HatliFood.bundle.scp.css",
       "PackagePath": "staticwebassets\\HatliFood.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\KFC.png",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Menus\\bigMAC.jpg",
+      "PackagePath": "staticwebassets\\Image\\Menus\\bigMAC.jpg"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\MenusbigMAC.jpg",
+      "PackagePath": "staticwebassets\\Image\\MenusbigMAC.jpg"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\KFC.png",
       "PackagePath": "staticwebassets\\Image\\Resturants\\KFC.png"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\Mc.jpg",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\Mc.jpg",
       "PackagePath": "staticwebassets\\Image\\Resturants\\Mc.jpg"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\css\\BuyerRestaurantMain.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\McDonald's.jpg",
+      "PackagePath": "staticwebassets\\Image\\Resturants\\McDonald's.jpg"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturants\\pizza.jpg",
+      "PackagePath": "staticwebassets\\Image\\Resturants\\pizza.jpg"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\Image\\Resturantspizza.jpg",
+      "PackagePath": "staticwebassets\\Image\\Resturantspizza.jpg"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\css\\BuyerRestaurantMain.css",
       "PackagePath": "staticwebassets\\css\\BuyerRestaurantMain.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\css\\site.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\css\\ResturantDetails.css",
+      "PackagePath": "staticwebassets\\css\\ResturantDetails.css"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\favicon.ico",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\js\\site.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\js\\RestaurantDetails.js",
+      "PackagePath": "staticwebassets\\js\\RestaurantDetails.js"
+    },
+    {
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\youss\\Desktop\\HatliFood\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "H:\\ITI\\GitHup\\ITI_Projects\\MVCProject\\HatliFood\\HatliFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
