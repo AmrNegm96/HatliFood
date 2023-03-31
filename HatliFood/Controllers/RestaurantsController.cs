@@ -71,7 +71,7 @@ namespace HatliFood.Controllers
 
                 restaurant.ImgPath = fileName + extension;
 
-                string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
+                string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
 
                 using (var filestream = new FileStream(path, FileMode.Create))
                 {
@@ -130,9 +130,9 @@ namespace HatliFood.Controllers
                     var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
                     string oldPath = oldData?.ImgPath;
 
-                    if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants/" + oldPath))
+                    if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
                     {
-                        System.IO.File.Delete(wwwRootPath + "/Image/Resturants/" + oldPath);
+                        System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
                     }
 
                     string fileName = Path.GetFileNameWithoutExtension(_restaurant.ImgFile.FileName);
@@ -140,7 +140,7 @@ namespace HatliFood.Controllers
 
                     _restaurant.ImgPath = fileName + extension;
 
-                    string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
+                    string path = Path.Combine(wwwRootPath + "/Image/Resturants" + fileName + extension);
 
                     using (var filestream = new FileStream(path, FileMode.Create))
                     {
@@ -202,9 +202,9 @@ namespace HatliFood.Controllers
             var oldData = _context.Restaurant.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
             string oldPath = oldData?.ImgPath;
 
-            if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants/" + oldPath))
+            if (System.IO.File.Exists(wwwRootPath + "/Image/Resturants" + oldPath))
             {
-                System.IO.File.Delete(wwwRootPath + "/Image/Resturants/" + oldPath);
+                System.IO.File.Delete(wwwRootPath + "/Image/Resturants" + oldPath);
             }
 
             await _context.SaveChangesAsync();
@@ -252,7 +252,38 @@ namespace HatliFood.Controllers
             return _context.Restaurant != null ?
                         View(await _context.Restaurant.ToListAsync()) :
                         Problem("Error Happened while loading List of resturants");
-        } 
+        }
+
+        // GET: Restaurants/Details/5
+        public async Task<IActionResult> ViewRestaurantDetails(int? id)
+        {
+            if (id == null || _context.Restaurant == null)
+            {
+                return NotFound();
+            }
+            
+            var restaurant = await _context.Restaurant.FirstOrDefaultAsync(m => m.Id == id);
+
+            if (restaurant == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                List<Category> categories = _context.Categorys.Where(c=>c.Rid == restaurant.Id).ToList();
+                Dictionary<int , List<MenuItem> > ItemsInCategories = new Dictionary<int , List<MenuItem>>();
+               
+                foreach(var category in categories)
+                {
+                    List<MenuItem> menuItems = _context.MenuItems.Where(i => i.Cid == category.Id).ToList();
+                    ItemsInCategories.Add(category.Id, menuItems);
+                }
+                ViewBag.Categories = categories;
+                ViewBag.ItemsInCategories = ItemsInCategories;
+            }
+
+            return View(restaurant);
+        }
         #endregion
     }
 }
