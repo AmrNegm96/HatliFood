@@ -18,6 +18,11 @@ namespace HatliFood.Controllers
             return View();
         }
 
+        public IActionResult AdminHome()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
