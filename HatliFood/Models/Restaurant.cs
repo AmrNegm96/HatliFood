@@ -13,6 +13,8 @@ namespace HatliFood.Models
 
         [Required]
         public string Name { get; set; }
+        [DataType(DataType.EmailAddress)]
+        public string Email { get; set; }
 
         public string? Details { get; set; }
 
@@ -21,10 +23,10 @@ namespace HatliFood.Models
         public string? City { get; set; }
 
         [Required]
-        public string? ImgPath { get; set; }
+        public string ImgPath { get; set; }
 
         [NotMapped]
-        public IFormFile ImgFile { get; set; }
+        public IFormFile ImgFile { get; set; } 
 
         public virtual ICollection<Category> Categories { get; } = new List<Category>();
 

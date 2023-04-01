@@ -8,7 +8,7 @@
 <br />
 <div class="row m-3">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group row">
@@ -17,6 +17,16 @@
                     <input asp-for="Name" class="form-control" />
                 </div>
                 <span asp-validation-for="Name" class="text-danger"></span>
+
+            </div> 
+            <br />
+
+            <div class="form-group row">
+                <label asp-for="Email" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Email" class="form-control" />
+                </div>
+                <span asp-validation-for="Email" class="text-danger"></span>
 
             </div>
             <br />
@@ -49,10 +59,9 @@
             </div>
             <br />
             <div class="form-group row">
-
                 <label asp-for="ImgFile" class="col-sm-2 col-form-label"></label>
                 <div class="col-sm-10">
-                    <input asp-for="ImgFile" class="form-control" type="file" id="formFile" accept="image/*" />
+                    <input asp-for="ImgFile" class="form-control" type="file" accept="image/*" />
                 </div>
                 <span asp-validation-for="ImgFile" class="text-danger"></span>
             </div>
@@ -63,16 +72,15 @@
 
             </div>
 
-            
+            <div class="form-group row">
+                <input asp-for="ImgPath" class="form-control" type="hidden" value="jdjdj" />
+            </div>
 
         </form>
     </div>
 
 </div>
 
-@*//--------------------------------------
-
-*@
 
 
 
