@@ -50,14 +50,16 @@ namespace HatliFood.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddCookie(int id, string name, decimal price, int quantity)
+        public IActionResult AddCookie(int id, string name, decimal price, int quantity , int restaurantId)
         {
             CookieOptions options = new CookieOptions();
             options.Expires = DateTime.Now.AddDays(1);
             options.HttpOnly = true;
             options.Secure = true; // Only send the cookie over HTTPS
 
-            Response.Cookies.Append("HatliFood-" + id, JsonSerializer.Serialize(new { Id = id, Name = name, Price = price, Quantity = quantity }), options);
+            Response.Cookies.Append("HatliFood-" + id, 
+                JsonSerializer.Serialize(new { Id = id, Name = name, Price = price, 
+                    Quantity = quantity , RestaurantId = restaurantId }), options);
 
             return Json(new { success = true });
         }
@@ -68,6 +70,7 @@ namespace HatliFood.Controllers
             public int Id { get; set; }
             public decimal Price { get; set; }
             public int Quantity { get; set; }
+            public int RestaurantId { get; set; }
         }
     }
 

@@ -43,7 +43,7 @@
                         }
                         else
                         {
-                            <button class="myButton btn btn-success w-25" itemId="@item.Id" itemName="@item.Name" itemPrice="@item.Price"> Add to Cart</button>
+                            <button class="myButton btn btn-success w-25" itemId="@item.Id" itemName="@item.Name" itemPrice="@item.Price" restId="@Model.Id"> Add to Cart</button>
                         }
                         @*<a class="btn btn-success w-25" asp-action="AddCookie" asp-controller="Carts" asp-route-id="@item.Id" asp-route-name="@item.Name" asp-route-price="@item.Price">Add to cart</a>*@
                         @*<button class="btn btn-success w-25" onclick="AddItemToCart(@item.Id , '@item.Name' , @item.Price , '@item.ImgPath' , '@item.Description')">Add to cart</button>*@
@@ -61,14 +61,16 @@
                 var name = $(this).attr('itemName');
                 var price = $(this).attr('itemPrice');
                 var quantity = $('#quantity_' + id).val();
+                var restaurantId = $(this).attr('restId');
                 $.ajax({
                     type: 'POST',
                     url: '@Url.Action("AddCookie", "Carts")',
                     data: {
-                        id: id,
-                        name: name,
-                        price: price,
-                        quantity: quantity
+                        id : id,
+                        name : name,
+                        price : price,
+                        quantity : quantity,
+                        restaurantId : restaurantId
                     },
                     success: function (result) {
                         // Handle the result of the action here

@@ -25,8 +25,21 @@
                 </div>
             </div>
         }
-        <a class="card col-md-12 col-xs-12 mb-4 btn-light mx-2 text-decoration-none" asp-action="CheckOut" asp-controller="Carts" style="box-shadow: 1px 2px 5px #59889a;">
-            <span class="btn mx- fs-4 m-auto" style="float-right;">Place order</span>
+
+        <div class="container">
+            <div class="row">
+                <div class="card col-md-6 col-xs-12 mb-4 btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
+                    <h3>profile</h3>
+
+                </div>
+                <div class="card col-md-5 offset-1 col-xs-12 mb-4 btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
+                    <h3>payment method</h3>
+                </div>
+            </div>
+            
+        </div>
+        <a class="card col-md-6 m-auto col-xs-12 mb-4 btn-light mx-2 text-decoration-none bg-danger" asp-action="PlaceOrder" asp-controller="Orders" style="box-shadow: 1px 2px 5px #59889a;">
+            <span class="btn  fs-4 m-auto">Place order</span>
         </a>
     </div>
 </div>
