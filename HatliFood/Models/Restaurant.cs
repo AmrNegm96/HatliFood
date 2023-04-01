@@ -7,7 +7,7 @@ namespace HatliFood.Models
     public partial class Restaurant
     {
         [Key]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
         [Required]
         public string Name { get; set; }
