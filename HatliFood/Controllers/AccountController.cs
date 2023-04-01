@@ -47,7 +47,25 @@ namespace HatliFood.Controllers
                     var result = await _signInManager.PasswordSignInAsync(user, loginVM.Password, false, false);
                     if(result.Succeeded)
                     {
-                        return RedirectToAction("AllRestaurants", "Restaurants");
+                        if (await _userManager.IsInRoleAsync(user, "Admin"))
+                        {
+                            return RedirectToAction("AdminHome", "Home");
+                        }
+
+                        if (await _userManager.IsInRoleAsync(user, "User"))
+                        {
+                            return RedirectToAction("AllRestaurants", "Restaurants");
+                        }
+                        if (await _userManager.IsInRoleAsync(user, "Delivery"))
+                        {
+                            return RedirectToAction("Index", "OrdersDel");
+                        }
+                        if (await _userManager.IsInRoleAsync(user, "Kitchen"))
+                        {
+                            return RedirectToAction("Index", "OrdersDel");
+                        }
+
+
                     }
                 }
                 TempData["Error"] = "Wrong crendentials ,  try again!";
@@ -56,8 +74,14 @@ namespace HatliFood.Controllers
             TempData["Error"] = "Wrong crendentials ,  try again!";
             return View(loginVM);
         }
-    
-    
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("AllRestaurants", "Restaurants");
+        }
+
+
         public IActionResult Register()
         {
             var response = new RegisterVM();
@@ -121,10 +145,10 @@ namespace HatliFood.Controllers
             return View("RegisterCompleted");
         }
 
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction("AllRestaurants", "Restaurants");
-        }
+        //public async Task<IActionResult> Logout()
+        //{
+        //    await _signInManager.SignOutAsync();
+        //    return RedirectToAction("AllRestaurants", "Restaurants");
+        //}
     }
 }

@@ -27,6 +27,7 @@ namespace HatliFood
             .AddDefaultTokenProviders();
             builder.Services.AddScoped<RoleManager<IdentityRole>>();
 
+
             //Authentication & authorization
             //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -49,6 +50,7 @@ namespace HatliFood
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

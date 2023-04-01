@@ -1,0 +1,63 @@
+﻿@model IEnumerable<HatliFood.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div>
+    <a asp-action="MyOrders" class="btn btn-success">My Orders</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderState)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Buyer.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Restaurant.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Buyer.Addresses)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderState)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Buyer.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Restaurant.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Restaurant.Location)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Buyer.Addresses)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Accept Order</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -54,7 +54,7 @@ namespace HatliFood.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddCookie(int id, string name, decimal price, int quantity , int restaurantId)
+        public IActionResult AddCookie(int id, string name, decimal price, int quantity , string restaurantId)
         {
             CookieOptions options = new CookieOptions();
             options.Expires = DateTime.Now.AddDays(1);
@@ -74,7 +74,7 @@ namespace HatliFood.Controllers
             public int Id { get; set; }
             public decimal Price { get; set; }
             public int Quantity { get; set; }
-            public int RestaurantId { get; set; }
+            public string RestaurantId { get; set; }
         }
     }
 

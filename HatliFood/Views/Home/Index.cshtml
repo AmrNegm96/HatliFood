@@ -1,8 +1,123 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Hatlifood";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+<!-- start Header -->
+<div class="header">
+    <div class="overloay"></div>
+<div class="header-container">
+
+
+    <div class="search-container">
+        <h1 class="text-light d-block"> Discover & Order the food you love. </h1>
+       
+          <div class="input-group w-50 mt-4">
+              <input type="text" class="form-control" >
+              <span class="input-group-text btnSearchIcon">
+                  <i class="bi bi-search"></i>
+              </span>
+              
+          </div>
+       
+    </div>
+
+
+
+    </div>
 </div>
+<!-- end Header -->
+
+
+<!-- start Resturants -->
+<div class="Resturants">
+    <h3 class=" box-shadow mb-5 px-4"> Resturants (@ViewBag.ResturantsCount) </h3>
+
+    <div class="row d-flex flex-wrap mx-4 mb-5 ">
+        @{
+            if (@ViewBag.ResturantsCount>0)
+            {
+            
+            
+            foreach (var item in ViewBag.Resturants)
+            {
+                <div class="col-md-2 col-sm-12">
+                            <div class="justiy-content-center align-items-center d-flex flex-column">
+
+                     <img src="~/Image/Resturants/@item.ImgPath" class="rounded-circle mb-2" style="width:100px;height:100px">
+                      <p class=""> @item.Name</p>
+                      </div>
+                </div>
+            }
+             }else
+                {
+                    <div class="alert" > No Resturant  </div>
+                }
+        }
+      </div>
+   
+</div>
+
+<!-- end Resturants -->
+
+
+
+
+<!-- start MenuItems -->
+<div class="MenuItems mb-5">
+    <h3 class=" box-shadow mb-5 px-5"> Menus (@ViewBag.MenuItemsCount) </h3>
+
+    <div class="row d-flex flex-wrap mx-3">
+            
+        @{if(@ViewBag.MenuItemsCount > 0){
+            @foreach (var item in ViewBag.MenuItems)
+            {
+                <div class="card col-3 mx-1 p-0 itemDetailsCard" style="width:23%" id="itemDetailsCard">
+
+                        <div class="Menu-overloay"></div>
+                        <img src="~/Image/Menus/@item.ImgPath" class="card-img-top m-auto menu-item-img" style="width:100%;height:150px">
+                      
+                          <!-- Display Item Details-->
+                           <div class="ItemDetailsBody position-absolute">
+                               <p class="card-title px-1">@item.Name</p>
+                               <p class="card-title px-1">@item.Price</p>
+
+                          </div>
+                          <!-- end Display Item Details-->
+
+                      
+                      
+                          <div class="px-4 py-3">
+
+                              <div class="d-flex" >
+                                <!-- image of resturant -->
+                                <img src="~/Image/Resturants/@item.CidNavigation.RidNavigation.ImgPath" class="card-img-top rounded-circle" style="width:30px;height:30px">
+                        
+                                <p class="card-title px-1">@item.CidNavigation.RidNavigation.Name</p>
+
+                              </div>
+                              <p class="card-title ">Category: @item.CidNavigation.Name</p>
+                      
+                      
+                              <div class="row my-4  item-buttons">
+                                    <a asp-action="Details" asp-controller="MenuItems" asp-route-id="@item.Id" class="btn btn-secondary col-md col-sm-12 mx-2"> View Details</a>
+                                    <button click="Check" class="btn btn-order col-md col-sm-12">Order Now </button>
+                              </div>
+
+                            </div>
+                        
+                </div>
+            }
+      
+            }
+            else{
+                <div class="alert" > No Menu Items </div>
+            }
+            }
+        </div>
+
+</div>
+
+
+

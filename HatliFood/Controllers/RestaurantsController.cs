@@ -31,7 +31,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: Restaurants/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string? id)
         {
             if (id == null || _context.Restaurant == null)
             {
@@ -106,7 +106,7 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
         {
             var Restu = _context.Restaurant;
 
@@ -167,7 +167,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: Restaurants/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string? id)
         {
             if (id == null || _context.Restaurant == null)
             {
@@ -187,7 +187,7 @@ namespace HatliFood.Controllers
         // POST: Restaurants/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
             string wwwRootPath = _hosting.WebRootPath;
             if (_context.Restaurant == null)
@@ -211,7 +211,7 @@ namespace HatliFood.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool RestaurantExists(int id)
+        private bool RestaurantExists(string id)
         {
             return (_context.Restaurant?.Any(e => e.Id == id)).GetValueOrDefault();
         }
@@ -220,7 +220,7 @@ namespace HatliFood.Controllers
 
         // [Authorize('Restaurant')]
         #region Resturant Actor [View Restaurant Details] 
-        public async Task<IActionResult> RestaurantDetails(int? id)
+        public async Task<IActionResult> RestaurantDetails(string? id)
         {
             if (id == null || _context.Restaurant == null)
             {
@@ -267,7 +267,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: Restaurants/Details/5
-        public async Task<IActionResult> ViewRestaurantMenu(int? id)
+        public async Task<IActionResult> ViewRestaurantMenu(string? id)
         {
             if (id == null || _context.Restaurant == null)
             {

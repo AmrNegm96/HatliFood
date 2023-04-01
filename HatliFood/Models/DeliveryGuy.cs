@@ -9,13 +9,14 @@ namespace HatliFood.Models
     public partial class DeliveryGuy : IPerson
     {
         [ForeignKey(nameof(User)), Key]
-        public string UserId { get; set; }
-        public IdentityUser User { get; set; }
+        public string? UserId { get; set; }
+        public IdentityUser? User { get; set; }
 
         [Required]
         public string Name { get; set; }
 
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
+
 
         public virtual ICollection<Order>? DOrders { get; set; } = new HashSet<Order>();
     }
