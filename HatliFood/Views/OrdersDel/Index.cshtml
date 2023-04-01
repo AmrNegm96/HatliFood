@@ -4,11 +4,11 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div>
+    <a asp-action="MyOrders" class="btn btn-success">My Orders</a>
+</div>
+
 <table class="table">
     <thead>
         <tr>
@@ -19,13 +19,16 @@
                 @Html.DisplayNameFor(model => model.OrderState)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Buyer)
+                @Html.DisplayNameFor(model => model.Buyer.FirstName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DeliveryGuyUser)
+                @Html.DisplayNameFor(model => model.Restaurant.Name)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Restaurant)
+                @Html.DisplayNameFor(model => model.Restaurant.Location)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Buyer.Addresses)
             </th>
             <th></th>
         </tr>
@@ -40,18 +43,19 @@
                 @Html.DisplayFor(modelItem => item.OrderState)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Buyer.UserId)
+                @Html.DisplayFor(modelItem => item.Buyer.FirstName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DeliveryGuyUser.UserId)
+                @Html.DisplayFor(modelItem => item.Restaurant.Name)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Restaurant.ImgPath)
+                @Html.DisplayFor(modelItem => item.Restaurant.Location)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                @Html.DisplayFor(modelItem => item.Buyer.Addresses)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Accept Order</a> 
             </td>
         </tr>
 }

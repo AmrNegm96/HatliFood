@@ -27,6 +27,7 @@ namespace HatliFood
             .AddDefaultTokenProviders();
             builder.Services.AddScoped<RoleManager<IdentityRole>>();
 
+
             //Authentication & authorization
             //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 
