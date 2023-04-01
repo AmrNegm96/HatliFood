@@ -1,3 +1,5 @@
+
+
 html {
   font-size: 14px;
 }
@@ -19,4 +21,98 @@ html {
 
 body {
   margin-bottom: 60px;
+  padding:0;
+}
+
+
+.Register-link, .btnSearch, .btn-order {
+    background: #FF9E00 !important;
+    color: white;
+    border-radius: 5px;
+}
+
+.btnSearch, .btnSearchIcon, .btn-order {
+    background: #ff7800 !important
+}
+
+.header-container {
+    height: 100vh !important;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-image: url("../Image/HomePage/Resturant.jpg");
+}
+
+.overloay {
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+
+.search-container {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 80%;
+    text-align:center;
+    flex-direction:column;    
+}
+
+.box-shadow{
+    box-shadow : 1px 2px 5px #6a6e74;
+    padding:15px;
+    margin: 10px 0px;
+}
+
+    .box-shadow:first-of-type{
+        margin-top:0px;
+    }
+
+.item-buttons .btn{
+    font-size:12px!important;
+}
+
+.itemDetailsCard {
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-top-left-radius:5px;
+
+   
+}
+
+.Menu-overloay {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 48%;
+    position: absolute;
+    top: 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.ItemDetailsBody {
+    top: 90px !important;
+    font-weight: bold;
+    color: white;
+    padding:5px;
+    opacity: 0;
+    transition: all 1.5s;
+}
+
+.itemDetailsCard:hover .ItemDetailsBody, .itemDetailsCard:hover .Menu-overloay {
+    opacity: 1;
+}
+
+
+@media (max-width:991px) {
+    .header-container {
+        height: 50vh !important;
+    }
 }
