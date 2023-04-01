@@ -7,7 +7,7 @@ namespace HatliFood.Models
     public partial class Address
     {
         [Key]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public string City { get; set; }
 
@@ -25,6 +25,6 @@ namespace HatliFood.Models
 
         [ForeignKey("BuyerID")]
         [InverseProperty("Addresses")]
-        public virtual Buyer Buyer { get; set; }
+        public virtual Buyer? Buyer { get; set; }
     }
 }
