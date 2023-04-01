@@ -4,35 +4,77 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
-
-<h4>Restaurant</h4>
-<hr />
+<h1>Add New Resturant</h1>
+<br />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Id" class="control-label"></label>
-                <input asp-for="Id" class="form-control" />
-                <span asp-validation-for="Id" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
+
+            <div class="form-group row">
+                <label asp-for="Name" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Name" class="form-control" />
+                </div>
                 <span asp-validation-for="Name" class="text-danger"></span>
+
             </div>
             <br />
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+
+            <div class="form-group row">
+                <label asp-for="City" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="City" class="form-control" />
+                </div>
+                <span asp-validation-for="City" class="text-danger"></span>
             </div>
+            <br />
+            <div class="form-group row">
+                <label asp-for="Details" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Details" class="form-control" />
+                </div>
+                <span asp-validation-for="Details" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group row">
+                <label asp-for="Location" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="Location" class="form-control" />
+                </div>
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group row">
+                <input asp-for="ImgPath" class="form-control" type="hidden" value="jdjdj" />
+            </div>
+            <br />
+            <div class="form-group row">
+
+                <label asp-for="ImgFile" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input asp-for="ImgFile" class="form-control" type="file" id="formFile" accept="image/*" />
+                </div>
+                <span asp-validation-for="ImgFile" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group row">
+                <input type="submit" value="Add" class="btn btn-primary col-sm-3 m-2" />
+                <a asp-action="Index" type="button" class="btn btn-secondary col-sm-3  m-2">Back to List</a>
+
+            </div>
+
+            
+
         </form>
     </div>
+
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+@*//--------------------------------------
+
+*@
+
+
 
 @section Scripts {
     @{

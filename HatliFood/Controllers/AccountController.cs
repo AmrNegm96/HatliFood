@@ -105,6 +105,15 @@ namespace HatliFood.Controllers
 
             if(newUserResponse.Succeeded)
             {
+                if (!await _roleManager.RoleExistsAsync(UserRoles.Admin))
+                    await _roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
+                if (!await _roleManager.RoleExistsAsync(UserRoles.User))
+                    await _roleManager.CreateAsync(new IdentityRole(UserRoles.User));
+                if (!await _roleManager.RoleExistsAsync(UserRoles.Kitchen))
+                    await _roleManager.CreateAsync(new IdentityRole(UserRoles.Kitchen));
+                if (!await _roleManager.RoleExistsAsync(UserRoles.Delivery))
+                    await _roleManager.CreateAsync(new IdentityRole(UserRoles.Delivery));
+
                 /////Error
                 var roleExists = await _roleManager.RoleExistsAsync(UserRoles.User);
                 if (!roleExists)
@@ -126,6 +135,12 @@ namespace HatliFood.Controllers
             }
 
             return View("RegisterCompleted");
+        }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("AllRestaurants", "Restaurants");
         }
     }
 }
