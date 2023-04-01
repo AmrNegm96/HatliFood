@@ -25,21 +25,14 @@ else
                 aria-expanded="false">
             <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User)
         </button>
-        <a class="btn btn-outline-success dropdown-toggle" asp-controller="Carts" asp-action="Index">
+        <a class="btn btn-outline-success" asp-controller="Orders" asp-action="Index" asp-route-id="@UserManager.GetUserId(User)">
+            <i class="bi bi-list"></i> My Orders
+        </a>
+        <a class="btn btn-outline-success" asp-controller="Carts" asp-action="Index">
             <i class="bi bi-list"></i> Cart
         </a>
 
-        @*<ul class="dropdown-menu" aria-labelledby="profile-btn">
-           if (User.IsInRole("Admin"))
-            {
-                <li>
-                    <a class="dropdown-item" asp-controller="" asp-action="">
-                        <i class="bi bi-people"></i> Users
-                    </a>
-                </li>
-            }
-
-        </ul>*@
+       
 
     </div>
     <span style="padding: 5px;"></span>
@@ -49,3 +42,6 @@ else
         </button>
     </form>
 }
+
+
+

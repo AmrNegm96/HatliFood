@@ -141,6 +141,7 @@ namespace HatliFood.Controllers
             var category = await _context.Categorys
                 .Include(c => c.RidNavigation)
                 .FirstOrDefaultAsync(m => m.Id == id);
+
             if (category == null)
             {
                 return NotFound();

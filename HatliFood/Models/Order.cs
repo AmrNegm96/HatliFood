@@ -20,20 +20,19 @@ namespace HatliFood.Models
         [InverseProperty("Orders")]
         public virtual Buyer Buyer { get; set; }
 
-        [Column("deliveryGuyUserId")]
-        public string DeliveryGuyUserId { get; set; }
+        [Column("deliveryGuyId")]
+        public string? DeliveryGuyUserId { get; set; }
         [ForeignKey("DeliveryGuyUserId")]
-        [InverseProperty("Orders")]
-        public virtual DeliveryGuy DeliveryGuyUser { get; set; }
+        [InverseProperty("DOrders")]
+        public virtual DeliveryGuy? DeliveryGuyUser { get; set; }
  
 
         [Column("restaurantId")]
         public int RestaurantId { get; set; }
         [ForeignKey("RestaurantId")]
-        [InverseProperty("Orders")]
+        [InverseProperty("ROrders")]
         public virtual Restaurant Restaurant { get; set; }
 
-        [InverseProperty("Order")]
-        public virtual ICollection<OrderItem> OrderItems { get; } = new List<OrderItem>();
+        public virtual ICollection<OrderItem> OOrderItems { get; set; } = new HashSet<OrderItem>();
     }
 }

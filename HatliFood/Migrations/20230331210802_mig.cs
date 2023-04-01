@@ -5,7 +5,7 @@
 namespace HatliFood.Migrations
 {
     /// <inheritdoc />
-    public partial class firstMig : Migration
+    public partial class mig : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

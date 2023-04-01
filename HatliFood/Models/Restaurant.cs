@@ -26,6 +26,6 @@ namespace HatliFood.Models
 
         public virtual ICollection<Category> Categories { get; } = new List<Category>();
 
-        public virtual ICollection<Order> Orders { get; } = new List<Order>();
+        public virtual ICollection<Order> ROrders { get; } = new List<Order>();
     }
 }
