@@ -19,7 +19,7 @@ namespace HatliFood.Controllers
 
         public UserManager<IdentityUser> _userManager;
 
-        public OrdersController(ApplicationDbContext context , UserManager<IdentityUser> userManager)
+        public OrdersController(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
             _context = context;
             _userManager = userManager;
@@ -75,7 +75,7 @@ namespace HatliFood.Controllers
                 }
             }
 
-            if (orderItems.Count() == 0 )
+            if (orderItems.Count() == 0)
             {
                 return NotFound();
             }
@@ -85,14 +85,14 @@ namespace HatliFood.Controllers
             {
                 BuyerId = id,
                 OrderDate = DateTime.Now,
-                OrderState = 0,
+                OrderState = OrderStatus.Pending,
                 RestaurantId = orderItems[0].RestaurantId
             };
             _context.Orders.Add(newOrder);
             _context.SaveChanges();
 
             int orderID = _context.Orders.Where(o => o.BuyerId == id).OrderByDescending(o => o.OrderDate).Select(o => o.Id).FirstOrDefault();
-            foreach(var orderItem in orderItems)
+            foreach (var orderItem in orderItems)
             {
                 OrderItem item = new OrderItem()
                 {
