@@ -27,70 +27,70 @@
             </div>
         }
 
+    </div>
 
-        @{
-            CartProperties item0 = JsonSerializer.Deserialize<CartProperties>(allcookies[0]);
-            <a class="btn btn-danger w-50 mb-3 mx-auto" asp-action="ViewRestaurantMenu" asp-controller="Restaurants" asp-route-id="@item0.RestaurantId">Add another items to your cart</a>
-
-        }
-
-        <div class="container mb-5">
-            <div class="row">
-                <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
-                    <h6 class="py-2">@UserInfo.FirstName.ToUpperInvariant() @UserInfo.LastName.ToUpper()</h6>
-                    
-                    @*phone number*@
-                </div>
-                <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
-                    <h5 class ="py-2">Payment method</h5>
-
-
-                    @{
-                        decimal subTotal = 0.00m;
-                        const decimal deliveryFee = 20.00m;
-
-
-                        @foreach (var cookie in allcookies)
-                        {
-                            var itemx = JsonSerializer.Deserialize<CartProperties>(cookie);
-
-                            subTotal += itemx.Quantity * itemx.Price;
-
-                        }
-                        decimal tax = (subTotal + deliveryFee) * 0.14m;
-                        decimal orderTotal   =   (subTotal + deliveryFee)*1.14m;
-
-                        <div class="d-flex justify-content-between">
-                            <h5 class="">Subtotal</h5>
-                            <h5 class="">@subTotal <span style="color:lightgray;font-size:1rem">EGP</span></h5>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h5 class="">Delivery Fees</h5>
-                            <h5 class="">@deliveryFee <span style="color:lightgray;font-size:1rem">EGP</span></h5>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h5 class="">Tax <span style="color:lightgray;font-size:1rem">14%</span></h5>
-                            <h5 class=""> @tax<span style="color:lightgray;font-size:1rem">EGP</span></h5>
-                        </div>
-                        <div class="d-flex justify-content-between">
-                            <h5 class="">Order total </h5>
-                            <h5 class=""> @orderTotal <span style="color:lightgray;font-size:1rem">EGP</span></h5>
-                        </div>
-                    }
-                    <form method="post">
-                        <div class="col-12">
-                            <input type="radio" name="PaymentMethod" value="cash" /> <span>Cash on delivery</span>
-                        </div>
-                        <div class="col-12">
-                            <input type="radio" name="PaymentMethod" value="Paypal" /> <span>Paypal</span>
-                        </div>
-                        <input type="submit" value="Place Order" class="btn btn-danger w-100 my-3" asp-action="PlaceOrder" asp-controller="Orders">
-                    </form>
-                </div>
-            </div>
-            
+    @{
+        CartProperties item0 = JsonSerializer.Deserialize<CartProperties>(allcookies[0]);
+        <div class="mb-3 m-auto text-center w-50">
+        <a class="btn btn-danger" asp-action="ViewRestaurantMenu" asp-controller="Restaurants" asp-route-id="@item0.RestaurantId">Add another items to your cart</a>
         </div>
-        
+    }
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
+                <h6 class="py-2">@UserInfo.FirstName.ToUpperInvariant() @UserInfo.LastName.ToUpper()</h6>
+                @*@Html.DropDownList("custID", null, htmlAttributes: new { @class = "form-control" }) address*@
+                @*phone number*@
+            </div>
+            <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
+                <h5 class="py-2">Payment method</h5>
+
+
+                @{
+                    decimal subTotal = 0.00m;
+                    const decimal deliveryFee = 20.00m;
+
+
+                    @foreach (var cookie in allcookies)
+                    {
+                        var itemx = JsonSerializer.Deserialize<CartProperties>(cookie);
+
+                        subTotal += itemx.Quantity * itemx.Price;
+
+                    }
+                    decimal tax = (subTotal + deliveryFee) * 0.14m;
+                    decimal orderTotal = (subTotal + deliveryFee) * 1.14m;
+
+                    <div class="d-flex justify-content-between">
+                        <h5 class="">Subtotal</h5>
+                        <h5 class="">@subTotal <span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="">Delivery Fees</h5>
+                        <h5 class="">@deliveryFee <span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="">Tax <span style="color:lightgray;font-size:1rem">14%</span></h5>
+                        <h5 class=""> @tax<span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h5 class="">Order total </h5>
+                        <h5 class=""> @orderTotal <span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                    </div>
+                }
+                <form method="post">
+                    <div class="col-12">
+                        <input type="radio" name="PaymentMethod" value="cash" /> <span>Cash on delivery</span>
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" name="PaymentMethod" value="Paypal" /> <span>Paypal</span>
+                    </div>
+                    <input type="submit" value="Place Order" class="btn btn-danger w-100 my-3" asp-action="PlaceOrder" asp-controller="Orders">
+                </form>
+            </div>
+        </div>
+
     </div>
 </div>
 
