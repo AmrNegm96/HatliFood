@@ -19,7 +19,7 @@ namespace HatliFood.Models
         public string? City { get; set; }
 
         [Required]
-        public string ImgPath { get; set; }
+        public string? ImgPath { get; set; }
 
         [NotMapped]
         public IFormFile ImgFile { get; set; }
