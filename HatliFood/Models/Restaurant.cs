@@ -1,13 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Identity;
 
 namespace HatliFood.Models
 {
     [Table("Restaurant")]
     public partial class Restaurant
     {
-        [Key]
-        public int Id { get; set; }
+        [ForeignKey(nameof(User)), Key]
+        public string Id { get; set; }
+        public IdentityUser User { get; set; }
 
         [Required]
         public string Name { get; set; }
