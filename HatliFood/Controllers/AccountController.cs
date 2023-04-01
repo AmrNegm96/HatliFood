@@ -56,6 +56,10 @@ namespace HatliFood.Controllers
                         {
                             return RedirectToAction("AllRestaurants", "Restaurants");
                         }
+                        if (await _userManager.IsInRoleAsync(user, "Delivery"))
+                        {
+                            return RedirectToAction("Index", "OrdersDel");
+                        }
 
 
                     }
@@ -137,10 +141,10 @@ namespace HatliFood.Controllers
             return View("RegisterCompleted");
         }
 
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction("AllRestaurants", "Restaurants");
-        }
+        //public async Task<IActionResult> Logout()
+        //{
+        //    await _signInManager.SignOutAsync();
+        //    return RedirectToAction("AllRestaurants", "Restaurants");
+        //}
     }
 }
