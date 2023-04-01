@@ -22,7 +22,9 @@ namespace HatliFood.Controllers
         // GET: OrdersDel
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Orders.Include(o => o.Buyer).Include(o => o.DeliveryGuyUser).Include(o => o.Restaurant).Where(or=>or.OrderState==OrderStatus.Pending);
+            var applicationDbContext = _context.Orders.Include(o => o.Buyer).Include(o => o.DeliveryGuyUser).Include(o => o.Restaurant).Where(or=>or.OrderState==OrderStatus.Pending
+            
+            );
             return View(await applicationDbContext.ToListAsync());
         }
 
