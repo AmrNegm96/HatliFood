@@ -4,11 +4,9 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h3 class="m-4">Edit Restaurant</h3>
 
-<h4>Restaurant</h4>
-<hr />
-<div class="row">
+<div class="row m-3">
     <div class="col-md-4">
         <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -60,8 +58,8 @@
             </div>
             <br />
             <div class="form-group row">
-                <input type="submit" value="Add" class="btn btn-primary col-sm-3 m-2" />
-                <a asp-action="Index" type="button" class="btn btn-secondary col-sm-3  m-2">Back to List</a>
+                <input type="submit" value="Add" class="btn btn-primary col-sm-4 m-2" />
+                <a asp-action="Index" type="button" class="btn btn-secondary col-sm-4 m-2">Back to List</a>
 
             </div>
         </form>
