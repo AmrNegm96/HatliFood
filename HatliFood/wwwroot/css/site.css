@@ -110,9 +110,19 @@ body {
     opacity: 1;
 }
 
+.alert {
+    background: #ffcc9f!important;
+    color:#333!important;
+}
+
+.btn-danger, .bg-danger {
+    background: #ff7800!important;
+    color:#333!important;
+}
 
 @media (max-width:991px) {
     .header-container {
         height: 50vh !important;
     }
 }
+

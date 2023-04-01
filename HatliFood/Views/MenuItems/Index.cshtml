@@ -15,10 +15,10 @@
         {
             <span> All Menus </span>
 
-        }   
+        }
     }
-  
-    
+
+
 
 </h2>
 
@@ -30,9 +30,10 @@
 
 <div class="container">
 
-        <div class="row d-flex flex-wrap mx-5"  style="margin-left:50px" >
-
-        @foreach (var item in Model)
+    <div class="row d-flex flex-wrap mx-5"  style="margin-left:50px" >
+        @if (Model.Count() > 0)
+        {
+            @foreach (var item in Model)
         {
 
                          <div class="card col-md-4 col-xs-12 mb-4 mx-1" style="width:31%; box-shadow: 1px 2px 5px #59889a;">
@@ -55,7 +56,19 @@
             <a class="card col-md-3 col-xs-12 mb-4 btn-light mx-2 text-decoration-none" asp-action="Create" style="width:31%; box-shadow: 1px 2px 5px #59889a; height:240px;">
                 <span  class="btn mx- fs-4 m-auto" style="float-right;">Create New</span>
 
-            </a>  
+            </a> 
+        }
+        else
+        {
+             <div class="alert text-center fs-3" > 
+                  No Menus now...  
+                  <a class="card col-md-2 col-xs-12 btn-light my-3 p-2 fs-6 m-auto text-decoration-none bg-dark " asp-action="Create" style="color: #FF9E00" > 
+                    Create New
+                  </a>
+            </div>
+            
+        }
+         
 
         </div>
 
