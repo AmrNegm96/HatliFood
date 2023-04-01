@@ -60,6 +60,10 @@ namespace HatliFood.Controllers
                         {
                             return RedirectToAction("Index", "OrdersDel");
                         }
+                        if (await _userManager.IsInRoleAsync(user, "Kitchen"))
+                        {
+                            return RedirectToAction("Index", "OrdersDel");
+                        }
 
 
                     }
