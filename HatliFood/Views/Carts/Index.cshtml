@@ -1,17 +1,19 @@
 ﻿@using System.Text.Json
 @using static HatliFood.Controllers.CartsController;
+@using HatliFood.Models;
+@inject UserManager<IdentityUser> UserManager;
 @{
     var allcookies = ViewBag.AllCookies;
+    Buyer UserInfo = ViewBag.UserInfo;
 }
 
 <h2 class="text-center mt-5 mb-5">My Cart</h2>
 <div class="container">
-    <div class="row d-flex flex-wrap mx-5" style="margin-left:50px; ">
+    <div class="row d-flex flex-wrap mx-auto">
         @foreach (var cookie in allcookies)
         {
             var item = JsonSerializer.Deserialize<CartProperties>(cookie);
-
-            <div class="card col-md-4 col-xs-12 mb-4 mx-2" style="width:31%; box-shadow: 1px 2px 5px #59889a;">
+            <div class="card col-md-4 col-xs-12 mb-4 mx-auto" style="box-shadow: 1px 2px 5px #59889a;">
                 @*<img src="~/Image/Resturants/@item.ImgPath" alt="image" style="width:120px ; height:120px" class="rounded-circle m-auto pt-2" />*@
                 <div class="card-body">
                     <h5 class="card-title text-center py-2">@item.Name</h5>
@@ -21,26 +23,29 @@
                         <a asp-action="Edit" asp-route-id="@item.Id" class="btn-primary btn col-4"> Edit </a>
                         <a asp-action="DeleteItem" asp-route-id="@item.Id" class="btn-danger btn   col-4  offset-4">Delete</a>
                     </div>
-
                 </div>
             </div>
         }
 
         <div class="container">
             <div class="row">
-                <div class="card col-md-6 col-xs-12 mb-4 btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
-                    <h3>profile</h3>
-
+                <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
+                    <h6 class="py-2">@UserInfo.FirstName.ToUpperInvariant() @UserInfo.LastName.ToUpper()</h6>
+                    @*address*@
+                    @*phone number*@
                 </div>
-                <div class="card col-md-5 offset-1 col-xs-12 mb-4 btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
-                    <h3>payment method</h3>
+                <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
+                    <h5 class ="py-2">Payment method</h5>
+                    <form method="post">
+                        <input type="radio" name="PaymentMethod" value="cash" /> Cach on delivery
+                        <input type="radio" name="PaymentMethod" value="Paypal" /> Paypal
+                        <input type="submit" value="Place Order" class="btn btn-danger w-100 my-3" asp-action="PlaceOrder" asp-controller="Orders">
+                    </form>
                 </div>
             </div>
             
         </div>
-        <a class="card col-md-6 m-auto col-xs-12 mb-4 btn-light mx-2 text-decoration-none bg-danger" asp-action="PlaceOrder" asp-controller="Orders" style="box-shadow: 1px 2px 5px #59889a;">
-            <span class="btn  fs-4 m-auto">Place order</span>
-        </a>
+        
     </div>
 </div>
 

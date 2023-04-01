@@ -1,4 +1,5 @@
 ﻿using Azure;
+using HatliFood.Data;
 using HatliFood.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,10 +12,12 @@ namespace HatliFood.Controllers
     public class CartsController : Controller
     {
         public UserManager<IdentityUser> _UserManager;
+        private readonly ApplicationDbContext _context;
 
-        public CartsController(UserManager<IdentityUser> UserManager)
+        public CartsController(UserManager<IdentityUser> UserManager , ApplicationDbContext context)
         {
             _UserManager = UserManager;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -30,6 +33,7 @@ namespace HatliFood.Controllers
                 }
             }
             ViewBag.AllCookies = allCookies;
+            ViewBag.UserInfo = _context.Buyers.FirstOrDefault(b=>b.UserId == id);
             return View();
         }
         public async Task<IActionResult> DeleteItem(int? id)
