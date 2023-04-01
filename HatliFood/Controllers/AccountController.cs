@@ -54,7 +54,7 @@ namespace HatliFood.Controllers
 
                         if (await _userManager.IsInRoleAsync(user, "User"))
                         {
-                            return RedirectToAction("AllRestaurants", "Restaurants");
+                            return RedirectToAction("AllRestaurants", "Restaurants" );
                         }
                         if (await _userManager.IsInRoleAsync(user, "Delivery"))
                         {
@@ -64,8 +64,6 @@ namespace HatliFood.Controllers
                         {
                             return RedirectToAction("Index", "OrdersDel");
                         }
-
-
                     }
                 }
                 TempData["Error"] = "Wrong crendentials ,  try again!";

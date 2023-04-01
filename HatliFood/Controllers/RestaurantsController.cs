@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HatliFood.Data;
 using HatliFood.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HatliFood.Controllers
 {
@@ -259,6 +260,7 @@ namespace HatliFood.Controllers
 
         #region Buyer Work
         // GET: Restaurants
+        [AllowAnonymous]
         public async Task<IActionResult> AllRestaurants()
         {
             return _context.Restaurant != null ?
@@ -267,6 +269,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: Restaurants/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> ViewRestaurantMenu(string? id)
         {
             if (id == null || _context.Restaurant == null)

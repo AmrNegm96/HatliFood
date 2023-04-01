@@ -1,9 +1,11 @@
 ﻿using Azure;
 using HatliFood.Data;
 using HatliFood.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Net;
 using System.Text.Json;
 
@@ -20,6 +22,7 @@ namespace HatliFood.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "User")]
         public IActionResult Index()
         {
             var cookies = Request.Cookies;
@@ -36,6 +39,8 @@ namespace HatliFood.Controllers
             ViewBag.UserInfo = _context.Buyers.FirstOrDefault(b=>b.UserId == id);
             return View();
         }
+
+        [Authorize(Roles = "User")]
         public async Task<IActionResult> DeleteItem(int? id)
         {
             var cookies = Request.Cookies;
@@ -53,6 +58,7 @@ namespace HatliFood.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [Authorize(Roles = "User")]
         [HttpPost]
         public IActionResult AddCookie(int id, string name, decimal price, int quantity , string restaurantId)
         {

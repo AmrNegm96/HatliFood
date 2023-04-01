@@ -10,6 +10,7 @@ using HatliFood.Models;
 using Microsoft.AspNetCore.Identity;
 using static HatliFood.Controllers.CartsController;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HatliFood.Controllers
 {
@@ -60,7 +61,7 @@ namespace HatliFood.Controllers
             return (_context.Orders?.Any(e => e.Id == id)).GetValueOrDefault();
         }
 
-
+        [Authorize(Roles = "User")]
         public IActionResult PlaceOrder()
         {
             var cookies = Request.Cookies;
