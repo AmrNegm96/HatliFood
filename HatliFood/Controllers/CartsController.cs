@@ -16,7 +16,7 @@ namespace HatliFood.Controllers
         {
             _UserManager = UserManager;
         }
-        
+
         public IActionResult Index()
         {
             var cookies = Request.Cookies;
@@ -37,7 +37,7 @@ namespace HatliFood.Controllers
             var cookies = Request.Cookies;
             foreach (var cookie in cookies)
             {
-                if (cookie.Key.Contains("HatliFood-"+id))
+                if (cookie.Key.Contains("HatliFood-" + id))
                 {
                     Response.Cookies.Delete("HatliFood-" + id);
                     //Response.Cookies.Append("HatliFood-" + id, "", new CookieOptions
@@ -50,22 +50,24 @@ namespace HatliFood.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddCookie(int id, string name, decimal price)
+        public IActionResult AddCookie(int id, string name, decimal price, int quantity)
         {
             CookieOptions options = new CookieOptions();
             options.Expires = DateTime.Now.AddDays(1);
             options.HttpOnly = true;
             options.Secure = true; // Only send the cookie over HTTPS
 
-            Response.Cookies.Append("HatliFood-" + id, JsonSerializer.Serialize(new { Id = id, Name = name, Price = price }) , options);
+            Response.Cookies.Append("HatliFood-" + id, JsonSerializer.Serialize(new { Id = id, Name = name, Price = price, Quantity = quantity }), options);
 
             return Json(new { success = true });
         }
+
         public class CartProperties
         {
             public string Name { get; set; }
             public int Id { get; set; }
-            public decimal Price { get; set; }  
+            public decimal Price { get; set; }
+            public int Quantity { get; set; }
         }
     }
 

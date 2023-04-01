@@ -35,6 +35,7 @@
                             </div>
                             <img src="~/image/resturants/@item.ImgPath" class="rounded" style="width:150px;height:150px">
                         </div>
+                        <input id="quantity_@item.Id" style="width:100px;" type="number" name="quantity" placeholder="Quantity">
                         @if (!User.Identity.IsAuthenticated)
                         {
                             <a class="btn btn-success w-25" asp-action="Login" asp-controller="Account">Login</a>
@@ -56,13 +57,18 @@
     <script>
         $(function () {
             $('.myButton').click(function () {
+                var id = $(this).attr('itemId');
+                var name = $(this).attr('itemName');
+                var price = $(this).attr('itemPrice');
+                var quantity = $('#quantity_' + id).val();
                 $.ajax({
                     type: 'POST',
                     url: '@Url.Action("AddCookie", "Carts")',
                     data: {
-                        id: $(this).attr('itemId'),
-                        name: $(this).attr('itemName'),
-                        price: $(this).attr('itemPrice')
+                        id: id,
+                        name: name,
+                        price: price,
+                        quantity: quantity
                     },
                     success: function (result) {
                         // Handle the result of the action here
