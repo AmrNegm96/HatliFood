@@ -16,7 +16,7 @@ namespace HatliFood.Models
 
         //[Column("RID")]
         [ForeignKey("RidNavigation")]
-        public string Rid { get; set; }
+        public int Rid { get; set; }
 
         //[InverseProperty("CidNavigation")]
         public virtual ICollection<MenuItem> MenuItems { get; } = new List<MenuItem>();

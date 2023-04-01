@@ -30,7 +30,7 @@ namespace HatliFood.Models
  
 
         [Column("restaurantId")]
-        public string RestaurantId { get; set; }
+        public int RestaurantId { get; set; }
         [ForeignKey("RestaurantId")]
         [InverseProperty("ROrders")]
         public virtual Restaurant Restaurant { get; set; }

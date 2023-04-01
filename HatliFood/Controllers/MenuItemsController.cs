@@ -24,7 +24,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: MenuItems
-        public IActionResult Index(string? id)
+        public IActionResult Index(int? id)
         {
             List<MenuItem> applicationDbContext ;
             if(id != null)
@@ -48,7 +48,7 @@ namespace HatliFood.Controllers
                 return NotFound();
             }
 
-            string resturantId = _context.MenuItems.AsNoTracking().Select(c => c.CidNavigation.Rid).FirstOrDefault();
+            int resturantId = _context.MenuItems.AsNoTracking().Select(c => c.CidNavigation.Rid).FirstOrDefault();
             ViewBag.ResturantDetails = _context.Restaurant.AsNoTracking().Where(res => res.Id == resturantId).FirstOrDefault();
             ViewBag.OrderDetails = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList();
             ViewBag.OrderDetailsCount = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList().Count();
@@ -214,7 +214,7 @@ namespace HatliFood.Controllers
         // POST: MenuItems/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             string wwwRootPath = _hosting.WebRootPath;
 
