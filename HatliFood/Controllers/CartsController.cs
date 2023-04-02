@@ -4,6 +4,7 @@ using HatliFood.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 using System.Net;
@@ -23,11 +24,12 @@ namespace HatliFood.Controllers
         }
 
         [Authorize(Roles = "User")]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             var cookies = Request.Cookies;
             List<string> allCookies = new List<string>();
-            var id = _UserManager.GetUserId(User);
+            var user = await _UserManager.GetUserAsync(User);
+            var id = user.Id;
             foreach (var cookie in cookies)
             {
                 if (cookie.Key.Contains("HatliFood-"))
@@ -37,6 +39,8 @@ namespace HatliFood.Controllers
             }
             ViewBag.AllCookies = allCookies;
             ViewBag.UserInfo = _context.Buyers.FirstOrDefault(b=>b.UserId == id);
+            var addresses = _context.Addresss.Where(b => b.BuyerID == id).Take(2);
+            //ViewBag.Addresses = new SelectList(addresses, "Id", "City");
             return View();
         }
 

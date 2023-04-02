@@ -5,6 +5,7 @@
 @{
     var allcookies = ViewBag.AllCookies;
     Buyer UserInfo = ViewBag.UserInfo;
+
 }
 
 <h2 class="text-center mt-5 mb-5">My Cart</h2>
@@ -41,7 +42,9 @@
             <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
                 <h6 class="py-2">@UserInfo.FirstName.ToUpperInvariant() @UserInfo.LastName.ToUpper()</h6>
                 @*@Html.DropDownList("custID", null, htmlAttributes: new { @class = "form-control" }) address*@
-                @*phone number*@
+                @*@Html.DropDownList("Id", ViewBag.Addresses, "Select Address", new { @class = "form-control" })*@
+                <h1>ViewBag.Addresses</h1>
+
             </div>
             <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
                 <h5 class="py-2">Payment method</h5>
@@ -86,7 +89,7 @@
                     <div class="col-12">
                         <input type="radio" name="PaymentMethod" value="Paypal" /> <span>Paypal</span>
                     </div>
-                    <input type="submit" value="Place Order" class="btn btn-danger w-100 my-3" asp-action="PlaceOrder" asp-controller="Orders">
+                    <a id="paypal-btn"></a>
                 </form>
             </div>
         </div>
@@ -94,7 +97,51 @@
     </div>
 </div>
 
+<script>
+    var orderTotal = @orderTotal;
+</script>
+
+@section Scripts{
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script>
 
 
+        let _total = parseFloat(orderTotal.toFixed(2));
+
+
+            paypal.Button.render({
+                env: 'sandbox',
+                client: {
+                    sandbox: 'AQnz6FSFh2AxDARxlg-apbMq2qx4av8UU5DO4ckroBcfz8cG5EDFXiJYAmuQyg2JeqyCVyMBuHlLuuqL',
+
+                },
+                locale: 'en_US',
+                style: {
+                    size: 'small',
+                    color: 'gold',
+                    shape: 'pill'
+                },
+                commit: true,
+
+                payment: function(data, actions){
+                    return actions.payment.create({
+                        transactions: [{
+                            amount: {
+                            total: _total,
+                                currency: 'USD'
+                            }
+                        }]
+                    });
+                },
+
+            onAuthorize: function (data, actions) {
+                actions.payment.execute()
+                var url = '@Url.Action("PlaceOrder", "Orders", new {})';
+                window.location.href = url;
+            }
+
+        }, '#paypal-btn');
+    </script>
+    }
 
 
