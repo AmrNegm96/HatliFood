@@ -2,11 +2,19 @@
 using HatliFood.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+//using RestSharp;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Http;
+using System.Text.Json;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Net;
+using System.Linq;
+using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
+using NuGet.Protocol;
 
 namespace HatliFood.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly ILogger<HomeController> _logger;
         private readonly ApplicationDbContext _context;
@@ -17,20 +25,36 @@ namespace HatliFood.Controllers
             _context = context; 
 
         }
-
+        
         public IActionResult Index()
         {
-            ViewBag.Resturants = _context.Restaurant.ToList();
-            ViewBag.MenuItems = _context.MenuItems.Include(m => m.CidNavigation).ToList();
+            
+            var cookies = Response.Cookies;
+            cookies.Append("isAuth", User.Identity.IsAuthenticated.ToString());
+            cookies.Append("UserRole", User.IsInRole("User").ToString());
 
 
-            ViewBag.ResturantsCount = _context.Restaurant.ToList().Count();
-            ViewBag.MenuItemsCount = _context.MenuItems.ToList().Count();
+                var AllResturant = _context.Restaurant;
+                ViewBag.Resturants = AllResturant.ToList();
+                ViewBag.MenuItems = _context.MenuItems.Include(m => m.CidNavigation).ToList();
 
 
+                ViewBag.ResturantsCount = _context.Restaurant.ToList().Count();
+                ViewBag.MenuItemsCount = _context.MenuItems.ToList().Count();
+                return View();
 
-            return View();
+         
         }
+
+        [Route("/GetSearchedData/{id:alpha}")]
+        [Microsoft.AspNetCore.Mvc.HttpGet]
+        public JsonResult GetSearchedData(string id)
+        {
+            var restru = _context.Restaurant.Where(s=>s.Name.ToLower().Contains(id.ToLower())).ToArray();
+            return Json( restru);
+        }
+
+
 
         public IActionResult AdminHome()
         {

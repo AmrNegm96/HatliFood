@@ -9,6 +9,8 @@ using Microsoft.EntityFrameworkCore;
 using HatliFood.Data;
 using HatliFood.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using HatliFood.Models.ViewModels;
 
 namespace HatliFood.Controllers
 {
@@ -16,9 +18,16 @@ namespace HatliFood.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hosting;
-        public RestaurantsController(ApplicationDbContext context, IWebHostEnvironment hosting)
+
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly SignInManager<IdentityUser> _signInManager;
+        public RestaurantsController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext context, IWebHostEnvironment hosting)
         {
+            _userManager = userManager;
+            _signInManager = signInManager;
             _context = context;
+            _roleManager = roleManager;
             _hosting = hosting;
 
         }
@@ -58,43 +67,116 @@ namespace HatliFood.Controllers
         // POST: Restaurants/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create([Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
+        //{
+        //    restaurant.ImgPath = "dd";
+        //    if (ModelState.IsValid)
+        //    {
+
+        //        string wwwRootPath = _hosting.WebRootPath;
+        //        string fileName = Path.GetFileNameWithoutExtension(restaurant.ImgFile.FileName);
+        //        string extension = Path.GetExtension(restaurant.ImgFile.FileName);
+
+        //        restaurant.ImgPath = fileName + extension;
+
+        //        string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
+
+        //        using (var filestream = new FileStream(path, FileMode.Create))
+        //        {
+        //            await restaurant.ImgFile.CopyToAsync(filestream);
+        //        }
+
+        //        _context.Add(restaurant);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(restaurant);
+        //}
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
+        public async Task<IActionResult> Create([Bind("Name, Email, Location, City, Details, ImgFile,ImgPath")] RegisterResVM registerResVM)
         {
-            restaurant.ImgPath = "dd";
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
+                return View(registerResVM);
+            }
 
-                string wwwRootPath = _hosting.WebRootPath;
-                string fileName = Path.GetFileNameWithoutExtension(restaurant.ImgFile.FileName);
-                string extension = Path.GetExtension(restaurant.ImgFile.FileName);
+            var user = await _userManager.FindByEmailAsync(registerResVM.Email);
+            if (user != null)
+            {
+                TempData["Error"] = "This Email address is already in use";
+                return View(registerResVM);
+            }
 
-                restaurant.ImgPath = fileName + extension;
+            var newUser = new IdentityUser()
+            {
+                Email = registerResVM.Email,
+                UserName = registerResVM.Email
+            };
 
-                string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
+            var newUserResponse = await _userManager.CreateAsync(newUser, "Res@1234");
 
-                using (var filestream = new FileStream(path, FileMode.Create))
+            if (newUserResponse.Succeeded)
+            {
+                var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Kitchen);
+                if (!roleExists)
                 {
-                    await restaurant.ImgFile.CopyToAsync(filestream);
+                    var newRole = new IdentityRole(UserRoles.Kitchen);
+                    await _roleManager.CreateAsync(newRole);
+                }
+                await _userManager.AddToRoleAsync(newUser, UserRoles.Kitchen);
+                registerResVM.ImgPath = "dd";
+
+                if (ModelState.IsValid)
+                {
+                    string wwwRootPath = _hosting.WebRootPath;
+                    string fileName = Path.GetFileNameWithoutExtension(registerResVM.ImgFile.FileName);
+                    string extension = Path.GetExtension(registerResVM.ImgFile.FileName);
+
+                    registerResVM.ImgPath = fileName + extension;
+
+                    string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
+
+                    using (var filestream = new FileStream(path, FileMode.Create))
+                    {
+                        await registerResVM.ImgFile.CopyToAsync(filestream);
+                    }
                 }
 
-                _context.Add(restaurant);
+                var newRes = new Restaurant()
+                {
+                    Id = newUser.Id,
+                    Name = registerResVM.Name,
+                    Email = registerResVM.Email,
+                    Location = registerResVM.Location,
+                    City = registerResVM.City,
+                    Details = registerResVM.Details,
+                    ImgPath = registerResVM.ImgPath,
+                    ImgFile = registerResVM.ImgFile
+                };
+                _context.Restaurant.Add(newRes);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
             }
-            return View(restaurant);
+
+            return RedirectToAction("Index", "Restaurants");
         }
 
+
+
+
+
         // GET: Restaurants/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string? id)
         {
             if (id == null || _context.Restaurant == null)
             {
                 return NotFound();
             }
 
-            var restaurant = await _context.Restaurant.FindAsync(id);
+            var restaurant = await _context.Restaurant.Include(o => o.User).FirstOrDefaultAsync(i => i.Id == id);
             if (restaurant == null)
             {
                 return NotFound();
@@ -107,8 +189,9 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
+        public async Task<IActionResult> Edit(string id, /*[Bind("Id,Name,City,Location,Details,ImgFile,ImgPath,User")]*/ Restaurant _restaurant)
         {
+            _restaurant.User = _context.Users.FirstOrDefault(p => p.Id == id);
             var Restu = _context.Restaurant;
 
             if (id != _restaurant.Id)
@@ -119,6 +202,7 @@ namespace HatliFood.Controllers
 
 
 
+            ModelState.Remove(nameof(Restaurant.User));
             if (ModelState.IsValid)
             {
                 try
@@ -302,4 +386,3 @@ namespace HatliFood.Controllers
     }
     #endregion
 }
-

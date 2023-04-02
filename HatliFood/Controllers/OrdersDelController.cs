@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace HatliFood.Controllers
 {
-    //[Authorize(Roles ="Delivery")]
+    [Authorize(Roles = "Delivery")]
     public class OrdersDelController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -42,6 +42,24 @@ namespace HatliFood.Controllers
             );
             return View(await applicationDbContext.ToListAsync());
         }
+        public async Task<IActionResult> Stage1()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            var applicationDbContext = _context.Orders.Include(o => o.Buyer).Include(o => o.DeliveryGuyUser).Include(o => o.Restaurant).Where(or=>or.DeliveryGuyUserId== userId
+
+            ).Where(or => or.OrderState == OrderStatus.Prepering);
+            return View(await applicationDbContext.ToListAsync());
+        }
+        public async Task<IActionResult> Stage2()
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            var applicationDbContext = _context.Orders.Include(o => o.Buyer).Include(o => o.DeliveryGuyUser).Include(o => o.Restaurant).Where(or=>or.DeliveryGuyUserId== userId
+
+            ).Where(or => or.OrderState == OrderStatus.Delivering);
+            return View(await applicationDbContext.ToListAsync());
+        }
 
 
         // GET: OrdersDel/Details/5
@@ -68,7 +86,7 @@ namespace HatliFood.Controllers
 
         [HttpGet]
 
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit1(int? id)
         {
             var user = await _userManager.GetUserAsync(User);
             var userId = user?.Id;
@@ -83,6 +101,62 @@ namespace HatliFood.Controllers
             {
                 orderDelAcc.DeliveryGuyUserId = userId;
                 orderDelAcc.OrderState = OrderStatus.Prepering;
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                // Handle the exception here, e.g. log it or return an error message to the user
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+
+            return RedirectToAction("index","OrdersDel");
+        }
+        
+        [HttpGet]
+
+        public async Task<IActionResult> Edit2(int? id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            Order orderDelAcc = await _context.Orders.FirstOrDefaultAsync(i => i.Id == id);
+
+            if (orderDelAcc == null)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                orderDelAcc.DeliveryGuyUserId = userId;
+                orderDelAcc.OrderState = OrderStatus.Delivering;
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                // Handle the exception here, e.g. log it or return an error message to the user
+                return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
+            }
+
+            return RedirectToAction("index","OrdersDel");
+        }
+                
+        [HttpGet]
+
+        public async Task<IActionResult> Edit3(int? id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            Order orderDelAcc = await _context.Orders.FirstOrDefaultAsync(i => i.Id == id);
+
+            if (orderDelAcc == null)
+            {
+                return NotFound();
+            }
+
+            try
+            {
+                orderDelAcc.DeliveryGuyUserId = userId;
+                orderDelAcc.OrderState = OrderStatus.Delivered;
                 await _context.SaveChangesAsync();
             }
             catch (Exception ex)
