@@ -120,7 +120,7 @@ namespace HatliFood.Controllers
                 if (!await _roleManager.RoleExistsAsync(UserRoles.Delivery))
                     await _roleManager.CreateAsync(new IdentityRole(UserRoles.Delivery));
 
-                /////Error
+                /////
                 var roleExists = await _roleManager.RoleExistsAsync(UserRoles.User);
                 if (!roleExists)
                 {

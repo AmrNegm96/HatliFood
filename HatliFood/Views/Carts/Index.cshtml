@@ -39,13 +39,13 @@
     <div class="container mb-5">
         <div class="row">
             <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
-                <h6 class="py-2">@UserInfo.FirstName.ToUpperInvariant() @UserInfo.LastName.ToUpper()</h6>
-                @*@Html.DropDownList("custID", null, htmlAttributes: new { @class = "form-control" }) address*@
-                @*phone number*@
+                <h6 class="py-3">Full name: @UserInfo.FirstName.ToUpperInvariant() @UserInfo.LastName.ToUpper()</h6>
+                
+                @Html.DropDownList("Id", new SelectList(ViewBag.AddressesInfo , "Id" , "FullAddress"))
+
             </div>
             <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
-                <h5 class="py-2">Payment method</h5>
-
+                <h5 class="py-3">Payment method</h5>
 
                 @{
                     decimal subTotal = 0.00m;
@@ -83,9 +83,10 @@
                     <div class="col-12">
                         <input type="radio" name="PaymentMethod" value="cash" /> <span>Cash on delivery</span>
                     </div>
-                    <div class="col-12">
+                    @*<div class="col-12">
                         <input type="radio" name="PaymentMethod" value="Paypal" /> <span>Paypal</span>
-                    </div>
+                    </div>*@
+                    <a id="paypal-btn"></a>
                     <input type="submit" value="Place Order" class="btn btn-danger w-100 my-3" asp-action="PlaceOrder" asp-controller="Orders">
                 </form>
             </div>
@@ -93,6 +94,46 @@
 
     </div>
 </div>
+
+
+<script>
+    var orderTotal = @orderTotal;
+</script>
+
+@section Scripts{
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script>
+        let _total = parseFloat(orderTotal.toFixed(2));
+            paypal.Button.render({
+                env: 'sandbox',
+                client: {
+                    sandbox: 'AQnz6FSFh2AxDARxlg-apbMq2qx4av8UU5DO4ckroBcfz8cG5EDFXiJYAmuQyg2JeqyCVyMBuHlLuuqL',
+                },
+                locale: 'en_US',
+                style: {
+                    size: 'small',
+                    color: 'gold',
+                    shape: 'pill'
+                },
+                commit: true,
+                payment: function(data, actions){
+                    return actions.payment.create({
+                        transactions: [{
+                            amount: {
+                            total: _total,
+                                currency: 'USD'
+                            }
+                        }]
+                    });
+                },
+            onAuthorize: function (data, actions) {
+                actions.payment.execute()
+                var url = '@Url.Action("PlaceOrder", "Orders", new {})';
+                window.location.href = url;
+            }
+        }, '#paypal-btn');
+    </script>
+    }
 
 
 

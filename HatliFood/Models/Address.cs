@@ -26,5 +26,8 @@ namespace HatliFood.Models
         [ForeignKey("BuyerID")]
         [InverseProperty("Addresses")]
         public virtual Buyer? Buyer { get; set; }
+
+        [NotMapped]
+        public string FullAddress => $"City: {City} , Street: {Street} , Building Number: {BuildingNumber} , Floor: {Floor} , Apartment Number: {ApartmentNumber}";
     }
 }

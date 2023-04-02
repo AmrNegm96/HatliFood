@@ -37,6 +37,7 @@ namespace HatliFood.Controllers
             }
             ViewBag.AllCookies = allCookies;
             ViewBag.UserInfo = _context.Buyers.FirstOrDefault(b=>b.UserId == id);
+            ViewBag.AddressesInfo = _context.Addresss.Where(a=>a.BuyerID == id).ToList();
             return View();
         }
 
