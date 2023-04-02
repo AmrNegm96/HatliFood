@@ -75,7 +75,19 @@ namespace HatliFood
             // External login
             //app.useExternal
 
-           
+            // Handle Errors
+            //app.Use(async (context, next) =>
+            //{
+            //    if (context.Response.StatusCode == 404)
+            //    {
+            //        context.Request.Path = "/Shared/Error";
+            //        await next();
+            //    }
+            //});
+
+            // External Logins
+            //builder.Services.
+                 
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

@@ -5,7 +5,7 @@ namespace HatliFood.Models.ViewModels
 {
     public class RegisterResVM
     {
-        public string Id { get; set; } =string.Empty;
+        public string Id { get; set; } = string.Empty;
         public string Name { get; set; }
 
         public string Email { get; set; }
@@ -15,7 +15,7 @@ namespace HatliFood.Models.ViewModels
 
         public string? City { get; set; }
         [Required]
-        public string ImgPath { get; set; } 
+        public string ImgPath { get; set; }
 
         [NotMapped]
         public IFormFile ImgFile { get; set; }

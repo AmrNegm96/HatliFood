@@ -97,7 +97,7 @@ namespace HatliFood.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name, EmailAddress, Location, City, Details, ImgFile,ImgPath")] RegisterResVM registerResVM)
+        public async Task<IActionResult> Create([Bind("Name, Email, Location, City, Details, ImgFile,ImgPath")] RegisterResVM registerResVM)
         {
             if (!ModelState.IsValid)
             {
@@ -150,7 +150,7 @@ namespace HatliFood.Controllers
                 {
                     Id = newUser.Id,
                     Name = registerResVM.Name,
-                    EmailAddress = registerResVM.Email,
+                    Email = registerResVM.Email,
                     Location = registerResVM.Location,
                     City = registerResVM.City,
                     Details = registerResVM.Details,

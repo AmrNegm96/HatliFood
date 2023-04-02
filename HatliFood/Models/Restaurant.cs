@@ -14,18 +14,13 @@ namespace HatliFood.Models
         public string Id { get; set; }
 
         [DataType(DataType.EmailAddress)]
-        [Required]
-        public string EmailAddress { get; set; }
+        public string Email { get; set; }
 
 
-        [DataType(DataType.Password)]
-        [Required]
-
-        public string Password { get; set; }
 
 
         [ValidateNever]
-        public IdentityUser? User { get; set; }
+        public IdentityUser User { get; set; }
 
         [Required]
         public string Name { get; set; }
