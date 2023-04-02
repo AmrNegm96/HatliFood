@@ -29,8 +29,7 @@ namespace HatliFood.Models
 
         [Required]
         public string Name { get; set; }
-        [DataType(DataType.EmailAddress)]
-        public string Email { get; set; }
+     
 
         public string? Details { get; set; }
 

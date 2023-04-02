@@ -8,9 +8,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HatliFood.Data;
 using HatliFood.Models;
-using Microsoft.AspNetCore.Identity;
-using System.Data;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using HatliFood.Models.ViewModels;
 
 namespace HatliFood.Controllers
 {
@@ -18,14 +18,15 @@ namespace HatliFood.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hosting;
+
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
-
-        public RestaurantsController(IWebHostEnvironment hosting , UserManager<IdentityUser> userManager, ApplicationDbContext Context, RoleManager<IdentityRole> roleManager)
+        private readonly SignInManager<IdentityUser> _signInManager;
+        public RestaurantsController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext context, IWebHostEnvironment hosting)
         {
             _userManager = userManager;
-            _context = Context;
-            _roleManager = roleManager;
+            _signInManager = signInManager;
+            _context = context;
             _roleManager = roleManager;
             _hosting = hosting;
 
@@ -96,66 +97,76 @@ namespace HatliFood.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,City,EmailAddress,Password,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
+        public async Task<IActionResult> Create([Bind("Name, EmailAddress, Location, City, Details, ImgFile,ImgPath")] RegisterResVM registerResVM)
         {
-            restaurant.ImgPath = "dd";
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                // Add Resturant 
-                var newUser = new IdentityUser()
+                return View(registerResVM);
+            }
+
+            var user = await _userManager.FindByEmailAsync(registerResVM.Email);
+            if (user != null)
+            {
+                TempData["Error"] = "This Email address is already in use";
+                return View(registerResVM);
+            }
+
+            var newUser = new IdentityUser()
+            {
+                Email = registerResVM.Email,
+                UserName = registerResVM.Email
+            };
+
+            var newUserResponse = await _userManager.CreateAsync(newUser, "Res@1234");
+
+            if (newUserResponse.Succeeded)
+            {
+                var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Kitchen);
+                if (!roleExists)
                 {
-                    Email = restaurant.EmailAddress,
-                    UserName = restaurant.EmailAddress
-                };
+                    var newRole = new IdentityRole(UserRoles.Kitchen);
+                    await _roleManager.CreateAsync(newRole);
+                }
+                await _userManager.AddToRoleAsync(newUser, UserRoles.Kitchen);
+                registerResVM.ImgPath = "dd";
 
-                var newUserResponse = await _userManager.CreateAsync(newUser, restaurant.Password);
-
-                if (newUserResponse.Succeeded)
+                if (ModelState.IsValid)
                 {
-                    if (!await _roleManager.RoleExistsAsync(UserRoles.Admin))
-                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
-                    if (!await _roleManager.RoleExistsAsync(UserRoles.User))
-                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.User));
-                    if (!await _roleManager.RoleExistsAsync(UserRoles.Kitchen))
-                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.Kitchen));
-                    if (!await _roleManager.RoleExistsAsync(UserRoles.Delivery))
-                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.Delivery));
-
-                    /////Error
-                    var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Kitchen);
-                    if (!roleExists)
-                    {
-                        var newRole = new IdentityRole(UserRoles.Kitchen);
-                        await _roleManager.CreateAsync(newRole);
-                    }
-                    /////
-                    await _userManager.AddToRoleAsync(newUser, UserRoles.Kitchen);
-
-
                     string wwwRootPath = _hosting.WebRootPath;
-                    string fileName = Path.GetFileNameWithoutExtension(restaurant.ImgFile.FileName);
-                    string extension = Path.GetExtension(restaurant.ImgFile.FileName);
+                    string fileName = Path.GetFileNameWithoutExtension(registerResVM.ImgFile.FileName);
+                    string extension = Path.GetExtension(registerResVM.ImgFile.FileName);
 
-                    restaurant.ImgPath = fileName + extension;
+                    registerResVM.ImgPath = fileName + extension;
 
                     string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
 
                     using (var filestream = new FileStream(path, FileMode.Create))
                     {
-                        await restaurant.ImgFile.CopyToAsync(filestream);
+                        await registerResVM.ImgFile.CopyToAsync(filestream);
                     }
-
-                    restaurant.Id = newUser.Id;
-
-
-                    _context.Restaurant.Add(restaurant);
-                    await _context.SaveChangesAsync();
-                    path = "/Resturants/";
-                    return Redirect(path);
                 }
+
+                var newRes = new Restaurant()
+                {
+                    Id = newUser.Id,
+                    Name = registerResVM.Name,
+                    EmailAddress = registerResVM.Email,
+                    Location = registerResVM.Location,
+                    City = registerResVM.City,
+                    Details = registerResVM.Details,
+                    ImgPath = registerResVM.ImgPath,
+                    ImgFile = registerResVM.ImgFile
+                };
+                _context.Restaurant.Add(newRes);
+                await _context.SaveChangesAsync();
             }
-            return View(restaurant);
+
+            return RedirectToAction("Index", "Restaurants");
         }
+
+
+
+
 
         // GET: Restaurants/Edit/5
         public async Task<IActionResult> Edit(string? id)
@@ -165,7 +176,7 @@ namespace HatliFood.Controllers
                 return NotFound();
             }
 
-            var restaurant = await _context.Restaurant.Include(o=>o.User).FirstOrDefaultAsync(i=>i.Id== id);
+            var restaurant = await _context.Restaurant.Include(o => o.User).FirstOrDefaultAsync(i => i.Id == id);
             if (restaurant == null)
             {
                 return NotFound();
@@ -177,8 +188,8 @@ namespace HatliFood.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        //[ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,City,EmailAddress,Password,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(string id, /*[Bind("Id,Name,City,Location,Details,ImgFile,ImgPath,User")]*/ Restaurant _restaurant)
         {
             _restaurant.User = _context.Users.FirstOrDefault(p => p.Id == id);
             var Restu = _context.Restaurant;
@@ -259,7 +270,7 @@ namespace HatliFood.Controllers
         }
 
         // POST: Restaurants/Delete/5
-        [HttpPost, ActionName("Delete/{id:alpha}")]
+        [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
@@ -292,8 +303,7 @@ namespace HatliFood.Controllers
 
 
 
-        //[Authorize(Roles = "Kitchen")]
-
+        // [Authorize('Restaurant')]
         #region Resturant Actor [View Restaurant Details] 
         public async Task<IActionResult> RestaurantDetails(string? id)
         {
@@ -309,9 +319,8 @@ namespace HatliFood.Controllers
                 return NotFound();
             }
 
-            var Categories = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
-            ViewBag.Categories = Categories;
-            ViewBag.CategoriesCount = Categories.Count();
+            ViewBag.Categories = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
+            ViewBag.CategoriesCount = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList().Count();
 
             ViewBag.Menus = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList();
             ViewBag.MenusCount = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList().Count();
@@ -327,6 +336,10 @@ namespace HatliFood.Controllers
 
 
         #endregion Resturant Actor
+
+
+
+
 
 
         #region Buyer Work
@@ -373,4 +386,3 @@ namespace HatliFood.Controllers
     }
     #endregion
 }
-
