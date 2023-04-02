@@ -169,6 +169,24 @@ namespace HatliFood.Controllers
                 return RedirectToAction(nameof(Login));
             }
 
+            var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+            var user = await _userManager.FindByEmailAsync(email);
+            if (user == null)
+            {
+                // If the user doesn't exist, create a new one
+                user = new ApplicationUser { UserName = "YoussefEhab", Email = email };
+                var result1 = await _userManager.CreateAsync(user);
+                if (!result1.Succeeded)
+                {
+                    foreach (var error in result1.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                    return View("Login");
+                }
+            }
+
+
             var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false, bypassTwoFactor: true);
             if (result.Succeeded)
             {
@@ -183,8 +201,8 @@ namespace HatliFood.Controllers
             {
                 ViewData["ReturnUrl"] = returnUrl;
                 ViewData["LoginProvider"] = info.LoginProvider;
-                var email = info.Principal.FindFirstValue(ClaimTypes.Email);
-                return View("ExternalLogin", new LoginVM { EmailAddress = email });
+                var email1 = info.Principal.FindFirstValue(ClaimTypes.Email);
+                return View("ExternalLogin", new LoginVM { EmailAddress = email1 });
             }
         }
 
