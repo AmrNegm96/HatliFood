@@ -8,6 +8,9 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HatliFood.Data;
 using HatliFood.Models;
+using Microsoft.AspNetCore.Identity;
+using System.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HatliFood.Controllers
 {
@@ -15,9 +18,14 @@ namespace HatliFood.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hosting;
-        public RestaurantsController(ApplicationDbContext context, IWebHostEnvironment hosting)
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly RoleManager<IdentityRole> _roleManager;
+
+        public RestaurantsController(IWebHostEnvironment hosting , UserManager<IdentityUser> userManager, ApplicationDbContext Context, RoleManager<IdentityRole> roleManager)
         {
-            _context = context;
+            _userManager = userManager;
+            _context = Context;
+            _roleManager = roleManager;
             _hosting = hosting;
 
         }
@@ -59,34 +67,69 @@ namespace HatliFood.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
+        public async Task<IActionResult> Create([Bind("Id,Name,City,EmailAddress,Password,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
         {
             restaurant.ImgPath = "dd";
             if (ModelState.IsValid)
             {
-
-                string wwwRootPath = _hosting.WebRootPath;
-                string fileName = Path.GetFileNameWithoutExtension(restaurant.ImgFile.FileName);
-                string extension = Path.GetExtension(restaurant.ImgFile.FileName);
-
-                restaurant.ImgPath = fileName + extension;
-
-                string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
-
-                using (var filestream = new FileStream(path, FileMode.Create))
+                // Add Resturant 
+                var newUser = new IdentityUser()
                 {
-                    await restaurant.ImgFile.CopyToAsync(filestream);
-                }
+                    Email = restaurant.EmailAddress,
+                    UserName = restaurant.EmailAddress
+                };
 
-                _context.Add(restaurant);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var newUserResponse = await _userManager.CreateAsync(newUser, restaurant.Password);
+
+                if (newUserResponse.Succeeded)
+                {
+                    if (!await _roleManager.RoleExistsAsync(UserRoles.Admin))
+                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
+                    if (!await _roleManager.RoleExistsAsync(UserRoles.User))
+                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.User));
+                    if (!await _roleManager.RoleExistsAsync(UserRoles.Kitchen))
+                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.Kitchen));
+                    if (!await _roleManager.RoleExistsAsync(UserRoles.Delivery))
+                        await _roleManager.CreateAsync(new IdentityRole(UserRoles.Delivery));
+
+                    /////Error
+                    var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Kitchen);
+                    if (!roleExists)
+                    {
+                        var newRole = new IdentityRole(UserRoles.Kitchen);
+                        await _roleManager.CreateAsync(newRole);
+                    }
+                    /////
+                    await _userManager.AddToRoleAsync(newUser, UserRoles.Kitchen);
+
+
+                    string wwwRootPath = _hosting.WebRootPath;
+                    string fileName = Path.GetFileNameWithoutExtension(restaurant.ImgFile.FileName);
+                    string extension = Path.GetExtension(restaurant.ImgFile.FileName);
+
+                    restaurant.ImgPath = fileName + extension;
+
+                    string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
+
+                    using (var filestream = new FileStream(path, FileMode.Create))
+                    {
+                        await restaurant.ImgFile.CopyToAsync(filestream);
+                    }
+
+                    restaurant.Id = newUser.Id;
+
+
+                    _context.Restaurant.Add(restaurant);
+                    await _context.SaveChangesAsync();
+                    path = "/Resturants/";
+                    return Redirect(path);
+                }
             }
             return View(restaurant);
         }
 
         // GET: Restaurants/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string? id)
         {
             if (id == null || _context.Restaurant == null)
             {
@@ -105,8 +148,8 @@ namespace HatliFood.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
+        //[ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Name,City,EmailAddress,Password,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
         {
             var Restu = _context.Restaurant;
 
@@ -185,7 +228,7 @@ namespace HatliFood.Controllers
         }
 
         // POST: Restaurants/Delete/5
-        [HttpPost, ActionName("Delete")]
+        [HttpPost, ActionName("Delete/{id:alpha}")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
@@ -218,7 +261,8 @@ namespace HatliFood.Controllers
 
 
 
-        // [Authorize('Restaurant')]
+        //[Authorize(Roles = "Kitchen")]
+
         #region Resturant Actor [View Restaurant Details] 
         public async Task<IActionResult> RestaurantDetails(string? id)
         {
@@ -234,8 +278,9 @@ namespace HatliFood.Controllers
                 return NotFound();
             }
 
-            ViewBag.Categories = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
-            ViewBag.CategoriesCount = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList().Count();
+            var Categories = _context.Categorys.AsNoTracking().Where(c => c.Rid == id).ToList();
+            ViewBag.Categories = Categories;
+            ViewBag.CategoriesCount = Categories.Count();
 
             ViewBag.Menus = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList();
             ViewBag.MenusCount = _context.MenuItems.AsNoTracking().Where(m => m.CidNavigation.Rid == id).ToList().Count();
@@ -251,10 +296,6 @@ namespace HatliFood.Controllers
 
 
         #endregion Resturant Actor
-
-
-
-
 
 
         #region Buyer Work

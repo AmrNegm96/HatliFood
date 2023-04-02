@@ -1,4 +1,4 @@
-﻿@model HatliFood.Models.ViewModels.RegisterResVM
+﻿@model HatliFood.Models.Restaurant
 
 @{
     ViewData["Title"] = "Create";
@@ -7,13 +7,13 @@
 <h1 class="m-3">Add New Resturant</h1>
 <br />
 <div class="row m-3">
-    <div class="col-md-4">
-        <form asp-action="Create">
+    <div class="col-md-6">
+        <form asp-action="Create" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group row">
-                <label asp-for="Name" class="col-sm-2 col-form-label"></label>
-                <div class="col-sm-10">
+                <label asp-for="Name" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-8">
                     <input asp-for="Name" class="form-control" />
                 </div>
                 <span asp-validation-for="Name" class="text-danger"></span>
@@ -22,44 +22,63 @@
             <br />
 
             <div class="form-group row">
-                <label asp-for="City" class="col-sm-2 col-form-label"></label>
-                <div class="col-sm-10">
+                <label asp-for="EmailAddress" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-8">
+                    <input asp-for="EmailAddress" class="form-control" />
+                </div>
+                <span asp-validation-for="EmailAddress" class="text-danger"></span>
+
+            </div>
+
+            <br />
+            <div class="form-group row">
+                <label asp-for="Password" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-8">
+                    <input asp-for="Password" class="form-control" type="password"/>
+                </div>
+                <span asp-validation-for="Password" class="text-danger"></span>
+
+            </div>
+            <br />
+            <div class="form-group row">
+                <label asp-for="City" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-8">
                     <input asp-for="City" class="form-control" />
                 </div>
                 <span asp-validation-for="City" class="text-danger"></span>
             </div>
             <br />
             <div class="form-group row">
-                <label asp-for="Details" class="col-sm-2 col-form-label"></label>
-                <div class="col-sm-10">
+                <label asp-for="Details" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-8">
                     <input asp-for="Details" class="form-control" />
                 </div>
                 <span asp-validation-for="Details" class="text-danger"></span>
             </div>
             <br />
             <div class="form-group row">
-                <label asp-for="Location" class="col-sm-2 col-form-label"></label>
-                <div class="col-sm-10">
+                <label asp-for="Location" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-8">
                     <input asp-for="Location" class="form-control" />
                 </div>
                 <span asp-validation-for="Location" class="text-danger"></span>
             </div>
-            <div class="form-group row">
-                <input asp-for="ImgFile" class="form-control" type="hidden" value="jdjdj" />
-            </div>
+            @*<div class="form-group row">
+                <input asp-for="ImgPath" class="form-control" type="hidden" value="jdjdj" />
+            </div>*@
             <br />
             <div class="form-group row">
 
-                <label asp-for="ImgFile" class="col-sm-2 col-form-label"></label>
-                <div class="col-sm-10">
-                    <input asp-for="ImgFile" class="form-control" type="file" id="formFile" accept="image/*" />
+                <label asp-for="ImgFile" class="col-sm-3 col-form-label"></label>
+                <div class="col-sm-8">
+                    <input asp-for="ImgFile" class="form-control" type="file" accept="image/*" />
                 </div>
                 <span asp-validation-for="ImgFile" class="text-danger"></span>
             </div>
             <br />
             <div class="form-group row">
-                <input type="submit" value="Add" class="btn btn-primary col-sm-4 m-2" />
-                <a asp-action="Index" type="button" class="btn btn-secondary col-sm-4  m-2">Back to List</a>
+                <input type="submit" value="Add" class="btn btn-primary col-sm-4 m-4" />
+                <a asp-action="Index" type="button" class="btn btn-secondary col-sm-4  m-4">Back to List</a>
 
             </div>
 

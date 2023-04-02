@@ -12,7 +12,7 @@ namespace HatliFood.Models
         [Key]
         public int Id { get; set; }
 
-        [Column(TypeName = "decimal(18, 2)")]
+        [Column(TypeName = "decimal(18, 4)")]
         public decimal Price { get; set; }
 
         [Required]

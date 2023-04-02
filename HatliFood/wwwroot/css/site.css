@@ -3,6 +3,10 @@
 html {
   font-size: 14px;
 }
+bode{
+    padding : 0;
+    margin:0;
+}
 
 @media (min-width: 768px) {
   html {
@@ -120,9 +124,36 @@ body {
     color:#333!important;
 }
 
+.form-control {
+    box-shadow: none!important;
+}
+.search-result{
+    min-height:200px;
+    overflow-y:scroll;
+   
+}
+.search-result a {
+    cursor: pointer;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    width: 100%;
+}
+
+.search-result a:hover {
+    background:#ffcc9f;   
+        
+}
+
+.dropdown-identity a{
+    text-decoration:none;
+    color:rgba(0,0,0,0.6)
+}
+
 @media (max-width:991px) {
     .header-container {
-        height: 50vh !important;
+            height: 50vh !important;
+        }
     }
-}
 
