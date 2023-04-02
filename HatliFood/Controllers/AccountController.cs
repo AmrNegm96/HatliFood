@@ -5,18 +5,21 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Security.Claims;
 
 namespace HatliFood.Controllers
 {
     public class AccountController : Controller
     {
+        private readonly ILogger<AccountController> _logger;
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ApplicationDbContext _Context;
 
-        public AccountController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext Context, RoleManager<IdentityRole> roleManager)
+        public AccountController(ILogger<AccountController> logger, UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext Context, RoleManager<IdentityRole> roleManager)
         {
+            _logger = logger;
             _userManager = userManager;
             _signInManager = signInManager;
             _Context = Context;
@@ -41,11 +44,11 @@ namespace HatliFood.Controllers
             if (user != null)
             {
                 var passwordCheck = await _userManager.CheckPasswordAsync(user, loginVM.Password);
-                
-                if(passwordCheck)
+
+                if (passwordCheck)
                 {
                     var result = await _signInManager.PasswordSignInAsync(user, loginVM.Password, false, false);
-                    if(result.Succeeded)
+                    if (result.Succeeded)
                     {
                         if (await _userManager.IsInRoleAsync(user, "Admin"))
                         {
@@ -54,7 +57,7 @@ namespace HatliFood.Controllers
 
                         if (await _userManager.IsInRoleAsync(user, "User"))
                         {
-                            return RedirectToAction("AllRestaurants", "Restaurants" );
+                            return RedirectToAction("AllRestaurants", "Restaurants");
                         }
                         if (await _userManager.IsInRoleAsync(user, "Delivery"))
                         {
@@ -109,7 +112,7 @@ namespace HatliFood.Controllers
 
             var newUserResponse = await _userManager.CreateAsync(newUser, registerVM.Password);
 
-            if(newUserResponse.Succeeded)
+            if (newUserResponse.Succeeded)
             {
                 if (!await _roleManager.RoleExistsAsync(UserRoles.Admin))
                     await _roleManager.CreateAsync(new IdentityRole(UserRoles.Admin));
@@ -143,10 +146,60 @@ namespace HatliFood.Controllers
             return View("RegisterCompleted");
         }
 
-        //public async Task<IActionResult> Logout()
-        //{
-        //    await _signInManager.SignOutAsync();
-        //    return RedirectToAction("AllRestaurants", "Restaurants");
-        //}
+        [HttpGet]
+        public IActionResult ExternalLogin(string provider)
+        {
+            var redirectUrl = Url.Action(nameof(ExternalLoginCallback), "Account");
+            var properties = _signInManager.ConfigureExternalAuthenticationProperties(provider, redirectUrl);
+            return Challenge(properties, provider);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> ExternalLoginCallback(string returnUrl = null, string remoteError = null)
+        {
+            if (remoteError != null)
+            {
+                ModelState.AddModelError(string.Empty, $"Error from external provider: {remoteError}");
+                return View("Login");
+            }
+
+            var info = await _signInManager.GetExternalLoginInfoAsync();
+            if (info == null)
+            {
+                return RedirectToAction(nameof(Login));
+            }
+
+            var result = await _signInManager.ExternalLoginSignInAsync(info.LoginProvider, info.ProviderKey, isPersistent: false, bypassTwoFactor: true);
+            if (result.Succeeded)
+            {
+                _logger.LogInformation("User logged in with {Name} provider.", info.LoginProvider);
+                return RedirectToLocal(returnUrl);
+            }
+            if (result.IsLockedOut)
+            {
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                ViewData["ReturnUrl"] = returnUrl;
+                ViewData["LoginProvider"] = info.LoginProvider;
+                var email = info.Principal.FindFirstValue(ClaimTypes.Email);
+                return View("ExternalLogin", new LoginVM { EmailAddress = email });
+            }
+        }
+
+        private IActionResult RedirectToLocal(string returnUrl)
+        {
+            if (Url.IsLocalUrl(returnUrl))
+            {
+                return Redirect(returnUrl);
+            }
+            else
+            {
+                return RedirectToAction(nameof(HomeController.Index), "Home");
+            }
+        }
+
+
     }
 }

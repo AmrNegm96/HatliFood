@@ -31,7 +31,11 @@ namespace HatliFood
             //Authentication & authorization
             //builder.Services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 
-
+            builder.Services.AddAuthentication().AddGoogle(options =>
+            {
+                options.ClientId = builder.Configuration["Authentication:Google:ClientId"];
+                options.ClientSecret = builder.Configuration["Authentication:Google:ClientSecret"];
+            });
 
 
 
@@ -71,7 +75,7 @@ namespace HatliFood
             app.UseAuthentication();
             app.UseAuthorization();
 
-           
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
