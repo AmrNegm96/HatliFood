@@ -40,17 +40,30 @@
 
         <!-- Tabs -->
         <ul class="nav nav-tabs m-5 mb-4">
-              <li class="nav-item">
-                <button class="nav-link active" id="Categories">Categories</button>
-              </li>
+            
 
+            @{
+                if (User.IsInRole("Resturant"))
+                {
+                      <li class="nav-item">
+                        <button class="nav-link active" id="Categories">Categories</button>
+                      </li>
+                    
+                }
+            }
               <li class="nav-item">
                 <button class="nav-link" id="Menus">Menus</button>
               </li>
 
-              <li class="nav-item">
-                <button class="nav-link" id="Orders">Orders</button>
-              </li>
+            @{
+                if (User.IsInRole("Resturant"))
+                {
+                      <li class="nav-item">
+                        <button class="nav-link" id="Orders">Orders</button>
+                      </li>
+                }
+            }
+             
              
         </ul>
 
@@ -102,11 +115,14 @@
                                     <h6>
                                 @menu.Name
                                      </h6>
+                                        if (User.IsInRole("Resturant") || User.IsInRole("Admin") ){
+                                  <div class="pb-3">
+                                         <a asp-action="Edit" asp-controller="MenuItems" asp-route-id="@menu.Id" class="btn-primary btn col-5"> Edit</a> 
+                                          <a asp-action="Delete" asp-controller="MenuItems"  asp-route-id="@menu.Id" class="btn-danger btn col-5 "> Delete</a> 
+                                   </div>
+                            }
 
-                                       <div class="pb-3">
-                                             <a asp-action="Edit" asp-controller="MenuItems" asp-route-id="@menu.Id" class="btn-primary btn col-5"> Edit</a> 
-                                             <a asp-action="Delete" asp-controller="MenuItems"  asp-route-id="@menu.Id" class="btn-danger btn col-5 "> Delete</a> 
-                                      </div>
+                                      
                         </div>
 
                     }

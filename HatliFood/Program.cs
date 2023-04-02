@@ -71,6 +71,10 @@ namespace HatliFood
             app.UseAuthentication();
             app.UseAuthorization();
 
+
+            // External login
+            //app.useExternal
+
            
             app.MapControllerRoute(
                 name: "default",

@@ -97,7 +97,7 @@ namespace HatliFood.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Name, Email, Location, City, Details, ImgFile,ImgPath")] RegisterResVM registerResVM)
+        public async Task<IActionResult> Create([Bind("Name, EmailAddress, Location, City, Details, ImgFile,ImgPath")] RegisterResVM registerResVM)
         {
             if (!ModelState.IsValid)
             {
@@ -150,7 +150,7 @@ namespace HatliFood.Controllers
                 {
                     Id = newUser.Id,
                     Name = registerResVM.Name,
-                    Email = registerResVM.Email,
+                    EmailAddress = registerResVM.Email,
                     Location = registerResVM.Location,
                     City = registerResVM.City,
                     Details = registerResVM.Details,
@@ -163,20 +163,20 @@ namespace HatliFood.Controllers
 
             return RedirectToAction("Index", "Restaurants");
         }
-    
 
 
 
 
-    // GET: Restaurants/Edit/5
-    public async Task<IActionResult> Edit(string? id)
+
+        // GET: Restaurants/Edit/5
+        public async Task<IActionResult> Edit(string? id)
         {
             if (id == null || _context.Restaurant == null)
             {
                 return NotFound();
             }
 
-            var restaurant = await _context.Restaurant.Include(o=>o.User).FirstOrDefaultAsync(i=>i.Id== id);
+            var restaurant = await _context.Restaurant.Include(o => o.User).FirstOrDefaultAsync(i => i.Id == id);
             if (restaurant == null)
             {
                 return NotFound();
@@ -386,4 +386,3 @@ namespace HatliFood.Controllers
     }
     #endregion
 }
-

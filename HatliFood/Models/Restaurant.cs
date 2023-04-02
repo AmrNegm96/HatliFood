@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using Microsoft.AspNetCore.Identity;
 
 namespace HatliFood.Models
 {
@@ -8,13 +10,26 @@ namespace HatliFood.Models
     public partial class Restaurant
     {
         [ForeignKey(nameof(User)), Key]
+        [ValidateNever]
         public string Id { get; set; }
-        public IdentityUser User { get; set; }
+
+        [DataType(DataType.EmailAddress)]
+        [Required]
+        public string EmailAddress { get; set; }
+
+
+        [DataType(DataType.Password)]
+        [Required]
+
+        public string Password { get; set; }
+
+
+        [ValidateNever]
+        public IdentityUser? User { get; set; }
 
         [Required]
         public string Name { get; set; }
-        [DataType(DataType.EmailAddress)]
-        public string Email { get; set; }
+     
 
         public string? Details { get; set; }
 
@@ -23,10 +38,14 @@ namespace HatliFood.Models
         public string? City { get; set; }
 
         [Required]
-        public string ImgPath { get; set; }
+        [ValidateNever]
+
+        public string? ImgPath { get; set; }
 
         [NotMapped]
-        public IFormFile ImgFile { get; set; } 
+        [ValidateNever]
+
+        public IFormFile ImgFile { get; set; }
 
         public virtual ICollection<Category> Categories { get; } = new List<Category>();
 

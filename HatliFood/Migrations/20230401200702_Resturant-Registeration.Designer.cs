@@ -4,6 +4,7 @@ using HatliFood.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HatliFood.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230401200702_Resturant-Registeration")]
+    partial class ResturantRegisteration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -54,7 +57,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("BuyerID");
 
-                    b.ToTable("Addresss", (string)null);
+                    b.ToTable("Addresss");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Admin", b =>
@@ -64,7 +67,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Admin", (string)null);
+                    b.ToTable("Admin");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Buyer", b =>
@@ -86,7 +89,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Buyers", (string)null);
+                    b.ToTable("Buyers");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Category", b =>
@@ -109,7 +112,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("Rid");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Category");
                 });
 
             modelBuilder.Entity("HatliFood.Models.DeliveryGuy", b =>
@@ -127,7 +130,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("DeliveryGuy", (string)null);
+                    b.ToTable("DeliveryGuy");
                 });
 
             modelBuilder.Entity("HatliFood.Models.MenuItem", b =>
@@ -160,7 +163,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("Cid");
 
-                    b.ToTable("MenuItem", (string)null);
+                    b.ToTable("MenuItem");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Order", b =>
@@ -199,7 +202,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("RestaurantId");
 
-                    b.ToTable("Order", (string)null);
+                    b.ToTable("Order");
                 });
 
             modelBuilder.Entity("HatliFood.Models.OrderItem", b =>
@@ -217,7 +220,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("MenuItemId");
 
-                    b.ToTable("OrderItem", (string)null);
+                    b.ToTable("OrderItem");
                 });
 
             modelBuilder.Entity("HatliFood.Models.Restaurant", b =>
@@ -252,7 +255,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Restaurant", (string)null);
+                    b.ToTable("Restaurant");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
