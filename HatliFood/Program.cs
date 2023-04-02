@@ -53,7 +53,7 @@ namespace HatliFood
 
 
             // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
+            if (app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
@@ -74,6 +74,7 @@ namespace HatliFood
 
             // External login
             //app.useExternal
+            app.UseStatusCodePagesWithReExecute("/Error/{0}");
 
             // Handle Errors
             //app.Use(async (context, next) =>
@@ -87,7 +88,7 @@ namespace HatliFood
 
             // External Logins
             //builder.Services.
-                 
+
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");

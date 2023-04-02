@@ -12,7 +12,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace HatliFood.Controllers
 {
-    //[Authorize(Roles ="Delivery")]
+    [Authorize(Roles = "Delivery")]
     public class OrdersDelController : Controller
     {
         private readonly ApplicationDbContext _context;

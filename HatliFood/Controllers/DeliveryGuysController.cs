@@ -14,6 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace HatliFood.Controllers
 {
+    [Authorize(Roles = "Admin,Delivery")]
     public class DeliveryGuysController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -30,7 +31,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: DeliveryGuys
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             return _context.DeliveryGuys != null ?
@@ -60,7 +61,7 @@ namespace HatliFood.Controllers
 
         // GET: DeliveryGuys/Create
 
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
 
         public IActionResult Create()
         {
@@ -104,7 +105,7 @@ namespace HatliFood.Controllers
         //}
 
         [HttpPost]
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(RegisterDelVM RegisterDelVM)
         {
             if (!ModelState.IsValid)
@@ -149,7 +150,7 @@ namespace HatliFood.Controllers
                 _context.SaveChanges();
             }
 
-            return RedirectToAction("Index","DeliveryGuys");
+            return RedirectToAction("Index", "DeliveryGuys");
         }
 
 
