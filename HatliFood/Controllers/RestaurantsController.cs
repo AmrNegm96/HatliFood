@@ -26,6 +26,7 @@ namespace HatliFood.Controllers
             _userManager = userManager;
             _context = Context;
             _roleManager = roleManager;
+            _roleManager = roleManager;
             _hosting = hosting;
 
         }
@@ -65,6 +66,34 @@ namespace HatliFood.Controllers
         // POST: Restaurants/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        //[HttpPost]
+        //[ValidateAntiForgeryToken]
+        //public async Task<IActionResult> Create([Bind("Id,Name,City,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
+        //{
+        //    restaurant.ImgPath = "dd";
+        //    if (ModelState.IsValid)
+        //    {
+
+        //        string wwwRootPath = _hosting.WebRootPath;
+        //        string fileName = Path.GetFileNameWithoutExtension(restaurant.ImgFile.FileName);
+        //        string extension = Path.GetExtension(restaurant.ImgFile.FileName);
+
+        //        restaurant.ImgPath = fileName + extension;
+
+        //        string path = Path.Combine(wwwRootPath + "/Image/Resturants/" + fileName + extension);
+
+        //        using (var filestream = new FileStream(path, FileMode.Create))
+        //        {
+        //            await restaurant.ImgFile.CopyToAsync(filestream);
+        //        }
+
+        //        _context.Add(restaurant);
+        //        await _context.SaveChangesAsync();
+        //        return RedirectToAction(nameof(Index));
+        //    }
+        //    return View(restaurant);
+        //}
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,City,EmailAddress,Password,Location,Details,ImgFile,ImgPath")] Restaurant restaurant)
@@ -136,7 +165,7 @@ namespace HatliFood.Controllers
                 return NotFound();
             }
 
-            var restaurant = await _context.Restaurant.FindAsync(id);
+            var restaurant = await _context.Restaurant.Include(o=>o.User).FirstOrDefaultAsync(i=>i.Id== id);
             if (restaurant == null)
             {
                 return NotFound();
@@ -151,6 +180,7 @@ namespace HatliFood.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("Id,Name,City,EmailAddress,Password,Location,Details,ImgFile,ImgPath")] Restaurant _restaurant)
         {
+            _restaurant.User = _context.Users.FirstOrDefault(p => p.Id == id);
             var Restu = _context.Restaurant;
 
             if (id != _restaurant.Id)
@@ -161,6 +191,7 @@ namespace HatliFood.Controllers
 
 
 
+            ModelState.Remove(nameof(Restaurant.User));
             if (ModelState.IsValid)
             {
                 try
@@ -300,6 +331,7 @@ namespace HatliFood.Controllers
 
         #region Buyer Work
         // GET: Restaurants
+        [AllowAnonymous]
         public async Task<IActionResult> AllRestaurants()
         {
             return _context.Restaurant != null ?
@@ -308,6 +340,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: Restaurants/Details/5
+        [AllowAnonymous]
         public async Task<IActionResult> ViewRestaurantMenu(string? id)
         {
             if (id == null || _context.Restaurant == null)

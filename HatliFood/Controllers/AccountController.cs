@@ -64,8 +64,6 @@ namespace HatliFood.Controllers
                         {
                             return RedirectToAction("RestaurantDetails", "Restaurants", new{ id = user.Id} , null);
                         }
-
-
                     }
                 }
                 TempData["Error"] = "Wrong crendentials ,  try again!";

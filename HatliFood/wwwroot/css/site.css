@@ -120,8 +120,8 @@ body {
 }
 
 .btn-danger, .bg-danger {
-    background: #ff7800!important;
-    color:#333!important;
+    background: #ff7800 !important;
+    color:white!important; /*color:#333 !important;*/
 }
 
 .form-control {

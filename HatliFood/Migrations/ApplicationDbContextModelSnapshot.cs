@@ -54,7 +54,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("BuyerID");
 
-                    b.ToTable("Addresss");
+                    b.ToTable("Addresss", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.Admin", b =>
@@ -64,7 +64,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Admin");
+                    b.ToTable("Admin", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.Buyer", b =>
@@ -86,7 +86,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("Buyers");
+                    b.ToTable("Buyers", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.Category", b =>
@@ -109,7 +109,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("Rid");
 
-                    b.ToTable("Category");
+                    b.ToTable("Category", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.DeliveryGuy", b =>
@@ -127,7 +127,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("UserId");
 
-                    b.ToTable("DeliveryGuy");
+                    b.ToTable("DeliveryGuy", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.MenuItem", b =>
@@ -160,7 +160,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("Cid");
 
-                    b.ToTable("MenuItem");
+                    b.ToTable("MenuItem", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.Order", b =>
@@ -199,7 +199,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("RestaurantId");
 
-                    b.ToTable("Order");
+                    b.ToTable("Order", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.OrderItem", b =>
@@ -217,7 +217,7 @@ namespace HatliFood.Migrations
 
                     b.HasIndex("MenuItemId");
 
-                    b.ToTable("OrderItem");
+                    b.ToTable("OrderItem", (string)null);
                 });
 
             modelBuilder.Entity("HatliFood.Models.Restaurant", b =>
@@ -252,7 +252,7 @@ namespace HatliFood.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Restaurant");
+                    b.ToTable("Restaurant", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
