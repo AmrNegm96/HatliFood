@@ -17,8 +17,6 @@ namespace HatliFood.Models
         public string Email { get; set; }
 
 
-
-
         [ValidateNever]
         public IdentityUser User { get; set; }
 

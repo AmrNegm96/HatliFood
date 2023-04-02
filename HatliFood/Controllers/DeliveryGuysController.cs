@@ -14,7 +14,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace HatliFood.Controllers
 {
-    [Authorize(Roles = "Admin,Delivery")]
+    //[Authorize(Roles = "Admin,Delivery")]
     public class DeliveryGuysController : Controller
     {
         private readonly UserManager<IdentityUser> _userManager;
@@ -31,7 +31,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: DeliveryGuys
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Index()
         {
             return _context.DeliveryGuys != null ?
@@ -40,7 +40,7 @@ namespace HatliFood.Controllers
         }
 
         // GET: DeliveryGuys/Details/5
-        [Authorize(Roles = "Admin ,Delivery")]
+        //[Authorize(Roles = "Admin ,Delivery")]
 
         public async Task<IActionResult> Details(string id)
         {
@@ -61,51 +61,16 @@ namespace HatliFood.Controllers
 
         // GET: DeliveryGuys/Create
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
 
         public IActionResult Create()
         {
             return View();
         }
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //[Authorize(Roles = "Admin")]
-
-        //public async Task<IActionResult> Create([Bind("UserId,Name,PhoneNumber")] DeliveryGuy deliveryGuy)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        var user = new ApplicationUser { UserName = deliveryGuy.PhoneNumber.ToString(), Email = deliveryGuy.PhoneNumber.ToString() };
-        //        var result = await _userManager.CreateAsync(user, "Del@1234"); // Change the default password as needed
-
-        //        if (result.Succeeded)
-        //        {
-        //            var roleExists = await _roleManager.RoleExistsAsync(UserRoles.Delivery);
-        //            if (!roleExists)
-        //            {
-        //                var newRole = new IdentityRole(UserRoles.Delivery);
-        //                await _roleManager.CreateAsync(newRole);
-        //            }
-
-        //            await _userManager.AddToRoleAsync(user, UserRoles.Delivery);
-
-        //            deliveryGuy.UserId = user.Id;
-        //            _context.Add(deliveryGuy);
-        //            await _context.SaveChangesAsync();
-        //            return RedirectToAction(nameof(Index));
-        //        }
-
-        //        foreach (var error in result.Errors)
-        //        {
-        //            ModelState.AddModelError(string.Empty, error.Description);
-        //        }
-        //    }
-
-        //    return View(deliveryGuy);
-        //}
+ 
 
         [HttpPost]
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
         public async Task<IActionResult> Create(RegisterDelVM RegisterDelVM)
         {
             if (!ModelState.IsValid)
@@ -122,7 +87,7 @@ namespace HatliFood.Controllers
 
             var newUser = new IdentityUser()
             {
-                Email = RegisterDelVM.PhoneNumber,
+                Email =  RegisterDelVM.PhoneNumber,
                 UserName = RegisterDelVM.PhoneNumber
             };
 
@@ -155,7 +120,7 @@ namespace HatliFood.Controllers
 
 
 
-        [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
 
         public async Task<IActionResult> Edit(string id)
         {

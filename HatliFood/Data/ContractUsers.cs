@@ -37,9 +37,10 @@ namespace HatliFood.Data
                         Email = adminUserEmail,
                         EmailConfirmed = true
                     };
-                    await userManager.CreateAsync(newAdminUser, "ABC@123");
+                    await userManager.CreateAsync(newAdminUser, "Abc@1234");
                     await userManager.AddToRoleAsync(newAdminUser, UserRoles.Admin);
                 }
+
 
             }
         }
