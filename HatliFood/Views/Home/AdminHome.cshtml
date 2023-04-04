@@ -1,15 +1,70 @@
 ﻿
+
 @{
+    Layout = "_AdminLayout";
+
     ViewData["Title"] = "AdminHome";
 }
-
-<h2 class="text-center mt-5 ">AdminHome</h2>
 
 <div style="height: 100px"></div>
 
 <p>
 </p>
 
+@section ResturantDropDown{
+    <li class="nav-item">
+         <a class="nav-link" asp-action="Index" asp-controller="Restaurants">
+            View All Resturants
+         </a>
+    </li>
+
+    <li class="nav-item">
+       <a class="nav-link" asp-action="Create" asp-controller="Restaurants">
+          Add New Resturant
+       </a>
+    </li>
+}
+
+@section DeliveryDropDown{
+        <li class="nav-item">
+                 <a class="nav-link" asp-action="Index" asp-controller="DeliveryGuys">
+                    View All DeliveryGuys
+             </a>
+        </li>
+
+        <li class="nav-item">
+               <a class="nav-link" asp-action="Create" asp-controller="DeliveryGuys">
+                  Add New DeliveryGuy
+           </a>
+        </li>
+}
+
+@section BuyersDropDown{
+      <li class="nav-item">
+              <a class="nav-link" asp-action="Index" asp-controller="Buyers">
+                   View All Buyers
+              </a>
+      </li>
+
+}
+
+@section numberOfResturants{
+    @ViewBag.ResturantCount 
+}
+
+
+@section numberOfBuyers{
+    @ViewBag.BuyersCount 
+
+}
+
+
+@section numberOfGus{
+    @ViewBag.DeliveryCount
+}
+
+
+@*
 <div class="row justify-content-around m-0">
     <div class="col col-auto ">
         <a class="btn-danger btn-lg py-4" Manage Buyers asp-area="" asp-controller="Buyers" asp-action="Index" style="text-decoration: none;">Manage Buyers</a>
@@ -21,5 +76,5 @@
         <a class="btn-danger btn-lg py-4" Manage Buyers asp-area="" asp-controller="DeliveryGuys" asp-action="Index" style="text-decoration: none;">Manage Delivery Guys</a>
     </div>
 </div>
-
+*@
 
