@@ -58,6 +58,11 @@ namespace HatliFood.Controllers
 
         public IActionResult AdminHome()
         {
+
+            ViewBag.ResturantCount = _context.Restaurant.ToList().Count();
+            ViewBag.DeliveryCount = _context.DeliveryGuys.ToList().Count();
+            ViewBag.BuyersCount = _context.Buyers.ToList().Count();
+
             return View();
         }
 
