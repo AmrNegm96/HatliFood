@@ -4,45 +4,65 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+ <a asp-action="Index">
+      <i class="bi bi-arrow-left-square-fill px-2 m-3 btn-success btn"></i>
+ </a>
 
-<div>
-    <h4>Buyer</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.User)
+<div class="row my-5 mx-2">
+    
+        <div class="mb-3 col-md-3 col-sm-12"  >  @{
+            
+            if (Model.Gender == 0)
+            {
+                            <img  src="~/Image/Icons/male.png" style="margin-left: 50px;"/>
+
+            }
+            else
+            {
+                         <img  src="~/Image/Icons/female.png" style="margin-left: 50px;"/>
+
+            }
+            <div class="my-4" >
+             <a asp-action="Edit" asp-route-id="@Model?.UserId" class="btn-success btn mx-5 px-5">Edit</a> 
+            </div>
+        }
+        </div>
+    
+       <dl class="col-md-8 col-sm-12 mt-2" >
+        <div class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.User)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.User.Id)
+                @Html.DisplayFor(model => model.User.Id)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FirstName)
+                @Html.DisplayNameFor(model => model.FirstName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.FirstName)
+                @Html.DisplayFor(model => model.FirstName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LastName)
+                @Html.DisplayNameFor(model => model.LastName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LastName)
+                @Html.DisplayFor(model => model.LastName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Gender)
+                @Html.DisplayNameFor(model => model.Gender)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Gender)
+                @Html.DisplayFor(model => model.Gender)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DateOfBirth)
+                @Html.DisplayNameFor(model => model.DateOfBirth)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DateOfBirth)
+                @Html.DisplayFor(model => model.DateOfBirth)
         </dd>
+        </div>
+      
+        
     </dl>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.UserId">Edit</a> |
-    <a asp-action="Index">Back to List</a>
-</div>
+

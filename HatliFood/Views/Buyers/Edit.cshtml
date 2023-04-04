@@ -4,45 +4,47 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<div class="header d-flex pt-3">
+    <a asp-action="Index">
+      <i class="bi bi-arrow-left-square-fill px-2 mx-3 btn-success btn"></i>
+    </a>
+    <h1 class="text-center  text-success d-inline-block" style="width:90%;"> Edit Buyer </h1>
 
-<h4>Buyer</h4>
-<hr />
-<div class="row">
+
+</div>
+
+<div class="row mt-3 px-3 mx-0">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="UserId" />
-            <div class="form-group">
+            <div class="form-group p-2">
                 <label asp-for="FirstName" class="control-label"></label>
                 <input asp-for="FirstName" class="form-control" />
                 <span asp-validation-for="FirstName" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group p-2">
                 <label asp-for="LastName" class="control-label"></label>
                 <input asp-for="LastName" class="form-control" />
                 <span asp-validation-for="LastName" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Gender" class="control-label"></label>
-                <input asp-for="Gender" class="form-control" />
-                <span asp-validation-for="Gender" class="text-danger"></span>
+            <div class="form-group p-2">
+                @Html.RadioButton("Gender", 0, true) Male
+                @Html.RadioButton("Gender", 1, false) Female
             </div>
-            <div class="form-group">
+            <div class="form-group p-2">
                 <label asp-for="DateOfBirth" class="control-label"></label>
                 <input asp-for="DateOfBirth" class="form-control" />
                 <span asp-validation-for="DateOfBirth" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-success my-3 px-5" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

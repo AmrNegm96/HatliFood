@@ -1,16 +1,24 @@
 ﻿@using HatliFood.Models.ViewModels;
 @model RegisterVM;
 
+
 @{
-    ViewData["Title"] = "Sign up for a new account";
+    ViewData["Title"] = "Register";
+}
+
+@section Styles{
+   <link href="~/css/Account.css" rel="stylesheet"/>
+
 }
 
 
-<div class="row m-0 mb-3">
-    <div class="col-md-6 col-sm-12 offset-md-3">
-        <p>
-            <h3 class="text-center my-3">Sign up for a new account</h3>
-        </p>
+
+<div class="row m-0">
+     <div class="col-md-6 col-xs-12 p-0 mt-5">
+        <img src="~/Image/Login/Login.png" style="width:100%;"/>
+    </div>
+    <div class="col-md-6 col-xs-12 Account pb-5">
+         <h3 class="text-center my-3">Register</h3>
 
         @if (TempData["Error"] != null)
         {
@@ -53,6 +61,11 @@
                         <input asp-for="ConfirmPassword" class="form-control" />
                         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                     </div>
+                   <div>
+                        @Html.RadioButton("gender", 0, true) Male
+                        @Html.RadioButton("gender", 1, false) Female
+                   </div>
+                    
 
                     <div class="form-group my-2 mt-3">
                         <input class="btn btn-outline-success float-right" type="submit" value="Sign up" />
