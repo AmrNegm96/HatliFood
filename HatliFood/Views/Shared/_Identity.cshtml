@@ -19,50 +19,45 @@
 else
 {
     @*User profile section*@
-
-        <button class="btn btn-outline-success dropdown-toggle dropdown-identity" type="button" id="profile-btn" data-toggle="dropdown"
-        aria-expanded="false">
-        @{
-            if (User.IsInRole("Admin"))
-            {
-               <a asp-controller="Home" asp-action="AdminHome" > <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User) </a>
-            
-            }
-
-             else if (User.IsInRole("Buyer"))
-            {
-               <a asp-controller="Buyers" asp-action="Index" > <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User) </a>
-            
-            }
-
-            else 
-            {
-                // Resturants
-                             <a asp-controller="Restaurants" asp-action="RestaurantDetails" asp-route-id=@UserManager.GetUserId(User) > <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User) </a>
-
-            }
-        }
-    </button>
-
-    @if (User.IsInRole("Buyer"))
-    {
-              <div class="dropdown">
-                <button class="btn btn-outline-success dropdown-toggle" type="button" id="profile-btn" data-toggle="dropdown"
-                aria-expanded="false">
-                    <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User)
-                </button>
-                <a class="btn btn-outline-success" asp-controller="Orders" asp-action="Index" asp-route-id="@UserManager.GetUserId(User)">
-                    <i class="bi bi-list"></i> My Orders
-                </a>
-                <a class="btn btn-outline-success" asp-controller="Carts" asp-action="Index">
-                    <i class="bi bi-list"></i> Cart
-                </a>
-
-
-
-      </div>
+       
         
-    }
+            @if (User.IsInRole("Admin")){
+
+                 <button class="btn btn-outline-success dropdown-toggle dropdown-identity" type="button" id="profile-btn" data-toggle="dropdown"
+                    aria-expanded="false">
+                    <a asp-controller="Home" asp-action="AdminHome" > <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User) </a>
+                </button>
+
+            }
+
+         
+            @if (User.IsInRole("Kitchen"))
+            {
+            <button class="btn btn-outline-success dropdown-toggle dropdown-identity" type="button" id="profile-btn" data-toggle="dropdown" aria-expanded="false">
+
+                     <a asp-controller="Restaurants" asp-action="RestaurantDetails" asp-route-id=@UserManager.GetUserId(User) > <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User) </a>
+                 </button>
+            }
+        
+
+            @if (User.IsInRole("User"))
+            {
+              <div class="dropdown">
+                        <a class="btn btn-outline-success dropdown-toggle" asp-controller="BuyersProfile" asp-action="Index" >
+                             Hello @UserManager.GetUserName(User)
+                        </a>
+                        <a class="btn btn-outline-success" asp-controller="Orders" asp-action="Index" asp-route-id="@UserManager.GetUserId(User)">
+                            <i class="bi bi-list"></i> My Orders
+                        </a>
+                        <a class="btn btn-outline-success" asp-controller="Carts" asp-action="Index">
+                            <i class="bi bi-list"></i> Cart
+                        </a>
+
+
+
+              </div>
+        
+            }
    
     <span style="padding: 5px;"></span>
     <form asp-controller="Account" asp-action="Logout">

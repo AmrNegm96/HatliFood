@@ -20,7 +20,7 @@ namespace HatliFood.Controllers
         public IActionResult Index()
         {
             var userID =  _UserManager.GetUserId(User);
-            Buyer? buyer = _context.Buyers.FirstOrDefault(b=>b.UserId == userID);
+            Buyer? buyer = _context.Buyers.FirstOrDefault(b=>b.UserId.Equals(userID));
 
             ViewBag.Buyer = buyer;
             return View();
