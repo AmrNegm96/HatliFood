@@ -70,6 +70,8 @@ namespace HatliFood.Controllers
         }
 
         // GET: Buyers/Edit/5
+       
+
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Buyers == null)
@@ -116,7 +118,15 @@ namespace HatliFood.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                if (User.IsInRole("Admin"))
+                {
+                     return RedirectToAction(nameof(Index));
+                }
+                else if(User.IsInRole("User"))
+                {
+                    return RedirectToAction("Index", "BuyersProfile");
+
+                }
             }
             ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", buyer.UserId);
             return View(buyer);
