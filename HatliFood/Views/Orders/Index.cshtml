@@ -4,42 +4,52 @@
     ViewData["Title"] = "History";
 }
 
-<h1>Order History</h1>
+ <a asp-action="AllRestaurants" asp-controller="Restaurants">
+      <i class="bi bi-arrow-left-square-fill px-2 mt-3 mx-4 btn-success btn"></i>
+ </a>
+<h2 class="text-center mb-5 mt-2 ">Order History</h2>
 
-<p>
-    <a asp-action="AllRestaurants" asp-controller="Restaurants">Go To HomePage</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.OrderState)
-            </th>            
-            <th>
-                @Html.DisplayNameFor(model => model.Restaurant)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.OrderState)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Restaurant.Name)
-            </td>
-            <td>
-                <a asp-action="Details" asp-route-id="@item.Id">View Details</a>
-            </td>
-        </tr>
+
+
+
+@if (@Model.Count() > 0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.OrderDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OrderState)
+                </th>            
+                <th>
+                    @Html.DisplayNameFor(model => model.Restaurant)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model) {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrderState)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Restaurant.Name)
+                    </td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.Id">View Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 }
-    </tbody>
-</table>
+else
+{
+    <div class="alert alert-danger m-auto text-center fs-5" style="width:80%;"> No Orders now... </div>
+}

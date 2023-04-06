@@ -15,13 +15,13 @@
             var item = JsonSerializer.Deserialize<CartProperties>(cookie);
             <div class="card col-md-4 col-xs-12 mb-4 mx-auto" style="box-shadow: 1px 2px 5px #59889a;">
                 @*<img src="~/Image/Resturants/@item.ImgPath" alt="image" style="width:120px ; height:120px" class="rounded-circle m-auto pt-2" />*@
-                <div class="card-body">
-                    <h5 class="card-title text-center py-2">@item.Name</h5>
-                    <h5 class="card-title text-center py-2">Quantity : @item.Quantity</h5>
-                    <h5 class="card-title text-center py-2">Price: @item.Quantity  *  @item.Price</h5>
+                <div class="card-body m-auto">
+                    <h5 class="card-title  py-2">@item.Name</h5>
+                            <h6 class="card-title py-2">Quantity : <span class="text-success fw-bold"> @item.Quantity </span></h6>
+                        <h6 class="card-title  py-2">Price: <span class="text-success fw-bold"> @item.Quantity  *  @item.Price </span></h6>
                     <div class="row">
                         @*<a asp-action="Edit" asp-route-id="@item.Id" class="btn-primary btn col-4"> Edit </a>*@
-                        <a asp-action="DeleteItem" asp-route-id="@item.Id" class="btn-danger btn col-6 mx-auto">Remove item from cart</a>
+                        <a asp-action="DeleteItem" asp-route-id="@item.Id" class="btn-danger btn col-12">Remove item from cart</a>
                     </div>
                 </div>
             </div>
@@ -36,6 +36,7 @@
         </div>
     }
 
+
     <div class="container mb-5">
         <div class="row">
             <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
@@ -45,7 +46,7 @@
 
             </div>
             <div class="card col-md-5 col-xs-12 mx-auto btn-light text-decoration-none" style="box-shadow: 1px 2px 5px #59889a;">
-                <h5 class="py-3">Payment method</h5>
+                <h5 class="py-3 text-center">Payment method</h5>
 
                 @{
                     decimal subTotal = 0.00m;
@@ -63,20 +64,20 @@
                     decimal orderTotal = (subTotal + deliveryFee) * 1.14m;
 
                     <div class="d-flex justify-content-between">
-                        <h5 class="">Subtotal</h5>
-                        <h5 class="">@subTotal <span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                        <h6 class="">Subtotal</h6>
+                        <h6 class="">@subTotal <span style="color:lightgray;font-size:1rem">EGP</span></h6>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <h5 class="">Delivery Fees</h5>
-                        <h5 class="">@deliveryFee <span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                        <h6 class="">Delivery Fees</h6>
+                        <h6 class="">@deliveryFee <span style="color:lightgray;font-size:1rem">EGP</span></h6>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <h5 class="">Tax <span style="color:lightgray;font-size:1rem">14%</span></h5>
-                        <h5 class=""> @tax<span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                        <h6 class="">Tax <span style="color:lightgray;font-size:1rem">14%</span></h6>
+                        <h6 class=""> @tax<span style="color:lightgray;font-size:1rem">EGP</span></h6>
                     </div>
                     <div class="d-flex justify-content-between">
-                        <h5 class="">Order total </h5>
-                        <h5 class=""> @orderTotal <span style="color:lightgray;font-size:1rem">EGP</span></h5>
+                        <h6 class="">Order total </h6>
+                        <h6 class=""> @orderTotal <span style="color:lightgray;font-size:1rem">EGP</span></h6>
                     </div>
                 }
                 <form method="post">

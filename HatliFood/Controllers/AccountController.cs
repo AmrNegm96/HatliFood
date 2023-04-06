@@ -135,7 +135,8 @@ namespace HatliFood.Controllers
                 {
                     UserId = newUser.Id,
                     FirstName = registerVM.FisrtName,
-                    LastName = registerVM.LastName
+                    LastName = registerVM.LastName,
+                    Gender = (Models.Gender?)registerVM.gender
                 };
                 _Context.Buyers.Add(newBuyer);
                 _Context.SaveChanges();

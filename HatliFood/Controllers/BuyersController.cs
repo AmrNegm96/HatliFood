@@ -70,6 +70,8 @@ namespace HatliFood.Controllers
         }
 
         // GET: Buyers/Edit/5
+       
+
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Buyers == null)
@@ -116,30 +118,38 @@ namespace HatliFood.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                if (User.IsInRole("Admin"))
+                {
+                     return RedirectToAction(nameof(Index));
+                }
+                else if(User.IsInRole("User"))
+                {
+                    return RedirectToAction("Index", "BuyersProfile");
+
+                }
             }
             ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id", buyer.UserId);
             return View(buyer);
         }
 
-        // GET: Buyers/Delete/5
-        public async Task<IActionResult> Delete(string id)
-        {
-            if (id == null || _context.Buyers == null)
-            {
-                return NotFound();
-            }
+        //// GET: Buyers/Delete/5
+        //public async Task<IActionResult> Delete(string id)
+        //{
+        //    if (id == null || _context.Buyers == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            var buyer = await _context.Buyers
-                .Include(b => b.User)
-                .FirstOrDefaultAsync(m => m.UserId == id);
-            if (buyer == null)
-            {
-                return NotFound();
-            }
+        //    var buyer = await _context.Buyers
+        //        .Include(b => b.User)
+        //        .FirstOrDefaultAsync(m => m.UserId == id);
+        //    if (buyer == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return View(buyer);
-        }
+        //    return View(buyer);
+        //}
 
         // POST: Buyers/Delete/5
         [HttpPost, ActionName("Delete")]
