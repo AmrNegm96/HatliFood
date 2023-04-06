@@ -25,7 +25,7 @@
           </div>
           
           <!-- Search Result -->
-          <div class="search-result bg-light col-6 text-start  d-none">
+          <div class="search-result bg-light col-6 text-start d-none ">
          
           </div>
     </div>
@@ -111,8 +111,7 @@
                                 @{
                                     if (User.IsInRole("User"))
                                     {
-                                        <button class="btn btn-order col-md col-sm-14">Order Now </button>
-                    
+                                       <a class="btn btn-order col-md col-sm-14" asp-action="AllRestaurants" asp-controller="Restaurants" asp-route-id="@item.Id">Order Now </a>
                                        
                                     }
                                 }

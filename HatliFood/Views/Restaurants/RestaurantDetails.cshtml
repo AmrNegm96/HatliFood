@@ -30,8 +30,17 @@
 
 
             <div class = "col-md col-sm-8 mx-5 ">
-                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn-primary btn col-2" >Edit</a> 
-                <a asp-action="Index" class="btn-secondary btn col-3" >Back to List</a>
+                    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn-primary btn col-2" >Edit</a> 
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Index" class="btn-secondary btn col-3" >Back to List</a>
+                    
+                }
+                @if (User.IsInRole("Kitchen"))
+                {
+                        <a asp-action="Index" asp-controller="Home" class="btn-secondary btn col-3" >Back to List</a>
+
+                }
             </div>
             
 
