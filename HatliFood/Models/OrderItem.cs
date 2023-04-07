@@ -20,6 +20,6 @@ namespace HatliFood.Models
 
         [ForeignKey("OrderId")]
         [InverseProperty("OOrderItems")]
-        public virtual Order Order { get; set; }
+        public virtual Order Order { get; set; } = new Order { };
     }
 }

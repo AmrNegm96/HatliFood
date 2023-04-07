@@ -50,12 +50,12 @@
                 <hr />
                 <dt class = "col-sm-4"> <h6> Order Details: </h6> </dt>
                 @{
-                    if (ViewBag.OrderDetailsCount > 0)
+                    if (ViewBag.OrderDetailsCount > 0 && User.IsInRole("User") && ViewBag.OrderDetails != null)
                     {
                         <dd class = "col-sm-12"> 
                               <p> Number Of Orders @ViewBag.OrderDetailsCount </p>
                               <!--  Get All orders from order controller -->
-                              <a asp-action="Index" asp-route-id="@ViewBag.OrderDetails.Orders.Id" asp-controller="Orders" class="btn-danger btn col-4 ">View All Orders</a>
+                              <a asp-action="Index" asp-route-id="@ViewBag?.OrderDetails?.Orders.Id" asp-controller="Orders" class="btn-danger btn col-4 ">View All Orders</a>
                               
                         </dd>
 

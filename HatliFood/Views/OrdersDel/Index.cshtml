@@ -5,14 +5,14 @@
 }
 
 
-<div>
-    <a asp-action="MyOrders" class="btn btn-primary">My Orders</a>
-    <a asp-action="Stage1" class="btn btn-primary">Current Order</a>
-    <a asp-action="Stage2" class="btn btn-primary">Delivering</a>
+<div class="m-4 mb-5">
+    <a asp-action="MyOrders" class="btn btn-success mx-2">My Orders</a>
+    <a asp-action="Stage1" class="btn btn-success mx-2">Current Order</a>
+    <a asp-action="Stage2" class="btn btn-success mx-2">Delivering</a>
     @*<a asp-action="Stage3" class="btn btn-primary">Delivering</a>*@
 </div>
 
-<table class="table">
+<table class="table table-hover table-striped mx-4" style="width:90%!important">
     <thead>
         <tr>
             <th>

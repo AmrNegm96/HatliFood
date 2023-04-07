@@ -71,7 +71,7 @@ namespace HatliFood.Controllers
             {
                 _context.Add(category);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(actionName: "RestaurantDetails", controllerName: "Restaurants" , new {id=category.Rid});
             }
             ViewData["Rid"] = new SelectList(_context.Restaurant, "Id", "Name", category.Rid);
             return View(category);
@@ -124,7 +124,7 @@ namespace HatliFood.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(actionName: "RestaurantDetails", controllerName: "Restaurants", new { id = category.Rid });
             }
             ViewData["Rid"] = new SelectList(_context.Restaurant, "Id", "Name", category.Rid);
             return View(category);

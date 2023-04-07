@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HatliFood.Data;
 using HatliFood.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace HatliFood.Controllers
 {
@@ -47,16 +48,17 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
+            var menuItem = await _context.MenuItems
+               .Include(m => m.CidNavigation)
+               .FirstOrDefaultAsync(m => m.Id == id);
 
-            string resturantId = _context.MenuItems.AsNoTracking().Select(c => c.CidNavigation.Rid).FirstOrDefault();
+            string resturantId = _context.MenuItems.AsNoTracking().Where(c => c.CidNavigation.Rid == menuItem.CidNavigation.Rid).Select(c => c.CidNavigation.Rid).FirstOrDefault();
             ViewBag.ResturantDetails = _context.Restaurant.AsNoTracking().Where(res => res.Id == resturantId).FirstOrDefault();
             ViewBag.OrderDetails = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList();
             ViewBag.OrderDetailsCount = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList().Count();
 
 
-            var menuItem = await _context.MenuItems
-                .Include(m => m.CidNavigation)
-                .FirstOrDefaultAsync(m => m.Id == id);
+           
             if (menuItem == null)
             {
                 return NotFound();
@@ -68,6 +70,7 @@ namespace HatliFood.Controllers
         // GET: MenuItems/Create
         public IActionResult Create()
         {
+
             ViewData["Cid"] = new SelectList(_context.Categorys, "Id", "Name");
             return View();
         }

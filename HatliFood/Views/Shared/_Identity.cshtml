@@ -33,10 +33,18 @@ else
          
             @if (User.IsInRole("Kitchen"))
             {
-            <button class="btn btn-outline-success dropdown-toggle dropdown-identity" type="button" id="profile-btn" data-toggle="dropdown" aria-expanded="false">
+              <button class="btn btn-outline-success dropdown-toggle dropdown-identity" type="button" id="profile-btn" data-toggle="dropdown" aria-expanded="false">
 
                      <a asp-controller="Restaurants" asp-action="RestaurantDetails" asp-route-id=@UserManager.GetUserId(User) > <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User) </a>
                  </button>
+            }
+
+            @if (User.IsInRole("Delivery"))
+            {
+                  <button class="btn btn-outline-success dropdown-toggle dropdown-identity" type="button" id="profile-btn" data-toggle="dropdown" aria-expanded="false">
+
+                            <a asp-controller="OrdersDel" asp-action="Index" asp-route-id=@UserManager.GetUserId(User) > <i class="bi bi-person-badge"></i> Hello @UserManager.GetUserName(User) </a>
+                  </button>
             }
         
 
