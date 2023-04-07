@@ -97,6 +97,8 @@ namespace HatliFood.Controllers
             {
                 OrderItem item = new OrderItem()
                 {
+                    //Order.
+                    Order = newOrder,
                     OrderId = orderID,
                     MenuItemId = orderItem.Id,
                     Quantity = orderItem.Quantity

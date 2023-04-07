@@ -7,16 +7,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using HatliFood.Data;
 using HatliFood.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace HatliFood.Controllers
 {
     public class CategoriesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public CategoriesController(ApplicationDbContext context)
+        public CategoriesController(ApplicationDbContext context , UserManager<IdentityUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Categories
@@ -54,9 +57,13 @@ namespace HatliFood.Controllers
         }
 
         // GET: Categories/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
             ViewData["Rid"] = new SelectList(_context.Restaurant, "Id", "Name");
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            ViewData["Cid"] = new SelectList(_context.Restaurant.Where(s => s.Id == userId).ToList(), "Id", "Name");
+
             return View();
         }
 
@@ -73,7 +80,9 @@ namespace HatliFood.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(actionName: "RestaurantDetails", controllerName: "Restaurants" , new {id=category.Rid});
             }
-            ViewData["Rid"] = new SelectList(_context.Restaurant, "Id", "Name", category.Rid);
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            ViewData["Cid"] = new SelectList(_context.Restaurant.Where(s => s.Id == userId).ToList(), "Id", "Name");
             return View(category);
         }
 
@@ -90,7 +99,10 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
-            ViewData["Rid"] = new SelectList(_context.Restaurant, "Id", "Name", category.Rid);
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            ViewData["Cid"] = new SelectList(_context.Restaurant.Where(s => s.Id == userId).ToList(), "Id", "Name");
+
             return View(category);
         }
 
