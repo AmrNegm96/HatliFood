@@ -16,11 +16,13 @@ namespace HatliFood.Controllers
 
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hosting;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public MenuItemsController(ApplicationDbContext context, IWebHostEnvironment hosting)
+        public MenuItemsController(ApplicationDbContext context, IWebHostEnvironment hosting , UserManager<IdentityUser> userManager)
         {
             _context = context;
             _hosting = hosting;
+            _userManager = userManager;
 
         }
 
@@ -52,7 +54,7 @@ namespace HatliFood.Controllers
                .Include(m => m.CidNavigation)
                .FirstOrDefaultAsync(m => m.Id == id);
 
-            string resturantId = _context.MenuItems.AsNoTracking().Where(c => c.CidNavigation.Rid == menuItem.CidNavigation.Rid).Select(c => c.CidNavigation.Rid).FirstOrDefault();
+            string resturantId = _context.MenuItems.AsNoTracking().Select(c => c.CidNavigation.Rid).FirstOrDefault();
             ViewBag.ResturantDetails = _context.Restaurant.AsNoTracking().Where(res => res.Id == resturantId).FirstOrDefault();
             ViewBag.OrderDetails = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList();
             ViewBag.OrderDetailsCount = _context.OrderItems.AsNoTracking().Where(o => o.MenuItemId == id).ToList().Count();
@@ -68,10 +70,13 @@ namespace HatliFood.Controllers
         }
 
         // GET: MenuItems/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
 
-            ViewData["Cid"] = new SelectList(_context.Categorys, "Id", "Name");
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            ViewData["Cid"] = new SelectList(_context.Categorys.Where(s => s.Rid == userId).ToList(), "Id", "Name");
+
             return View();
         }
 
@@ -122,7 +127,9 @@ namespace HatliFood.Controllers
             {
                 return NotFound();
             }
-            ViewData["Cid"] = new SelectList(_context.Categorys, "Id", "Name", menuItem.Cid);
+            var user = await _userManager.GetUserAsync(User);
+            var userId = user?.Id;
+            ViewData["Cid"] = new SelectList(_context.Categorys.Where(s=>s.Rid == userId).ToList(), "Id", "Name", menuItem.Cid);
             return View(menuItem);
         }
 

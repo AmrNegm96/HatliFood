@@ -19,6 +19,7 @@ namespace HatliFood.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _hosting;
 
+
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly SignInManager<IdentityUser> _signInManager;
